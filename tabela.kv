@@ -1,0 +1,133 @@
+<Tabela>:
+    name: 'results'
+    MDBoxLayout:
+        orientation: "vertical"
+
+        MDTabs:
+            padding: 0,60,0,0
+            id: tabs
+            on_tab_switch: app.on_tab_switch(*args)
+
+
+<TeamContainer>:
+    id: container
+    size_hint_x: None
+    width: 150
+    orientation: 'vertical'
+    MDGridLayout:
+        cols: 7
+        rows: 2
+        MDLabel:
+            text: "Pts"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            text: "V"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            text: "E"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            text: "D"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            text: "GP"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            text: "GC"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            text: "SG"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            id: pts
+            text: "0"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            id: v
+            text: "0"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            id: e
+            text: "0"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            id: d
+            text: "0"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            id: gp
+            text: "0"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            id: gc
+            text: "0"
+            font_size: 12
+            font_style: 'Body1'
+        MDLabel:
+            id: sg
+            text: "0"
+            font_size: 12
+            font_style: 'Body1'
+
+<Tab>
+    MDList:
+        OneLineAvatarIconListItem:
+            id: time1
+            text: "Catar"
+            on_size:
+                self.ids._right_container.width = container1.width
+                self.ids._right_container.x = container1.width
+            on_release: app.show_touch(self)
+            ImageLeftWidget:
+                id: flag1
+                source: "assets/images/grupoA/catar.png"
+            TeamContainer:
+                id: container1
+
+        OneLineAvatarIconListItem:
+            id: time2
+            text: "Equador"
+            on_size:
+                self.ids._right_container.width = container2.width
+                self.ids._right_container.x = container2.width
+            ImageLeftWidget:
+                id: flag2
+                source: "assets/images/grupoA/equador.png"
+            TeamContainer:
+                id: container2
+
+        OneLineAvatarIconListItem:
+            id: time3
+            text: "Senegal"
+            on_size:
+                self.ids._right_container.width = container3.width
+                self.ids._right_container.x = container3.width
+            ImageLeftWidget:
+                id: flag3
+                source: "assets/images/grupoA/senegal.png"
+            TeamContainer:
+                id: container3
+
+        OneLineAvatarIconListItem:
+            id: time4
+            text: "Holanda"
+            on_size:
+                self.ids._right_container.width = container4.width
+                self.ids._right_container.x = container4.width
+            ImageLeftWidget:
+                id: flag4
+                source: "assets/images/grupoA/holanda.png"
+            TeamContainer:
+                id: container4
