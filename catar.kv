@@ -1,0 +1,19 @@
+#: import Convocados baseclass.grupoa.team1.convocados
+
+<Catar>:
+    id: catar_team
+    name: 'catar'
+    MDSpinner:
+        size_hint: None, None
+        size: dp(48), dp(48)
+        pos_hint: {'center_x': .5, 'center_y': .5}
+        determinate: True
+
+    MDBoxLayout:
+        orientation: 'vertical'
+        padding: 0, 50, 0, 0
+        ScrollView:
+            MDGridLayout:
+                id: box
+                cols: 1
+                adaptive_height: True

@@ -2,13 +2,20 @@ import json
 
 from kivy.lang import Builder
 from kivy.properties import ObjectProperty
+from kivy.uix.screenmanager import ScreenManagerException
 from kivymd.app import MDApp
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.floatlayout import MDFloatLayout
 from kivymd.uix.list import IRightBodyTouch
 from kivymd.uix.tab import MDTabsBase
 
+from catar import Catar
+from tabela import Tabela
+
+
 Builder.load_file('tabela.kv')
+Builder.load_file('catar.kv')
+Builder.load_file('baseclass/grupoa/team1/convocados.kv')
 
 
 class Tab(MDFloatLayout, MDTabsBase):
@@ -94,6 +101,21 @@ class Copa2022(MDApp):
                 cont_team[stats].ids.gc.text = data[tab_text][stats][5]
                 cont_team[stats].ids.sg.text = data[tab_text][stats][6]
         res.close()
+
+    def show_team(self, *args):
+        print(*args)
+        print(self.root.ids.screen_manager.screens)
+
+        try:
+            team = self.root.ids.screen_manager.get_screen(args[0])
+            self.root.ids.screen_manager.current = team.name
+        except ScreenManagerException:
+            team = Catar(name=args[0])
+            self.root.ids.screen_manager.add_widget(team)
+            self.root.ids.screen_manager.current = team.name
+
+    def create_team(self, team):
+        pass
 
 
 Copa2022().run()

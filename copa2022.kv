@@ -1,5 +1,6 @@
 #:import get_color_from_hex kivy.utils.get_color_from_hex
 #:import Tabela tabela.Tabela
+#:import Catar catar.Catar
 
 #:set text_color get_color_from_hex("#1087c3")
 #:set focus_color get_color_from_hex("#e7e4c0")
@@ -36,14 +37,17 @@ MDScreen:
             Tabela:
                 name: 'results'
 
+#            Catar:
+#                name: 'Catar'
+
         MDNavigationDrawer:
             id: nav_drawer
             radius: (0, 16, 16, 0) if self.anchor == "left" else (16, 0, 0, 16)
             md_bg_color: get_color_from_hex("#f7f4e7")
 
             MDNavigationDrawerMenu:
-                screen_manager: screen_manager
-                nav_drawer: nav_drawer
+                screen_manager: app.screen_manager
+                nav_drawer: app.nav_drawer
 
                 MDNavigationDrawerHeader:
                     title: "Copa do Mundo 2022"
@@ -59,6 +63,30 @@ MDScreen:
                     text: "Classificação"
                     on_press:
                         nav_drawer.set_state("close")
+                        print(screen_manager.screens)
+                        screen_manager.current = 'results'
+                        #screen_manager.switch_to(Tabela)
+
+                DrawerClickableItem:
+                    text_right_color: text_color
+                    text: "Jogos"
+                    on_press:
+                        nav_drawer.set_state("close")
                         print(screen_manager.current_screen)
                         screen_manager.current = 'results'
 
+                DrawerClickableItem:
+                    text_right_color: text_color
+                    text: "Estádios"
+                    on_press:
+                        nav_drawer.set_state("close")
+                        print(screen_manager.current_screen)
+                        screen_manager.current = 'results'
+
+                DrawerClickableItem:
+                    text_right_color: text_color
+                    text: "Cidades"
+                    on_press:
+                        nav_drawer.set_state("close")
+                        print(screen_manager.current_screen)
+                        screen_manager.current = 'results'

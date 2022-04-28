@@ -8,7 +8,6 @@
             id: tabs
             on_tab_switch: app.on_tab_switch(*args)
 
-
 <TeamContainer>:
     id: container
     size_hint_x: None
@@ -89,7 +88,7 @@
             on_size:
                 self.ids._right_container.width = container1.width
                 self.ids._right_container.x = container1.width
-            on_release: app.show_touch(self)
+            on_release: app.show_team(self.text)
             ImageLeftWidget:
                 id: flag1
                 source: "assets/images/grupoA/catar.png"
@@ -102,6 +101,7 @@
             on_size:
                 self.ids._right_container.width = container2.width
                 self.ids._right_container.x = container2.width
+            on_release: app.show_team(self.text)
             ImageLeftWidget:
                 id: flag2
                 source: "assets/images/grupoA/equador.png"
@@ -114,6 +114,7 @@
             on_size:
                 self.ids._right_container.width = container3.width
                 self.ids._right_container.x = container3.width
+            on_release: app.show_team(self.text)
             ImageLeftWidget:
                 id: flag3
                 source: "assets/images/grupoA/senegal.png"
@@ -126,6 +127,7 @@
             on_size:
                 self.ids._right_container.width = container4.width
                 self.ids._right_container.x = container4.width
+            on_release: app.show_team(self.text)
             ImageLeftWidget:
                 id: flag4
                 source: "assets/images/grupoA/holanda.png"

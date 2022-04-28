@@ -1,8 +1,9 @@
 from kivy.lang import Builder
+from kivymd.app import MDApp
 from kivymd.uix.screen import MDScreen
 
 
 class Tabela(MDScreen):
-   # def build(self):
-   #     return Builder.load_file('tabela.kv')
-   pass
+   def __init__(self, **kwargs):
+      super().__init__(**kwargs)
+      self.app = MDApp.get_running_app()
