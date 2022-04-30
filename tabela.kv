@@ -1,12 +1,34 @@
-<Tabela>:
+<Tabela>
     name: 'results'
     MDBoxLayout:
         orientation: "vertical"
 
         MDTabs:
-            padding: 0,60,0,0
+            padding: 0,50,0,0
             id: tabs
             on_tab_switch: app.on_tab_switch(*args)
+            Tab:
+                title: "Grupo A"
+            Tab:
+                title: "Grupo B"
+            Tab:
+                title: "Grupo C"
+            Tab:
+                title: "Grupo D"
+            Tab:
+                title: "Grupo E"
+            Tab:
+                title: "Grupo F"
+            Tab:
+                title: "Grupo G"
+            Tab:
+                title: "Grupo H"
+
+
+<TCLabel@MDLabel>:
+    text: ""
+    font_size: 12
+    font_style: 'Body1'
 
 <TeamContainer>:
     id: container
@@ -16,120 +38,63 @@
     MDGridLayout:
         cols: 7
         rows: 2
-        MDLabel:
+        TCLabel:
             text: "Pts"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             text: "V"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             text: "E"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             text: "D"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             text: "GP"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             text: "GC"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             text: "SG"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             id: pts
             text: "0"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             id: v
             text: "0"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             id: e
             text: "0"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             id: d
             text: "0"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             id: gp
             text: "0"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             id: gc
             text: "0"
-            font_size: 12
-            font_style: 'Body1'
-        MDLabel:
+        TCLabel:
             id: sg
             text: "0"
-            font_size: 12
-            font_style: 'Body1'
+
+<PositionContainer@OneLineAvatarIconListItem>:
+    text: ""
+    flag: ""
+    text: root.text
+    on_size:
+        self.ids._right_container.width = container1.width
+        self.ids._right_container.x = container1.width
+    on_release: app.show_team(self.text)
+    ImageLeftWidget:
+        id: flag
+        source: root.flag
+    TeamContainer:
+        id: container1
 
 <Tab>
     MDList:
-        OneLineAvatarIconListItem:
+        PositionContainer:
             id: time1
-            text: "Catar"
-            on_size:
-                self.ids._right_container.width = container1.width
-                self.ids._right_container.x = container1.width
-            on_release: app.show_team(self.text)
-            ImageLeftWidget:
-                id: flag1
-                source: "assets/images/grupoA/catar.png"
-            TeamContainer:
-                id: container1
-
-        OneLineAvatarIconListItem:
+        PositionContainer:
             id: time2
-            text: "Equador"
-            on_size:
-                self.ids._right_container.width = container2.width
-                self.ids._right_container.x = container2.width
-            on_release: app.show_team(self.text)
-            ImageLeftWidget:
-                id: flag2
-                source: "assets/images/grupoA/equador.png"
-            TeamContainer:
-                id: container2
-
-        OneLineAvatarIconListItem:
+        PositionContainer:
             id: time3
-            text: "Senegal"
-            on_size:
-                self.ids._right_container.width = container3.width
-                self.ids._right_container.x = container3.width
-            on_release: app.show_team(self.text)
-            ImageLeftWidget:
-                id: flag3
-                source: "assets/images/grupoA/senegal.png"
-            TeamContainer:
-                id: container3
-
-        OneLineAvatarIconListItem:
+        PositionContainer:
             id: time4
-            text: "Holanda"
-            on_size:
-                self.ids._right_container.width = container4.width
-                self.ids._right_container.x = container4.width
-            on_release: app.show_team(self.text)
-            ImageLeftWidget:
-                id: flag4
-                source: "assets/images/grupoA/holanda.png"
-            TeamContainer:
-                id: container4
