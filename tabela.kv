@@ -1,0 +1,100 @@
+<Tabela>
+    name: 'results'
+    MDBoxLayout:
+        orientation: "vertical"
+
+        MDTabs:
+            padding: 0,50,0,0
+            id: tabs
+            on_tab_switch: app.on_tab_switch(*args)
+            Tab:
+                title: "Grupo A"
+            Tab:
+                title: "Grupo B"
+            Tab:
+                title: "Grupo C"
+            Tab:
+                title: "Grupo D"
+            Tab:
+                title: "Grupo E"
+            Tab:
+                title: "Grupo F"
+            Tab:
+                title: "Grupo G"
+            Tab:
+                title: "Grupo H"
+
+
+<TCLabel@MDLabel>:
+    text: ""
+    font_size: 12
+    font_style: 'Body1'
+
+<TeamContainer>:
+    id: container
+    size_hint_x: None
+    width: 150
+    orientation: 'vertical'
+    MDGridLayout:
+        cols: 7
+        rows: 2
+        TCLabel:
+            text: "Pts"
+        TCLabel:
+            text: "V"
+        TCLabel:
+            text: "E"
+        TCLabel:
+            text: "D"
+        TCLabel:
+            text: "GP"
+        TCLabel:
+            text: "GC"
+        TCLabel:
+            text: "SG"
+        TCLabel:
+            id: pts
+            text: "0"
+        TCLabel:
+            id: v
+            text: "0"
+        TCLabel:
+            id: e
+            text: "0"
+        TCLabel:
+            id: d
+            text: "0"
+        TCLabel:
+            id: gp
+            text: "0"
+        TCLabel:
+            id: gc
+            text: "0"
+        TCLabel:
+            id: sg
+            text: "0"
+
+<PositionContainer@OneLineAvatarIconListItem>:
+    text: ""
+    flag: ""
+    text: root.text
+    on_size:
+        self.ids._right_container.width = container1.width
+        self.ids._right_container.x = container1.width
+    on_release: app.show_team(self.text)
+    ImageLeftWidget:
+        id: flag
+        source: root.flag
+    TeamContainer:
+        id: container1
+
+<Tab>
+    MDList:
+        PositionContainer:
+            id: time1
+        PositionContainer:
+            id: time2
+        PositionContainer:
+            id: time3
+        PositionContainer:
+            id: time4

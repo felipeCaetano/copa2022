@@ -1,0 +1,77 @@
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+#:import Tabela tabela.Tabela
+#:import Catar catar.Catar
+
+#:set text_color get_color_from_hex("#1087c3")
+#:set focus_color get_color_from_hex("#e7e4c0")
+#:set ripple_color get_color_from_hex("#c5bdd2")
+#:set bg_color get_color_from_hex("#f0f0e7")
+#:set selected_color get_color_from_hex("#63bddf")
+#:set accent_color get_color_from_hex("#7b133d")
+
+
+<DrawerClickableItem@MDNavigationDrawerItem>
+    focus_color: focus_color
+    unfocus_color: bg_color
+    text_color: text_color
+    icon_color: text_color
+    ripple_color: ripple_color
+    selected_color: selected_color
+
+<RootScreen>
+    MDTopAppBar:
+        title: "Copa do Mundo Catar - 2022"
+        elevation: 10
+        pos_hint: {"top": 1}
+        md_bg_color: accent_color
+        specific_text_color: 1,1,1,1
+        left_action_items:
+            [['menu', lambda x: nav_drawer.set_state("open")]]
+
+    MDNavigationLayout:
+        ScreenManager:
+            id: screen_manager
+
+        MDNavigationDrawer:
+            id: nav_drawer
+            radius: (0, 16, 16, 0) if self.anchor == "left" else (16, 0, 0, 16)
+            md_bg_color: get_color_from_hex("#f7f4e7")
+
+            MDNavigationDrawerMenu:
+                screen_manager: app.screen_manager
+                nav_drawer: app.nav_drawer
+
+                MDNavigationDrawerHeader:
+                    source: "assets/images/logo.png"
+                    title: "Copa do Mundo 2022"
+                    title_color: text_color
+                    title_font_size: '24sp'
+                    text: "Catar"
+                    text_color: accent_color
+                    text_font_size: "14sp"
+                    spacing: "4dp"
+                    padding: "12dp", "16dp", "0dp", "56dp"
+
+                DrawerClickableItem:
+                    text_right_color: text_color
+                    text: "Classificação"
+                    on_press:
+                        root.goto_screen("results")
+
+                DrawerClickableItem:
+                    text_right_color: text_color
+                    text: "Jogos"
+                    on_press:
+                        root.goto_screen("results")
+
+                DrawerClickableItem:
+                    text_right_color: text_color
+                    text: "Estádios"
+                    on_press:
+                        root.goto_screen("results")
+
+                DrawerClickableItem:
+                    text_right_color: text_color
+                    text: "Cidades"
+                    on_press:
+                        root.goto_screen("results")
