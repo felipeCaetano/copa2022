@@ -2,7 +2,7 @@ import json
 
 from kivy.clock import Clock
 from kivy.lang import Builder
-from kivy.properties import ObjectProperty
+from kivy.properties import ObjectProperty, StringProperty
 from kivy.uix.screenmanager import ScreenManagerException
 from kivymd.app import MDApp
 from kivymd.theming import ThemableBehavior
@@ -46,19 +46,24 @@ class Tabela(BaseScreenView):
 
 
 class Catar(BaseScreenView):
+    team_name = StringProperty()
+    treinador = StringProperty()
+    flag = StringProperty()
+
     def on_enter(self, *args):
-        for i in range(24):
-            self.ids.box.add_widget(
-                MDExpansionPanel(
-                    icon="assets/images/GrupoA/catar/img.png",
-                    content=Content(),
-                    panel_cls=MDExpansionPanelThreeLine(
-                        text="Text",
-                        secondary_text="Secondary text",
-                        tertiary_text="Tertiary text",
-                    )
-                )
-            )
+        # for i in range(24):
+        #     self.ids.box.add_widget(
+        #         MDExpansionPanel(
+        #             icon="assets/images/GrupoA/catar/players/player.png",
+        #             content=Content(),
+        #             panel_cls=MDExpansionPanelThreeLine(
+        #                 text="Text",
+        #                 secondary_text="Secondary text",
+        #                 tertiary_text="Tertiary text",
+        #             )
+        #         )
+        #     )
+        pass
 
 
 class Tab(MDFloatLayout, MDTabsBase):
@@ -129,8 +134,9 @@ class Copa2022(MDApp):
         for pos in range(4):
             path = tab_text.replace(' ', '')
             flag = self.grupos[tab_text][pos].lower()
+            team = self.grupos[tab_text][pos].lower()
             cont_team[pos].text = self.grupos[tab_text][pos]
-            cont_team[pos].flag = f"assets/images/{path}/{flag}.png"
+            cont_team[pos].flag = f"assets/images/{path}/{team}/{flag}.png"
 
     def update_tab(self, instance_tab, tab_text):
         cont_team = {
@@ -153,9 +159,54 @@ class Copa2022(MDApp):
         res.close()
 
     def show_team(self, *args):
-        print(self.controller.screens)
-        team = self.controller.screen_manager.get_screen('team')
-        # team.name = args[0]
+        teams = {
+            'Catar': {
+                'Nome': 'do Catar',
+                'Treinador': 'Treinador do Catar',
+                'flag': 'assets/images/GrupoA/catar/catar.png'
+            },
+            'Equador': {
+                'Nome': 'do Equador',
+                'Treinador': 'Treinador do Equador',
+                'flag': 'assets/images/GrupoA/equador/equador.png'
+            },
+            'Holanda': {
+                'Nome': 'da Holanda',
+                'Treinador': 'Treinador do Holanda',
+                'flag': 'assets/images/GrupoA/holanda/holanda.png'
+            },
+            'Senegal': {
+                'Nome': 'do Senegal',
+                'Treinador': 'Treinador do Senegal',
+                'flag': 'assets/images/GrupoA/senegal/senegal.png'
+            },
+            'EUA': {
+                'Nome': 'dos Estados Unidos',
+                'Treinador': 'Treinador do EUA',
+                'flag': 'assets/images/GrupoB/eua/eua.png'
+            },
+            'Euro Play-off': {
+                'Nome': 'do Euro Play-off',
+                'Treinador': 'Treinador do Euro Play-off',
+                'flag': 'assets/images/GrupoB/euro play-off/euro play-off.png'
+            },
+            'Inglaterra': {
+                'Nome': 'da Inglaterra',
+                'Treinador': 'Treinador do Inglaterra',
+                'flag': 'assets/images/GrupoB/inglaterra/inglaterra.png'
+            },
+            'Irã': {
+                'Nome': 'do Irã',
+                'Treinador': 'Treinador do Irã',
+                'flag': 'assets/images/GrupoB/irã/irã.png'
+            }
+        }
+        team = Catar(name=args[0])
+        team.team_name = f"Seleção {teams[args[0]]['Nome']}"
+        team.treinador = f"{teams[args[0]]['Treinador']}"
+        team.flag = teams[args[0]]['flag']
+        self.controller.screen_manager.add_widget(team)
+        self.create_team(team)
         try:
             team = self.root.ids.screen_manager.get_screen(args[0])
             self.root.ids.screen_manager.current = team.name
@@ -166,7 +217,25 @@ class Copa2022(MDApp):
             self.root.ids.screen_manager.current = team.name
 
     def create_team(self, team):
-        pass
+        """
+        PAREI AQUI TÀ QUASE CERTO
+        :param team:
+        :return:
+        """
+        print(f"Criando time do {team.name}")
+        print(team.ids.box.walk())
+        for i in range(24):
+           team.ids.box.add_widget(
+                MDExpansionPanel(
+                    icon="assets/images/GrupoA/catar/players/player.png",
+                    content=Content(),
+                    panel_cls=MDExpansionPanelThreeLine(
+                        text="Text",
+                        secondary_text="Secondary text",
+                        tertiary_text="Tertiary text",
+                    )
+                )
+            )
 
 
 class RootScreenController:

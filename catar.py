@@ -1,4 +1,5 @@
 """Modela a Classe UI da Seleção do Catar"""
+from kivy.properties import StringProperty
 from kivymd.app import MDApp
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.expansionpanel import MDExpansionPanel, \
@@ -13,6 +14,8 @@ class Content(MDBoxLayout):
 
 
 class Catar(MDScreen):
+    team_name = StringProperty()
+    treinador = StringProperty()
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.app = MDApp.get_running_app()
