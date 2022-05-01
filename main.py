@@ -54,7 +54,7 @@ class Catar(BaseScreenView):
         # for i in range(24):
         #     self.ids.box.add_widget(
         #         MDExpansionPanel(
-        #             icon="assets/images/GrupoA/catar/players/player.png",
+        #             icon="assets/images/GrupoA/catar/players/0.png",
         #             content=Content(),
         #             panel_cls=MDExpansionPanelThreeLine(
         #                 text="Text",
@@ -138,6 +138,85 @@ class Copa2022(MDApp):
             cont_team[pos].text = self.grupos[tab_text][pos]
             cont_team[pos].flag = f"assets/images/{path}/{team}/{flag}.png"
 
+    def create_team(self, team):
+        """
+        PAREI AQUI TÀ QUASE CERTO
+        :param team:
+        :return:
+        """
+        players = {
+            "Catar": {
+                'grupo': 'A',
+                0: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                1: ['1', 'Saad Al-Sheeb', 'Goleiro', '32', 'Al-Sadd SC'],
+                2: ['21', 'Yousef Hassan', 'Goleiro', '25', 'Al-Gharafa SC'],
+                3: ['2', 'Pedro Miguel', 'Zagueiro', '31', 'Al-Sadd SC'],
+                4: ['5', 'Tarek Salman', 'Zagueiro', '31', 'Al-Sadd SC'],
+                5: ['15', 'Bassam Al-Rawi', 'Zagueiro', '24', 'Al-Duhail SC'],
+                6: ['16', 'Boualem Khoukhi', 'Zagueiro', '31', 'Al-Sadd SC'],
+                7: ['3', 'Abdelkarim Hassan', 'Lateral Esq.', '28', 'Al-Sadd SC'],
+                8: ['24', 'Homam Ahmed', 'Lateral Esq.', '22', 'Al-Gharafa SC'],
+                9: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                10: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                11: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                12: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                13: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                14: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                15: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                16: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                17: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                18: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                19: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                20: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                21: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                22: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                23: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+            },
+            "Equador": {
+                'grupo': 'A',
+                0: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                1: ['1', 'Saad Al-Sheeb', 'Goleiro', '32', 'Al-Sadd SC'],
+                2: ['21', 'Yousef Hassan', 'Goleiro', '25', 'Al-Gharafa SC'],
+                3: ['2', 'Pedro Miguel', 'Zagueiro', '31', 'Al-Sadd SC'],
+                4: ['5', 'Tarek Salman', 'Zagueiro', '31', 'Al-Sadd SC'],
+                5: ['15', 'Bassam Al-Rawi', 'Zagueiro', '24', 'Al-Duhail SC'],
+                6: ['16', 'Boualem Khoukhi', 'Zagueiro', '31', 'Al-Sadd SC'],
+                7: ['3', 'Abdelkarim Hassan', 'Lateral Esq.', '28',
+                    'Al-Sadd SC'],
+                8: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                9: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                10: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                11: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                12: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                13: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                14: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                15: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                16: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                17: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                18: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                19: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                20: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                21: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                22: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+                23: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
+            }
+        }
+
+        grupo = players[team.name]['grupo']
+        selec = team.name.lower()
+        for i in range(24):
+           team.ids.box.add_widget(
+                MDExpansionPanel(
+                    icon=f"assets/images/Grupo{grupo}/{selec}/players/{i}.png",
+                    content=Content(),
+                    panel_cls=MDExpansionPanelThreeLine(
+                        text=players[team.name][i][1],
+                        secondary_text=players[team.name][i][2],
+                        tertiary_text=players[team.name][i][4],
+                    )
+                )
+            )
+
     def update_tab(self, instance_tab, tab_text):
         cont_team = {
             'time1': instance_tab.ids.time1.ids.container1,
@@ -199,43 +278,39 @@ class Copa2022(MDApp):
                 'Nome': 'do Irã',
                 'Treinador': 'Treinador do Irã',
                 'flag': 'assets/images/GrupoB/irã/irã.png'
-            }
+            },
+            'Argentina': {
+                'Nome': 'da Argentina',
+                'Treinador': 'Treinador daArgentina',
+                'flag': 'assets/images/GrupoC/argentina/argentina.png'
+            },
+            'México': {
+                'Nome': 'do México',
+                'Treinador': 'Treinador do México',
+                'flag': 'assets/images/GrupoC/méxico/méxico.png'
+            },
+            'Arábia Saudita': {
+                'Nome': 'da Arábia Saudita',
+                'Treinador': 'Treinador da Arábia Saudita',
+                'flag': 'assets/images/GrupoC/arábia saudita/arábia saudita.png'
+            },
+            'Polonia': {
+                'Nome': 'da Polonia',
+                'Treinador': 'Treinador da Polonia',
+                'flag': 'assets/images/GrupoC/polonia/polonia.png'
+            },
         }
         team = Catar(name=args[0])
         team.team_name = f"Seleção {teams[args[0]]['Nome']}"
         team.treinador = f"{teams[args[0]]['Treinador']}"
         team.flag = teams[args[0]]['flag']
-        self.controller.screen_manager.add_widget(team)
-        self.create_team(team)
         try:
             team = self.root.ids.screen_manager.get_screen(args[0])
             self.root.ids.screen_manager.current = team.name
         except ScreenManagerException:
-            print("deu exception")
-            team = Catar(name=args[0])
+            self.create_team(team)
             self.root.ids.screen_manager.add_widget(team)
             self.root.ids.screen_manager.current = team.name
-
-    def create_team(self, team):
-        """
-        PAREI AQUI TÀ QUASE CERTO
-        :param team:
-        :return:
-        """
-        print(f"Criando time do {team.name}")
-        print(team.ids.box.walk())
-        for i in range(24):
-           team.ids.box.add_widget(
-                MDExpansionPanel(
-                    icon="assets/images/GrupoA/catar/players/player.png",
-                    content=Content(),
-                    panel_cls=MDExpansionPanelThreeLine(
-                        text="Text",
-                        secondary_text="Secondary text",
-                        tertiary_text="Tertiary text",
-                    )
-                )
-            )
 
 
 class RootScreenController:

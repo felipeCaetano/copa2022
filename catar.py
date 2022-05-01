@@ -26,7 +26,7 @@ class Catar(MDScreen):
         for i in range(24):
             self.ids.box.add_widget(
                 MDExpansionPanel(
-                    icon="assets/images/GrupoA/catar/img.png",
+                    icon="assets/images/GrupoA/catar/1.png",
                     content=Content(),
                     panel_cls=MDExpansionPanelThreeLine(
                         text="Text",
