@@ -18,6 +18,7 @@ from catar import Content
 
 Builder.load_file('tabela.kv')
 Builder.load_file('catar.kv')
+Builder.load_file('matchs.kv')
 Builder.load_file('baseclass/grupoa/team1/convocados.kv')
 
 
@@ -42,6 +43,10 @@ class RootScreen(BaseScreenView):
 
 
 class Tabela(BaseScreenView):
+    pass
+
+
+class Matchs(BaseScreenView):
     pass
 
 
@@ -324,6 +329,11 @@ class RootScreenController:
             "model": None,
             "controller": GenericController,
             "view": Catar
+        },
+        'matchs': {
+            "model": None,
+            "controller": GenericController,
+            "view": Matchs
         }
     }
 
