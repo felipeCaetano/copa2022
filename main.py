@@ -1,18 +1,24 @@
+import datetime
 import json
 
 from kivy.clock import Clock
+from kivy.factory import Factory
 from kivy.lang import Builder
 from kivy.properties import ObjectProperty, StringProperty
 from kivy.uix.screenmanager import ScreenManagerException
 from kivymd.app import MDApp
+from kivymd.icon_definitions import md_icons
 from kivymd.theming import ThemableBehavior
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.expansionpanel import MDExpansionPanel, \
     MDExpansionPanelThreeLine
 from kivymd.uix.floatlayout import MDFloatLayout
-from kivymd.uix.list import IRightBodyTouch
+from kivymd.uix.list import IRightBodyTouch, OneLineAvatarIconListItem, \
+    ILeftBodyTouch
 from kivymd.uix.screen import MDScreen
+from kivymd.uix.selectioncontrol import MDCheckbox
 from kivymd.uix.tab import MDTabsBase
+from kivymd.utils import asynckivy
 
 from catar import Content
 
@@ -46,6 +52,10 @@ class Tabela(BaseScreenView):
     pass
 
 
+class YourContainer(IRightBodyTouch, MDBoxLayout):
+    adaptive_width = True
+
+
 class Matchs(BaseScreenView):
     pass
 
@@ -54,21 +64,6 @@ class Catar(BaseScreenView):
     team_name = StringProperty()
     treinador = StringProperty()
     flag = StringProperty()
-
-    def on_enter(self, *args):
-        # for i in range(24):
-        #     self.ids.box.add_widget(
-        #         MDExpansionPanel(
-        #             icon="assets/images/GrupoA/catar/players/0.png",
-        #             content=Content(),
-        #             panel_cls=MDExpansionPanelThreeLine(
-        #                 text="Text",
-        #                 secondary_text="Secondary text",
-        #                 tertiary_text="Tertiary text",
-        #             )
-        #         )
-        #     )
-        pass
 
 
 class Tab(MDFloatLayout, MDTabsBase):
@@ -241,6 +236,9 @@ class Copa2022(MDApp):
                 cont_team[stats].ids.gc.text = data[tab_text][stats][5]
                 cont_team[stats].ids.sg.text = data[tab_text][stats][6]
         res.close()
+
+    def show_matchs(self, *args):
+        print(args[0].ids.screen_manager.get_screen('matchs').ids)
 
     def show_team(self, *args):
         teams = {
