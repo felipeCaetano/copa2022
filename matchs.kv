@@ -1,4 +1,15 @@
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+
+#:set text_color get_color_from_hex("#1087c3")
+#:set focus_color get_color_from_hex("#e7e4c0")
+#:set ripple_color get_color_from_hex("#c5bdd2")
+#:set bg_color get_color_from_hex("#f0f0e7")
+#:set selected_color get_color_from_hex("#63bddf")
+#:set accent_color get_color_from_hex("#7b133d")
+
 <Matchs>:
+    #md_bg_color: bg_color
+
     MDBoxLayout:
         orientation: "vertical"
         spacing: "10dp"
@@ -9,8 +20,141 @@
 
             MDList:
                 id: md_list
-                padding: 0, "30dp", 0, "30dp"
-                spacing: 50
+                padding: 0, "50dp", 0, "0dp"
+                spacing: "20dp"
+
+                MDCard:
+                    orientation: "vertical"
+                    size_hint: .5, None
+                    height: box_top.height + box_bottom.height
+                    focus_behavior: True
+                    ripple_behavior: True
+                    pos_hint: {"center_x": .5, "center_y": .4}
+                    md_bg_color: app.theme_cls.accent_light
+                    unfocus_color: app.theme_cls.accent_light
+                    focus_color: selected_color
+                    on_release:
+                        print(self.ids)
+
+                    MDBoxLayout:
+                        id: box_top
+                        adaptive_height: True
+                        padding: "10dp", "50dp", 0, "10dp"
+
+                        MDLabel:
+                            text: "Grupo A - 21/11 6h"
+                            adaptive_height: True
+                            pos_hint: {"center_y": .5}
+                            theme_text_color: "Primary"
+
+                    MDSeparator:
+
+                    MDBoxLayout:
+                        id: box_middle
+                        spacing: "10dp"
+                        adaptive_height: True
+                        padding: "50dp", 0, "50dp", 0
+
+                        SmartTileWithLabel:
+                            id: time1
+                            source: "assets/images/GrupoA/senegal/senegal.png"
+                            text: "Senegal"
+                            bold: True
+                            size_hint: None, None
+                            width: dp(64)
+                            height: dp(64) #text_box.height
+                            box_color: 1,1,1,.2
+                            tile_text_color: accent_color
+                        MDLabel:
+                            text: "0"
+                        MDLabel:
+                            halign: "center"
+                            text: "X"
+                            font_size: "15"
+                            bold: True
+                        MDLabel:
+                            halign: "right"
+                            text: "0"
+                        FitImage:
+                            source: "assets/images/GrupoA/holanda/holanda.png"
+                            size_hint: None, None
+                            width: dp(64)
+                            height: dp(64) #text_box.height
+
+                    MDSeparator:
+
+                    MDBoxLayout:
+                        id: box_bottom
+                        adaptive_height: True
+                        padding: "10dp", 0, 0, 0
+
+                        MDLabel:
+                            text: "Al-Thumama Stadium"
+                            adaptive_height: True
+                            pos_hint: {"center_y": .5}
+                            theme_text_color: "Primary"
+
+                MDCard:
+                    orientation: "vertical"
+                    size_hint: .5, None
+                    height: box_top.height + box_bottom.height
+                    focus_behavior: True
+                    ripple_behavior: True
+                    pos_hint: {"center_x": .5, "center_y": .4}
+
+                    MDBoxLayout:
+                        id: box_top
+                        adaptive_height: True
+                        padding: "10dp", "50dp", 0, "10dp"
+
+                        MDLabel:
+                            text: "Grupo B - 21/11 9h"
+                            adaptive_height: True
+                            pos_hint: {"center_y": .5}
+                            theme_text_color: "Primary"
+
+                    MDSeparator:
+
+                    MDBoxLayout:
+                        id: box_middle
+                        spacing: "10dp"
+                        adaptive_height: True
+                        padding: "50dp", 0, "50dp", 0
+
+                        FitImage:
+                            source: "assets/images/GrupoB/inglaterra/inglaterra.png"
+                            size_hint: None, None
+                            width: dp(64)
+                            height: dp(64) #text_box.height
+                        MDLabel:
+                            text: "0"
+                        MDLabel:
+                            halign: "center"
+                            text: "X"
+                            font_size: "15"
+                            bold: True
+                        MDLabel:
+                            halign: "right"
+                            text: "0"
+                        SmartTileWithLabel:
+                            source: "assets/images/GrupoB/irã/irã.png"
+                            text: "Irã"
+                            size_hint: None, None
+                            width: dp(64)
+                            height: dp(64) #text_box.height
+
+                    MDSeparator:
+
+                    MDBoxLayout:
+                        id: box_bottom
+                        adaptive_height: True
+                        padding: "10dp", 0, 0, 0
+
+                        MDLabel:
+                            text: "Internacional Khalifa Stadium"
+                            adaptive_height: True
+                            pos_hint: {"center_y": .5}
+                            theme_text_color: "Primary"
 
                 MDCard:
                     orientation: "vertical"
@@ -35,22 +179,27 @@
 
                     MDBoxLayout:
                         id: box_middle
-                        spacing: "20dp"
+                        spacing: "10dp"
                         adaptive_height: True
+                        padding: "50dp", 0, "50dp", 0
 
                         FitImage:
                             source: "assets/images/GrupoA/catar/catar.png"
                             size_hint: None, None
                             width: dp(64)
                             height: dp(64) #text_box.height
-                        MDLabel:
-                            text: "0"
-                        MDLabel:
-                            text: "X"
-                            font_size: "15"
-                            bold: True
-                        MDLabel:
-                            text: "0"
+                        MDBoxLayout:
+                            adaptive_width: True
+                            MDLabel:
+                                text: "0"
+                            MDLabel:
+                                halign: "center"
+                                text: "X"
+                                font_size: "15"
+                                bold: True
+                            MDLabel:
+                                halign: "right"
+                                text: "0"
                         FitImage:
                             source: "assets/images/GrupoA/equador/equador.png"
                             size_hint: None, None
@@ -81,10 +230,10 @@
                     MDBoxLayout:
                         id: box_top
                         adaptive_height: True
-                        padding: "10dp", 0, 0, "10dp"
+                        padding: "10dp", "50dp", 0, "10dp"
 
                         MDLabel:
-                            text: "Grupo A - 21/11 13h"
+                            text: "Grupo B - 21/11 15h"
                             adaptive_height: True
                             pos_hint: {"center_y": .5}
                             theme_text_color: "Primary"
@@ -93,24 +242,27 @@
 
                     MDBoxLayout:
                         id: box_middle
-                        spacing: "20dp"
+                        spacing: "10dp"
                         adaptive_height: True
+                        padding: "50dp", 0, "50dp", 0
 
                         FitImage:
-                            source: "assets/images/GrupoA/catar/catar.png"
+                            source: "assets/images/GrupoB/eua/eua.png"
                             size_hint: None, None
                             width: dp(64)
                             height: dp(64) #text_box.height
                         MDLabel:
                             text: "0"
                         MDLabel:
+                            halign: "center"
                             text: "X"
                             font_size: "15"
                             bold: True
                         MDLabel:
+                            halign: "right"
                             text: "0"
                         FitImage:
-                            source: "assets/images/GrupoA/equador/equador.png"
+                            source: "assets/images/GrupoB/euro play-off/euro play-off.png"
                             size_hint: None, None
                             width: dp(64)
                             height: dp(64) #text_box.height
@@ -123,7 +275,7 @@
                         padding: "10dp", 0, 0, 0
 
                         MDLabel:
-                            text: "Al Bayt Stadium"
+                            text: "al-Rayyan Stadium"
                             adaptive_height: True
                             pos_hint: {"center_y": .5}
                             theme_text_color: "Primary"

@@ -10,7 +10,8 @@ from kivymd.uix.list import ILeftBodyTouch, OneLineIconListItem
 from kivymd.theming import ThemeManager
 from kivymd.utils import asynckivy
 
-Builder.load_string('''
+Builder.load_string(
+    """
 <ItemForList>
     text: root.text
 
@@ -39,7 +40,8 @@ Builder.load_string('''
                 id: box
                 adaptive_height: True
                 cols: 1
-''')
+"""
+)
 
 
 class IconLeftSampleWidget(ILeftBodyTouch, MDIconButton):
@@ -64,16 +66,18 @@ class Example(MDApp):
 
     def set_list(self):
         async def set_list():
-            names_icons_list = list(md_icons.keys())[self.x:self.y]
+            names_icons_list = list(md_icons.keys())[self.x : self.y]
             for name_icon in names_icons_list:
                 await asynckivy.sleep(0)
                 self.screen.ids.box.add_widget(
-                    ItemForList(icon=name_icon, text=name_icon))
+                    ItemForList(icon=name_icon, text=name_icon)
+                )
+
         asynckivy.start(set_list())
 
     def refresh_callback(self, *args):
-        '''A method that updates the state of your application
-        while the spinner remains on the screen.'''
+        """A method that updates the state of your application
+        while the spinner remains on the screen."""
 
         def refresh_callback(interval):
             self.screen.ids.box.clear_widgets()
