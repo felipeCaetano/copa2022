@@ -20,8 +20,8 @@
 
             MDList:
                 id: md_list
-                padding: 0, "50dp", 0, "0dp"
-                spacing: "20dp"
+                padding: 0, "20dp", 0, "0dp"
+                spacing: "10dp"
 
                 MDCard:
                     orientation: "vertical"
@@ -33,8 +33,6 @@
                     md_bg_color: app.theme_cls.accent_light
                     unfocus_color: app.theme_cls.accent_light
                     focus_color: selected_color
-                    on_release:
-                        print(self.ids)
 
                     MDBoxLayout:
                         id: box_top
@@ -68,9 +66,9 @@
                             height: dp(64) #text_box.height
                         MDBoxLayout:
                             spacing: "5dp"
-                            padding: "20dp", 10, "20dp", 10
+                            padding: "15dp", 10, "15dp", 10
                             size_hint_x: None
-                            width: 100
+                            width: "65dp"
                             MDLabel:
                                 halign: 'left'
                                 text: "0"
@@ -80,7 +78,6 @@
                                 font_size: "12"
                                 bold: True
                             MDLabel:
-                                #padding: "5dp", 0, "10dp", 0
                                 halign: "right"
                                 text: "0"
                         FitImage:
@@ -304,3 +301,78 @@
                             adaptive_height: True
                             pos_hint: {"center_y": .5}
                             theme_text_color: "Primary"
+                GameCard:
+
+
+<GameCard@MDCard>:
+    current_color: app.theme_cls.accent_light
+    grupo_text: "Grupo A - 21/11 6h"
+
+    orientation: "vertical"
+    size_hint: .5, None
+    height: box_top.height + box_bottom.height
+    focus_behavior: True
+    ripple_behavior: True
+    pos_hint: {"center_x": .5, "center_y": .4}
+    md_bg_color: root.current_color
+    unfocus_color: root.current_color
+    focus_color: selected_color
+
+    MDBoxLayout:
+        id: box_top
+        adaptive_height: True
+        padding: "10dp", "50dp", 0, "10dp"
+
+        MDLabel:
+            id: grupo
+            text: root.grupo_text
+            adaptive_height: True
+            pos_hint: {"center_y": .5}
+            theme_text_color: "Primary"
+
+    MDSeparator:
+
+    MDBoxLayout:
+        id: box_middle
+        spacing: "10dp"
+        adaptive_height: True
+        padding: "50dp", 0, "50dp", 0
+
+        SmartTileWithLabel:
+            id: time1
+            source: "assets/images/GrupoA/senegal/senegal.png"
+            text: "Senegal"
+            bold: True
+            size_hint: None, None
+            width: dp(64)
+            height: dp(64) #text_box.height
+            box_color: 1,1,1,.2
+            tile_text_color: accent_color
+        MDLabel:
+            text: "0"
+        MDLabel:
+            halign: "center"
+            text: "X"
+            font_size: "15"
+            bold: True
+        MDLabel:
+            halign: "right"
+            text: "0"
+        FitImage:
+            source: "assets/images/GrupoA/holanda/holanda.png"
+            size_hint: None, None
+            width: dp(64)
+            height: dp(64) #text_box.height
+
+    MDSeparator:
+
+    MDBoxLayout:
+        id: box_bottom
+        adaptive_height: True
+        padding: "10dp", 0, 0, 0
+
+        MDLabel:
+            text: "Al-Thumama Stadium"
+            adaptive_height: True
+            pos_hint: {"center_y": .5}
+            theme_text_color: "Primary"
