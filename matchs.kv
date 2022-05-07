@@ -23,86 +23,14 @@
                 padding: 0, "20dp", 0, "0dp"
                 spacing: "10dp"
 
-                MDCard:
-                    orientation: "vertical"
-                    size_hint: .5, None
-                    height: box_top.height + box_bottom.height
-                    focus_behavior: True
-                    ripple_behavior: True
-                    pos_hint: {"center_x": .5, "center_y": .4}
-                    md_bg_color: app.theme_cls.accent_light
-                    unfocus_color: app.theme_cls.accent_light
-                    focus_color: selected_color
-
-                    MDBoxLayout:
-                        id: box_top
-                        adaptive_height: True
-                        padding: "10dp", "50dp", 0, "0dp"
-
-                        MDLabel:
-                            text: "Grupo A - 21/11 6h"
-                            adaptive_height: True
-                            pos_hint: {"center_y": .5}
-                            theme_text_color: "Primary"
-
-                    MDSeparator:
-
-                    MDBoxLayout:
-                        id: box_middle
-                        spacing: "5dp"
-                        adaptive_height: True
-                        padding: "20dp", 0, "20dp", 0
-
-                        MDLabel:
-                            id: time1
-                            text: "Senegal"
-                            font_size: "10"
-                            bold: True
-                            halign: "right"
-                        FitImage:
-                            source: "assets/images/GrupoA/senegal/senegal.png"
-                            size_hint: None, None
-                            width: dp(64)
-                            height: dp(64) #text_box.height
-                        MDBoxLayout:
-                            spacing: "5dp"
-                            padding: "15dp", 10, "15dp", 10
-                            size_hint_x: None
-                            width: "65dp"
-                            MDLabel:
-                                halign: 'left'
-                                text: "0"
-                            MDLabel:
-                                halign: "center"
-                                text: "X"
-                                font_size: "12"
-                                bold: True
-                            MDLabel:
-                                halign: "right"
-                                text: "0"
-                        FitImage:
-                            source: "assets/images/GrupoA/holanda/holanda.png"
-                            size_hint: None, None
-                            width: dp(64)
-                            height: dp(64)
-                        MDLabel:
-                            id: time2
-                            text: "Holanda"
-                            font_size: "10"
-                            bold: True
-
-                    MDSeparator:
-
-                    MDBoxLayout:
-                        id: box_bottom
-                        adaptive_height: True
-                        padding: "10dp", 0, 0, 0
-
-                        MDLabel:
-                            text: "Al-Thumama Stadium"
-                            adaptive_height: True
-                            pos_hint: {"center_y": .5}
-                            theme_text_color: "Primary"
+                GameCard:
+                    grupo_text: "Grupo A - 21/11 6h"
+                    time1: "Senegal"
+                    flag1: "assets/images/GrupoA/senegal/senegal.png"
+                    time2: "Holanda"
+                    flag2: "assets/images/GrupoA/holanda/holanda.png"
+                    stadium: "Al-Thumama Stadium"
+                    current_match: True
 
                 MDCard:
                     orientation: "vertical"
@@ -111,6 +39,8 @@
                     focus_behavior: True
                     ripple_behavior: True
                     pos_hint: {"center_x": .5, "center_y": .4}
+                    on_release:
+                        print(bg_color)
 
                     MDBoxLayout:
                         id: box_top
@@ -302,11 +232,22 @@
                             pos_hint: {"center_y": .5}
                             theme_text_color: "Primary"
                 GameCard:
-
+                    grupo_text: "Grupo A - 21/11 6h"
+                    time1: "Senegal"
+                    flag1: "assets/images/GrupoA/senegal/senegal.png"
+                    time2: "Holanda"
+                    flag2: "assets/images/GrupoA/holanda/holanda.png"
+                    stadium: "Al-Thumama Stadium"
 
 <GameCard@MDCard>:
     current_color: app.theme_cls.accent_light
-    grupo_text: "Grupo A - 21/11 6h"
+    grupo_text: ""
+    time1: ""
+    flag1: ""
+    time2: ""
+    flag2: ""
+    stadium: ""
+    current_match: False
 
     orientation: "vertical"
     size_hint: .5, None
@@ -314,17 +255,16 @@
     focus_behavior: True
     ripple_behavior: True
     pos_hint: {"center_x": .5, "center_y": .4}
-    md_bg_color: root.current_color
-    unfocus_color: root.current_color
+    md_bg_color:root.current_color if root.current_match else [0.9411764705882353, 0.9411764705882353, 0.9058823529411765, 1.0]
+    unfocus_color: root.current_color if root.current_match else [0.9411764705882353, 0.9411764705882353, 0.9058823529411765, 1.0]
     focus_color: selected_color
 
     MDBoxLayout:
         id: box_top
         adaptive_height: True
-        padding: "10dp", "50dp", 0, "10dp"
+        padding: "10dp", "50dp", 0, "0dp"
 
         MDLabel:
-            id: grupo
             text: root.grupo_text
             adaptive_height: True
             pos_hint: {"center_y": .5}
@@ -334,35 +274,47 @@
 
     MDBoxLayout:
         id: box_middle
-        spacing: "10dp"
+        spacing: "5dp"
         adaptive_height: True
-        padding: "50dp", 0, "50dp", 0
+        padding: "20dp", 0, "20dp", 0
 
-        SmartTileWithLabel:
+        MDLabel:
             id: time1
-            source: "assets/images/GrupoA/senegal/senegal.png"
-            text: "Senegal"
+            text:root.time1
+            font_size: "10"
             bold: True
-            size_hint: None, None
-            width: dp(64)
-            height: dp(64) #text_box.height
-            box_color: 1,1,1,.2
-            tile_text_color: accent_color
-        MDLabel:
-            text: "0"
-        MDLabel:
-            halign: "center"
-            text: "X"
-            font_size: "15"
-            bold: True
-        MDLabel:
             halign: "right"
-            text: "0"
         FitImage:
-            source: "assets/images/GrupoA/holanda/holanda.png"
+            source: root.flag1
             size_hint: None, None
             width: dp(64)
             height: dp(64) #text_box.height
+        MDBoxLayout:
+            spacing: "5dp"
+            padding: "15dp", 10, "15dp", 10
+            size_hint_x: None
+            width: "65dp"
+            MDLabel:
+                halign: 'left'
+                text: "0"
+            MDLabel:
+                halign: "center"
+                text: "X"
+                font_size: "12"
+                bold: True
+            MDLabel:
+                halign: "right"
+                text: "0"
+        FitImage:
+            source: root.flag2
+            size_hint: None, None
+            width: dp(64)
+            height: dp(64)
+        MDLabel:
+            id: time2
+            text: root.time2
+            font_size: "10"
+            bold: True
 
     MDSeparator:
 
@@ -372,7 +324,8 @@
         padding: "10dp", 0, 0, 0
 
         MDLabel:
-            text: "Al-Thumama Stadium"
+            text: root.stadium
             adaptive_height: True
             pos_hint: {"center_y": .5}
             theme_text_color: "Primary"
+            font_size: "12"
