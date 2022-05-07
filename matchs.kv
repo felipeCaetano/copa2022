@@ -39,7 +39,7 @@
                     MDBoxLayout:
                         id: box_top
                         adaptive_height: True
-                        padding: "10dp", "50dp", 0, "10dp"
+                        padding: "10dp", "50dp", 0, "0dp"
 
                         MDLabel:
                             text: "Grupo A - 21/11 6h"
@@ -51,35 +51,48 @@
 
                     MDBoxLayout:
                         id: box_middle
-                        spacing: "10dp"
+                        spacing: "5dp"
                         adaptive_height: True
-                        padding: "50dp", 0, "50dp", 0
+                        padding: "20dp", 0, "20dp", 0
 
-                        SmartTileWithLabel:
+                        MDLabel:
                             id: time1
-                            source: "assets/images/GrupoA/senegal/senegal.png"
                             text: "Senegal"
+                            font_size: "10"
                             bold: True
+                            halign: "right"
+                        FitImage:
+                            source: "assets/images/GrupoA/senegal/senegal.png"
                             size_hint: None, None
                             width: dp(64)
                             height: dp(64) #text_box.height
-                            box_color: 1,1,1,.2
-                            tile_text_color: accent_color
-                        MDLabel:
-                            text: "0"
-                        MDLabel:
-                            halign: "center"
-                            text: "X"
-                            font_size: "15"
-                            bold: True
-                        MDLabel:
-                            halign: "right"
-                            text: "0"
+                        MDBoxLayout:
+                            spacing: "5dp"
+                            padding: "20dp", 10, "20dp", 10
+                            size_hint_x: None
+                            width: 100
+                            MDLabel:
+                                halign: 'left'
+                                text: "0"
+                            MDLabel:
+                                halign: "center"
+                                text: "X"
+                                font_size: "12"
+                                bold: True
+                            MDLabel:
+                                #padding: "5dp", 0, "10dp", 0
+                                halign: "right"
+                                text: "0"
                         FitImage:
                             source: "assets/images/GrupoA/holanda/holanda.png"
                             size_hint: None, None
                             width: dp(64)
-                            height: dp(64) #text_box.height
+                            height: dp(64)
+                        MDLabel:
+                            id: time2
+                            text: "Holanda"
+                            font_size: "10"
+                            bold: True
 
                     MDSeparator:
 
@@ -105,7 +118,7 @@
                     MDBoxLayout:
                         id: box_top
                         adaptive_height: True
-                        padding: "10dp", "50dp", 0, "10dp"
+                        padding: "10dp", "50dp", 0, "0dp"
 
                         MDLabel:
                             text: "Grupo B - 21/11 9h"
@@ -117,32 +130,44 @@
 
                     MDBoxLayout:
                         id: box_middle
-                        spacing: "10dp"
+                        spacing: "5dp"
                         adaptive_height: True
-                        padding: "50dp", 0, "50dp", 0
-
+                        padding: "20dp", 0, "20dp", 0
+                        MDLabel:
+                            id: time1
+                            text: "Inglaterra"
+                            font_size: "10"
+                            bold: True
                         FitImage:
                             source: "assets/images/GrupoB/inglaterra/inglaterra.png"
                             size_hint: None, None
                             width: dp(64)
-                            height: dp(64) #text_box.height
-                        MDLabel:
-                            text: "0"
-                        MDLabel:
-                            halign: "center"
-                            text: "X"
-                            font_size: "15"
-                            bold: True
-                        MDLabel:
-                            halign: "right"
-                            text: "0"
-                        SmartTileWithLabel:
+                            height: dp(64)
+                        MDBoxLayout:
+                            spacing: "5dp"
+                            padding: "20dp", 10, "20dp", 10
+                            size_hint_x: None
+                            width: 100
+                            MDLabel:
+                                text: "0"
+                            MDLabel:
+                                halign: "center"
+                                text: "X"
+                                font_size: "15"
+                                bold: True
+                            MDLabel:
+                                halign: "right"
+                                text: "0"
+                        FitImage:
                             source: "assets/images/GrupoB/irã/irã.png"
-                            text: "Irã"
                             size_hint: None, None
                             width: dp(64)
-                            height: dp(64) #text_box.height
-
+                            height: dp(64)
+                        MDLabel:
+                            id: time2
+                            text: "Irã"
+                            font_size: "10"
+                            bold: True
                     MDSeparator:
 
                     MDBoxLayout:

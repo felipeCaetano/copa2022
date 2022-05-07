@@ -289,7 +289,7 @@ class Copa2022(MDApp):
     def show_matchs(self, *args):
         print(
             args[0].ids.screen_manager.get_screen('matchs').ids)
-        print( args[0].ids.screen_manager.get_screen('matchs').ids.time1.text)
+        print(args[0].ids.screen_manager.get_screen('matchs').ids.time1.text)
 
     def show_team(self, *args):
         teams = {
