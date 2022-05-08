@@ -18,7 +18,7 @@
     ripple_color: ripple_color
     selected_color: selected_color
 
-MDScreen:
+<RootScreen>
     MDTopAppBar:
         title: "Copa do Mundo Catar - 2022"
         elevation: 10
@@ -32,14 +32,6 @@ MDScreen:
         ScreenManager:
             id: screen_manager
 
-            MDScreen:
-
-            Tabela:
-                name: 'results'
-
-#            Catar:
-#                name: 'Catar'
-
         MDNavigationDrawer:
             id: nav_drawer
             radius: (0, 16, 16, 0) if self.anchor == "left" else (16, 0, 0, 16)
@@ -50,43 +42,37 @@ MDScreen:
                 nav_drawer: app.nav_drawer
 
                 MDNavigationDrawerHeader:
+                    source: "assets/images/logo.png"
                     title: "Copa do Mundo 2022"
                     title_color: text_color
+                    title_font_size: '24sp'
                     text: "Catar"
                     text_color: accent_color
-                    source: "assets/images/logo.png"
+                    text_font_size: "14sp"
                     spacing: "4dp"
-                    padding: "12dp", 0, 0, "56dp"
+                    padding: "12dp", "16dp", "0dp", "56dp"
 
                 DrawerClickableItem:
                     text_right_color: text_color
                     text: "Classificação"
                     on_press:
-                        nav_drawer.set_state("close")
-                        print(screen_manager.screens)
-                        screen_manager.current = 'results'
-                        #screen_manager.switch_to(Tabela)
+                        root.goto_screen("results")
 
                 DrawerClickableItem:
                     text_right_color: text_color
                     text: "Jogos"
                     on_press:
-                        nav_drawer.set_state("close")
-                        print(screen_manager.current_screen)
-                        screen_manager.current = 'results'
+                        root.goto_screen("matchs")
+                        app.show_matchs(root)
 
                 DrawerClickableItem:
                     text_right_color: text_color
                     text: "Estádios"
                     on_press:
-                        nav_drawer.set_state("close")
-                        print(screen_manager.current_screen)
-                        screen_manager.current = 'results'
+                        root.goto_screen("results")
 
                 DrawerClickableItem:
                     text_right_color: text_color
                     text: "Cidades"
                     on_press:
-                        nav_drawer.set_state("close")
-                        print(screen_manager.current_screen)
-                        screen_manager.current = 'results'
+                        root.goto_screen("results")

@@ -8,6 +8,7 @@ authors = ["felipec <felipecmelo@gmail.com>"]
 python = "^3.10"
 Kivy = "^2.1.0"
 kivymd = {url = "https://github.com/kivymd/KivyMD/archive/master.zip"}
+blue = "^0.9.0"
 
 [tool.poetry.dev-dependencies]
 
