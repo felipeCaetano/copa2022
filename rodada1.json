@@ -1,0 +1,98 @@
+{
+  "match1": {
+    "grupo_text": "Grupo A 21/11/2022 – 06:00",
+    "time1": "Senegal",
+    "time2": "Holanda",
+    "stadium": "Estádio al-Thumama"
+  },
+  "match2": {
+    "grupo_text": "Grupo B 21/11/2022 – 09:00",
+    "time1": "Inglaterra",
+    "time2": "Irã",
+    "stadium": "Estádio Internacional Khalifa"
+  },
+  "match3": {
+    "grupo_text": "Grupo A 21/11/2022 – 12:00",
+    "time1": "Catar",
+    "time2": "Equador",
+    "stadium": "Estádio al-Bayt"
+  },
+  "match4": {
+    "grupo_text": "Grupo B 21/11/2022 – 15:00",
+    "time1": "EUA",
+    "time2": "euro play-off",
+    "stadium": "Estádio al-Rayyan"
+  },
+  "match5": {
+    "grupo_text": "Grupo C 22/11/2022 – 06:00",
+    "time1": "Argentina",
+    "time2": "Arábia Saudita",
+    "stadium": "Estádio Lusail"
+  },
+  "match6": {
+    "grupo_text": "Grupo D 22/11/2022 – 09:00",
+    "time1": "Dinamarca",
+    "time2": "Tunísia",
+    "stadium": "Estádio Education City"
+  },
+  "match7": {
+    "grupo_text": "Grupo C 22/11/2022 – 12:00",
+    "time1": "México",
+    "time2": "Polônia",
+    "stadium": "Estádio Ras Abu Aboud"
+  },
+  "match8": {
+    "grupo_text": "Grupo D 22/11/2022 - 15:00",
+    "time1": "França",
+    "time2": "ic play-off 1",
+    "stadium": "Estádio al-Janoub"
+  },
+  "match9": {
+    "grupo_text": "Grupo F 23/11/2022 – 06:00",
+    "time1": "Marrocos",
+    "time2": "Croácia",
+    "stadium": "Estádio al-Bayt"
+  },
+  "match10": {
+    "grupo_text": "Grupo E 23/11/2022 – 09:00",
+    "time1": "Alemanha",
+    "time2": "Japão",
+    "stadium": "Estádio Internacional Khalifa"
+  },
+  "match11": {
+    "grupo_text": "Grupo E 23/11/2022 – 12:00",
+    "time1": "Espanha",
+    "time2": "ic play-off 2",
+    "stadium": "Estádio al-Thumama"
+  },
+  "match12": {
+    "grupo_text": "Grupo F 23/11/2022 – 15:00",
+    "time1": "Bélgica",
+    "time2": "Canadá",
+    "stadium": "Estádio al-Rayyan"
+  },
+  "match13": {
+    "grupo_text": "Grupo G 24/11/2022 – 06:00",
+    "time1": "Suíça",
+    "time2": "Camarões",
+    "stadium": "Estádio al-Janoub"
+  },
+  "match14": {
+    "grupo_text": "Grupo H 24/11/2022 – 09:00",
+    "time1": "Uruguai",
+    "time2": "Coréia do Sul",
+    "stadium": "Estádio Education City"
+  },
+  "match15": {
+    "grupo_text": "Grupo H 24/11/2022 – 12:00",
+    "time1": "Portugal",
+    "time2": "Gana",
+    "stadium": "Estádio Ras Abu Aboud"
+  },
+  "match16": {
+    "grupo_text": "Grupo G 24/11/2022 – 15:00",
+    "time1": "Brasil",
+    "time2": "Sérvia",
+    "stadium": "Estádio Lusail"
+  }
+}

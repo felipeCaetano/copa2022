@@ -111,6 +111,68 @@ class Copa2022(MDApp):
         super().__init__(**kwargs)
         Builder.load_file('copa2022.kv')
         self.controller = RootScreenController()
+        self.teams = {
+            'Catar': {
+                'Nome': 'do Catar',
+                'Treinador': 'Treinador do Catar',
+                'flag': 'assets/images/GrupoA/catar/catar.png',
+            },
+            'Equador': {
+                'Nome': 'do Equador',
+                'Treinador': 'Treinador do Equador',
+                'flag': 'assets/images/GrupoA/equador/equador.png',
+            },
+            'Holanda': {
+                'Nome': 'da Holanda',
+                'Treinador': 'Treinador do Holanda',
+                'flag': 'assets/images/GrupoA/holanda/holanda.png',
+            },
+            'Senegal': {
+                'Nome': 'do Senegal',
+                'Treinador': 'Treinador do Senegal',
+                'flag': 'assets/images/GrupoA/senegal/senegal.png',
+            },
+            'EUA': {
+                'Nome': 'dos Estados Unidos',
+                'Treinador': 'Treinador do EUA',
+                'flag': 'assets/images/GrupoB/eua/eua.png',
+            },
+            'Euro Play-off': {
+                'Nome': 'do Euro Play-off',
+                'Treinador': 'Treinador do Euro Play-off',
+                'flag': 'assets/images/GrupoB/euro play-off/euro play-off.png',
+            },
+            'Inglaterra': {
+                'Nome': 'da Inglaterra',
+                'Treinador': 'Treinador do Inglaterra',
+                'flag': 'assets/images/GrupoB/inglaterra/inglaterra.png',
+            },
+            'Irã': {
+                'Nome': 'do Irã',
+                'Treinador': 'Treinador do Irã',
+                'flag': 'assets/images/GrupoB/irã/irã.png',
+            },
+            'Argentina': {
+                'Nome': 'da Argentina',
+                'Treinador': 'Treinador daArgentina',
+                'flag': 'assets/images/GrupoC/argentina/argentina.png',
+            },
+            'México': {
+                'Nome': 'do México',
+                'Treinador': 'Treinador do México',
+                'flag': 'assets/images/GrupoC/méxico/méxico.png',
+            },
+            'Arábia Saudita': {
+                'Nome': 'da Arábia Saudita',
+                'Treinador': 'Treinador da Arábia Saudita',
+                'flag': 'assets/images/GrupoC/arábia saudita/arábia saudita.png',
+            },
+            'Polonia': {
+                'Nome': 'da Polonia',
+                'Treinador': 'Treinador da Polonia',
+                'flag': 'assets/images/GrupoC/polonia/polonia.png',
+            },
+        }
 
     def build(self):
         return self.controller.get_screen()
@@ -135,7 +197,43 @@ class Copa2022(MDApp):
         if tab_text in self.grupos and tab_text != '':
             self.update_tab(instance_tab, tab_text)
         else:
-            print(instance_tab.ids, tab_text)
+            self.create_match(instance_tab, tab_text)
+
+    def create_match(self, instace_tab, tab_text):
+        data = self.load_matches(tab_text)
+        for match in data.keys():
+            gamecard = Factory.GameCard()
+            instace_tab.ids.cards.add_widget(gamecard)
+            self.set_game_card(data, gamecard, match)
+
+    def set_game_card(self, data, gamecard, match):
+        try:
+            gamecard.grupo_text = data[match]["grupo_text"] + "h"
+            gamecard.time1 = data[match]['time1']
+            gamecard.time2 = data[match]['time2']
+            path = data[match]['grupo_text'][0:7].replace(" ", "")
+            gamecard.flag1 = f'assets/images/{path}/{data[match]["time1"].lower()}/{data[match]["time1"].lower()}.png'
+            gamecard.flag2 = f'assets/images/{path}/{data[match]["time2"].lower()}/{data[match]["time2"].lower()}.png'
+            gamecard.stadium = data[match]["stadium"]
+            # hora = datetime.datetime.now()
+            # print(hora.)
+        except KeyError:
+            print(
+                f"Pelo menos um destes times não estao na lista {gamecard.time1, gamecard.time2}")
+
+    def load_matches(self, tab_text):
+        res = None
+        if tab_text == '1ª Rodada':
+            res = open('rodada1.json', 'r', encoding='utf-8')
+            data = json.load(res)
+        elif tab_text == '2ª Rodada':
+            res = open('rodada1.json', 'r', encoding='utf-8')
+            data = json.load(res)
+        elif tab_text == '3ª Rodada':
+            res = open('rodada1.json', 'r', encoding='utf-8')
+            data = json.load(res)
+        res.close()
+        return data
 
     def make_group(self, instance_tab, tab_text):
         cont_team = {
@@ -153,7 +251,6 @@ class Copa2022(MDApp):
 
     def create_team(self, team):
         """
-        PAREI AQUI TÀ QUASE CERTO
         :param team:
         :return:
         """
@@ -292,77 +389,17 @@ class Copa2022(MDApp):
         res.close()
 
     def show_matchs(self, *args):
-        print(
-            args[0].ids.screen_manager.get_screen('matchs').ids)
-        #print(args[0].ids.screen_manager.get_screen('matchs').ids.time1.text)
+        tab = args[0].ids.screen_manager.get_screen(
+            'matchs'
+        ).ids.tabs.get_tab_list()[0]
+        self.create_match(tab.tab, tab.text)
 
     def show_team(self, *args):
-        teams = {
-            'Catar': {
-                'Nome': 'do Catar',
-                'Treinador': 'Treinador do Catar',
-                'flag': 'assets/images/GrupoA/catar/catar.png',
-            },
-            'Equador': {
-                'Nome': 'do Equador',
-                'Treinador': 'Treinador do Equador',
-                'flag': 'assets/images/GrupoA/equador/equador.png',
-            },
-            'Holanda': {
-                'Nome': 'da Holanda',
-                'Treinador': 'Treinador do Holanda',
-                'flag': 'assets/images/GrupoA/holanda/holanda.png',
-            },
-            'Senegal': {
-                'Nome': 'do Senegal',
-                'Treinador': 'Treinador do Senegal',
-                'flag': 'assets/images/GrupoA/senegal/senegal.png',
-            },
-            'EUA': {
-                'Nome': 'dos Estados Unidos',
-                'Treinador': 'Treinador do EUA',
-                'flag': 'assets/images/GrupoB/eua/eua.png',
-            },
-            'Euro Play-off': {
-                'Nome': 'do Euro Play-off',
-                'Treinador': 'Treinador do Euro Play-off',
-                'flag': 'assets/images/GrupoB/euro play-off/euro play-off.png',
-            },
-            'Inglaterra': {
-                'Nome': 'da Inglaterra',
-                'Treinador': 'Treinador do Inglaterra',
-                'flag': 'assets/images/GrupoB/inglaterra/inglaterra.png',
-            },
-            'Irã': {
-                'Nome': 'do Irã',
-                'Treinador': 'Treinador do Irã',
-                'flag': 'assets/images/GrupoB/irã/irã.png',
-            },
-            'Argentina': {
-                'Nome': 'da Argentina',
-                'Treinador': 'Treinador daArgentina',
-                'flag': 'assets/images/GrupoC/argentina/argentina.png',
-            },
-            'México': {
-                'Nome': 'do México',
-                'Treinador': 'Treinador do México',
-                'flag': 'assets/images/GrupoC/méxico/méxico.png',
-            },
-            'Arábia Saudita': {
-                'Nome': 'da Arábia Saudita',
-                'Treinador': 'Treinador da Arábia Saudita',
-                'flag': 'assets/images/GrupoC/arábia saudita/arábia saudita.png',
-            },
-            'Polonia': {
-                'Nome': 'da Polonia',
-                'Treinador': 'Treinador da Polonia',
-                'flag': 'assets/images/GrupoC/polonia/polonia.png',
-            },
-        }
+
         team = Catar(name=args[0])
-        team.team_name = f"Seleção {teams[args[0]]['Nome']}"
-        team.treinador = f"{teams[args[0]]['Treinador']}"
-        team.flag = teams[args[0]]['flag']
+        team.team_name = f"Seleção {self.teams[args[0]]['Nome']}"
+        team.treinador = f"{self.teams[args[0]]['Treinador']}"
+        team.flag = self.teams[args[0]]['flag']
         try:
             team = self.root.ids.screen_manager.get_screen(args[0])
             self.root.ids.screen_manager.current = team.name
