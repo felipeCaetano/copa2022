@@ -66,6 +66,11 @@ class Matchs(BaseScreenView):
     pass
 
 
+class PlayOffs(BaseScreenView):
+    "classe para a tela dos playoffs."
+    pass
+
+
 class Catar(BaseScreenView):
     team_name = StringProperty()
     treinador = StringProperty()
@@ -98,12 +103,12 @@ class Copa2022(MDApp):
     grupos = {
         'Grupo A': ['Catar', 'Equador', 'Senegal', 'Holanda'],
         'Grupo B': ['Inglaterra', 'Irã', 'EUA', 'Euro Play-off'],
-        'Grupo C': ['Argentina', 'Arábia Saudita', 'México', 'Polonia'],
+        'Grupo C': ['Argentina', 'Arábia Saudita', 'México', 'Polônia'],
         'Grupo D': ['França', 'IC Play-off 1', 'Dinamarca', 'Tunísia'],
         'Grupo E': ['Espanha', 'IC Play-off 2', 'Alemanha', 'Japão'],
         'Grupo F': ['Bélgica', 'Canadá', 'Marrocos', 'Croácia'],
         'Grupo G': ['Brasil', 'Sérvia', 'Suíça', 'Camarões'],
-        'Grupo H': ['Portugal', 'Gana', 'Uruguai', 'Coreia do Sul'],
+        'Grupo H': ['Portugal', 'Gana', 'Uruguai', 'Coréia do Sul'],
         '': ['Catar', 'Equador', 'Senegal', 'Holanda'],
     }
 
@@ -226,12 +231,15 @@ class Copa2022(MDApp):
         if tab_text == '1ª Rodada':
             res = open('rodada1.json', 'r', encoding='utf-8')
             data = json.load(res)
+            data = data[tab_text]
         elif tab_text == '2ª Rodada':
             res = open('rodada1.json', 'r', encoding='utf-8')
             data = json.load(res)
+            data = data[tab_text]
         elif tab_text == '3ª Rodada':
             res = open('rodada1.json', 'r', encoding='utf-8')
             data = json.load(res)
+            data = data[tab_text]
         res.close()
         return data
 

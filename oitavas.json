@@ -1,0 +1,50 @@
+{
+  "match1": {
+    "grupo_text": "Jogo 1 03/12/2022 – 11:00",
+    "time1": "Vencedor gr. A",
+    "time2": "Segundo gr. B",
+    "stadium": "Estadio Internacional Khalifa"
+  },
+  "match2": {
+    "grupo_text": "Jogo 2 03/12/2022 – 15:00",
+    "time1": "Vencedor gr. C",
+    "time2": "Segundo gr. D",
+    "stadium": "Estadio Estadio al-Rayyan"
+  },
+  "match3": {
+    "grupo_text": "Jogo 3 04/12/2022 – 11:00",
+    "time1": "Vencedor gr. D",
+    "time2": "Segundo gr. C",
+    "stadium": "Estadio al-Thumama"
+  },
+  "match4": {
+    "grupo_text": "Jogo 4 04/12/2022 – 15:00",
+    "time1": "Vencedor gr. B",
+    "time2": "Segundo gr. A",
+    "stadium": "Estadio al-Bayt"
+  },
+  "match5": {
+    "grupo_text": "Jogo 5 05/12/2022 – 11:00",
+    "time1": "Vencedor gr. E",
+    "time2": "Segundo gr. F",
+    "stadium": "Estadio Ras Abu Aboud"
+  },
+  "match6": {
+    "grupo_text": "Jogo 6 05/12/2022 – 15:00",
+    "time1": "Vencedor gr. G",
+    "time2": "Segundo gr. H",
+    "stadium": "Estadio al-Janoub"
+  },
+  "match7": {
+    "grupo_text": "Jogo 7 06/12/2022 – 11:00",
+    "time1": "Vencedor gr. F",
+    "time2": "Segundo gr. E",
+    "stadium": "Estádio Internacional Khalifa"
+  },
+  "match8": {
+    "grupo_text": "Jogo 8 06/12/2022 – 15:00",
+    "time1": "Vencedor gr. H",
+    "time2": "Segundo gr. G",
+    "stadium": "Estádio Lusail"
+  }
+}
