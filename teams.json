@@ -2,7 +2,7 @@
   "Catar": {
     "grupo": "A",
     "Nome": "do Catar",
-    "Treinador": "Treinador do Catar",
+    "Treinador": "Félix Sánchez",
     "flag": "assets/images/GrupoA/catar/catar.png",
     "0": [
       "22",
@@ -145,21 +145,21 @@
       "Al-Arabi SC"
     ],
     "20": [
-      "22",
-      "Meshaal Barsham",
-      "Goleiro",
-      "24",
-      "Al-Sadd SC"
+      "-",
+      "Naif Al-Hadhrami",
+      "Ponta Direita",
+      "20",
+      "Al-Rayyan SC"
     ],
     "21": [
-      "22",
-      "Meshaal Barsham",
-      "Goleiro",
-      "24",
-      "Al-Sadd SC"
+      "19",
+      "Almoez Ali",
+      "Centroavante",
+      "25",
+      "Al-Duhail SC"
     ],
     "22": [
-      "22",
+      "7",
       "Meshaal Barsham",
       "Goleiro",
       "24",
@@ -167,16 +167,16 @@
     ],
     "23": [
       "22",
-      "Meshaal Barsham",
-      "Goleiro",
-      "24",
-      "Al-Sadd SC"
+      "Ahmed Alaaeldin",
+      "Centroavante",
+      "29",
+      "Al-Gharafa SC"
     ]
   },
   "Equador": {
       "grupo": "A",
       "Nome": "do Equador",
-      "Treinador": "Treinador do Equador",
+      "Treinador": "Gustavo Alfaro",
       "flag": "assets/images/GrupoA/equador/equador.png",
       "0": [
           "22",
@@ -193,174 +193,181 @@
           "CF Universidad de Chile"
       ],
       "2": [
+          "12",
+          "Jorge Pinos",
+          "Goleiro",
+          "32",
+          "AD Nueve de Octubre"
+      ],
+      "3": [
           "33",
           "Piero Hincapié",
           "Zagueiro",
           "20",
           "AD Nueve de Octubre"
       ],
-      "3": [
+      "4": [
           "2",
           "Félix Torres",
           "Zagueiro",
           "25",
           "San Lorenzo"
       ],
-      "4": [
-          "5",
+      "5": [
+          "4",
           "Robert Arboleda",
           "Zagueiro",
           "30",
           "São Paulo FC"
       ],
-      "5": [
+      "6": [
           "30",
           "Fernando León",
           "Zagueiro",
           "29",
           "Valencia"
       ],
-      "6": [
+      "7": [
           "14",
           "Xavier Arreaga",
           "Zagueiro",
           "27",
           "Seattle Sounders FC"
       ],
-      "7": [
+      "8": [
           "7",
           "Pervis Estupiñán",
           "Lateral Esq.",
           "24",
           "FC Villarreal"
       ],
-      "8": [
+      "9": [
           "18",
           "Diego Palacios",
           "Lateral Esq.",
           "22",
           "Los Angeles FC"
       ],
-      "9": [
-          "17",
+      "10": [
+          "6",
           "Byron Castillo",
           "Lateral Dir.",
           "23",
           "Barcelona SC"
       ],
-      "10": [
+      "11": [
           "17",
           "Angelo Preciado",
           "Lateral Dir.",
           "24",
           "KRC Genk"
       ],
-      "11": [
+      "12": [
           "8",
           "Carlos Gruezo",
           "Volante",
           "27",
           "Augsburgo FC"
       ],
-      "12": [
+      "13": [
           "20",
           "Jhegson Méndez",
           "Volante",
           "25",
           "Orlando City SC"
       ],
-      "13": [
+      "14": [
           "5",
           "Michael Carcelén",
           "Volante",
           "25",
           "Barcelona SC"
       ],
-      "14": [
+      "15": [
           "21",
           "José Cifuentes",
           "Meia Central",
           "23",
           "Los Angeles FC"
       ],
-      "15": [
+      "16": [
           "23",
           "Moisés Caicedo",
           "Meia Central",
           "20",
           "Brighton Albion"
       ],
-      "16": [
+      "17": [
           "21",
           "Alan Franco",
           "Meia Central",
           "23",
           "Charlotte FC"
       ],
-      "17": [
+      "18": [
           "-",
           "Danny Cabezas",
           "Meia Ofensivo",
           "29",
           "Independiente del Valle"
       ],
-      "18": [
+      "19": [
           "16",
           "Jeremy Sarmiento",
           "Meia Ofensivo",
           "19",
           "Brighton Albion"
       ],
-      "19": [
+      "20": [
           "10",
           "Joao Rojas",
           "Ponta Esquerda",
           "24",
           "CS Emelec"
       ],
-      "20": [
+      "21": [
           "10",
           "Romario Ibarra",
           "Ponta Esquerda",
-          "24",
+          "27",
           "CF Pachuca"
       ],
-      "21": [
+      "22": [
           "19",
           "Gonzalo Plata",
           "Ponta Direita",
           "21",
           "Real Valladolid CF"
       ],
-      "22": [
+      "23": [
           "15",
           "Ángel Mena",
           "Ponta Direita",
           "34",
           "Club León"
       ],
-      "23": [
+      "24": [
           "11",
           "Michael Estrada",
           "Centroavante",
           "26",
           "D.C. United"
       ],
-      "24": [
+      "25": [
           "13",
           "Enner Valencia",
           "Centroavante",
           "32",
           "Fenerbahce SK"
       ],
-     "25": [
+      "26": [
           "9",
           "Jordy Caicedo",
           "Centroavante",
           "24",
           "CSKA-Sofia"
       ],
-    "26": [
+      "27": [
           "16",
           "Djorkaeff Reasco",
           "Centroavante",
@@ -451,116 +458,109 @@
         "FC Bayern de Munique"
     ],
     "11": [
-        "-",
-        "Ibrahima Mbaye",
-        "Lateral Dir.",
-        "27",
-        "FC Bologna"
-    ],
-    "12": [
-        "-",
-        "Lamine Gassama",
-        "Lateral Dir.",
-        "32",
-        "CE Sabadell"
-    ],
-    "13": [
         "17",
         "Pape Sarr",
         "Volante",
         "19",
         "FC Metz"
     ],
-    "14": [
+    "12": [
         "-",
         "Idrissa Gueye",
         "Volante",
-        "32",
+        "29",
         "FC Paris Saint-Germain"
     ],
-    "15": [
+    "13": [
+        "6",
+        "Nampalys Mendy",
+        "Volante",
+        "29",
+        "Leicester City FC"
+    ],
+    "14": [
         "22",
         "Pape Gueye",
         "Volante",
         "23",
         "Olympique Marselha"
     ],
-    "16": [
-        "24",
-        "Nampalys Mendy",
-        "Volante",
-        "29",
-        "Leicester City FC"
-    ],
-    "17": [
+    "15": [
         "8",
         "Cheikhou Kouyaté",
         "Volante",
         "32",
         "Crystal Palace FC"
     ],
-    "18": [
+    "16": [
         "25",
         "Mamadou Loum",
         "Volante",
         "25",
         "Deportivo Alavés"
     ],
-    "19": [
+    "17": [
         "24",
         "Moustapha Name",
         "Meia Central",
         "27",
         "Paris FC"
     ],
-    "20": [
-        "-",
-        "Joseph Lopy",
-        "Meia Central",
-        "30",
-        "FC Sochaux-Montbéliard"
-    ],
-    "21": [
+    "18": [
         "10",
         "Sadio Mané",
         "Ponta Esq.",
         "30",
         "FC Liverpool"
     ],
-    "22": [
+    "19": [
         "27",
         "Mame Thiam",
         "Ponta Esq.",
         "29",
         "Kayserispor"
     ],
-    "23": [
+    "20": [
         "18",
         "Ismaïla Sarr",
         "Ponta Dir.",
         "24",
         "FC Watford"
     ],
-    "24": [
+    "21": [
         "9",
         "Boulaye Dia",
         "Centroavante",
         "25",
         "FC Watford"
     ],
-    "25": [
+    "22": [
         "11",
         "Habib Diallo",
         "Centroavante",
         "26",
         "RC Strasbourg Alsace"
     ],
-    "26": [
+    "23": [
         "15",
         "Bamba Dieng",
         "Centroavante",
         "22",
         "Olympique Marselha"
+    ],
+    "24": [
+        "7",
+        "Keita Baldé",
+        "Centroavante",
+        "27",
+        "Cagliari Calcio"
+    ],
+    "25": [
+        "19",
+        "Famara Diédhiou",
+        "Centroavante",
+        "29",
+        "Alanyaspor"
     ]
   },
   "Holanda": {
