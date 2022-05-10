@@ -1,6 +1,9 @@
 {
   "Catar": {
     "grupo": "A",
+    "Nome": "do Catar",
+    "Treinador": "Treinador do Catar",
+    "flag": "assets/images/GrupoA/catar/catar.png",
     "0": [
       "22",
       "Meshaal Barsham",
@@ -172,6 +175,9 @@
   },
   "Equador": {
       "grupo": "A",
+      "Nome": "do Equador",
+      "Treinador": "Treinador do Equador",
+      "flag": "assets/images/GrupoA/equador/equador.png",
       "0": [
           "22",
           "Moisés Ramírez",
@@ -364,6 +370,9 @@
   },
   "Senegal": {
     "grupo": "A",
+    "Nome": "do Senal",
+    "Treinador": "Treinador do Senegal",
+    "flag": "assets/images/GrupoA/senegal/senegal.png",
     "0": [
       "16",
       "Edouard Mendy",
@@ -442,99 +451,123 @@
         "FC Bayern de Munique"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "-",
+        "Ibrahima Mbaye",
+        "Lateral Dir.",
+        "27",
+        "FC Bologna"
     ],
     "12": [
         "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
+        "Lamine Gassama",
+        "Lateral Dir.",
+        "32",
+        "CE Sabadell"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
+        "17",
+        "Pape Sarr",
         "Volante",
-        "20",
-        "Al-Arabi SC"
+        "19",
+        "FC Metz"
     ],
     "14": [
         "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "Idrissa Gueye",
+        "Volante",
+        "32",
+        "FC Paris Saint-Germain"
     ],
     "15": [
-        "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "22",
+        "Pape Gueye",
+        "Volante",
+        "23",
+        "Olympique Marselha"
     ],
     "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
+        "24",
+        "Nampalys Mendy",
+        "Volante",
+        "29",
+        "Leicester City FC"
     ],
     "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "8",
+        "Cheikhou Kouyaté",
+        "Volante",
+        "32",
+        "Crystal Palace FC"
     ],
     "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "25",
+        "Mamadou Loum",
+        "Volante",
+        "25",
+        "Deportivo Alavés"
     ],
     "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
         "24",
-        "Al-Sadd SC"
+        "Moustapha Name",
+        "Meia Central",
+        "27",
+        "Paris FC"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "-",
+        "Joseph Lopy",
+        "Meia Central",
+        "30",
+        "FC Sochaux-Montbéliard"
     ],
     "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "10",
+        "Sadio Mané",
+        "Ponta Esq.",
+        "30",
+        "FC Liverpool"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "27",
+        "Mame Thiam",
+        "Ponta Esq.",
+        "29",
+        "Kayserispor"
     ],
     "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
+        "18",
+        "Ismaïla Sarr",
+        "Ponta Dir.",
         "24",
-        "Al-Sadd SC"
+        "FC Watford"
+    ],
+    "24": [
+        "9",
+        "Boulaye Dia",
+        "Centroavante",
+        "25",
+        "FC Watford"
+    ],
+    "25": [
+        "11",
+        "Habib Diallo",
+        "Centroavante",
+        "26",
+        "RC Strasbourg Alsace"
+    ],
+    "26": [
+        "15",
+        "Bamba Dieng",
+        "Centroavante",
+        "22",
+        "Olympique Marselha"
     ]
   },
   "Holanda": {
     "grupo": "A",
+    "Nome": "da Holanda",
+    "Treinador": "Treinador da Holanda",
+    "flag": "assets/images/GrupoA/holanda/holanda.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -706,6 +739,9 @@
   },
   "Inglaterra": {
     "grupo": "B",
+    "Nome": "da Inglaterra",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoB/inglaterra/inglaterra.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -877,6 +913,9 @@
   },
   "Irã": {
     "grupo": "B",
+    "Nome": "do Irã",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoB/irã/irã.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -1048,6 +1087,9 @@
   },
   "EUA": {
     "grupo": "B",
+    "Nome": "dos EUA",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoB/eua/eua.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -1217,8 +1259,11 @@
         "Al-Sadd SC"
     ]
   },
-  "Euro Play-off": {
+  "euro play-off": {
     "grupo": "B",
+    "Nome": "do Euro Play-off",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoB/euro play-off/euro play-off.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -1390,6 +1435,9 @@
   },
   "Argentina": {
     "grupo": "C",
+    "Nome": "da Argentina",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoC/argentina/argentina.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -1561,6 +1609,9 @@
   },
   "Arábia Saudita": {
     "grupo": "C",
+    "Nome": "da Arábia Saudita ",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoC/arábia saudita/arábia saudita.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -1732,6 +1783,9 @@
   },
   "México": {
     "grupo": "C",
+    "Nome": "do México",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoC/méxico/méxico.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -1901,8 +1955,11 @@
         "Al-Sadd SC"
     ]
   },
-  "Polonia": {
+  "Polônia": {
     "grupo": "C",
+    "Nome": "da Polônia",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoC/polônia/polônia.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -2074,6 +2131,9 @@
   },
   "França": {
     "grupo": "D",
+    "Nome": "da França",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoD/frança/frança.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -2243,8 +2303,11 @@
         "Al-Sadd SC"
     ]
   },
-  "IC Play-off 1": {
+  "ic play-off 1": {
     "grupo": "D",
+    "Nome": "da IC Play-off 1",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoD/ic play off 1/ic play off 1.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -2416,6 +2479,9 @@
   },
   "Dinamarca": {
     "grupo": "D",
+    "Nome": "da Dinamarca",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoD/dinamarca/dinamarca.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -2587,6 +2653,9 @@
   },
   "Tunísia": {
     "grupo": "D",
+    "Nome": "da Tunísia",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoD/tunísia/tunísia.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -2758,6 +2827,9 @@
   },
   "Espanha": {
     "grupo": "E",
+    "Nome": "da Espanha",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoE/espanha/espanha.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -2927,8 +2999,11 @@
         "Al-Sadd SC"
     ]
   },
-  "IC Play-off 2": {
+  "ic play-off 2": {
     "grupo": "E",
+    "Nome": "da IC Play-off 2",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoE/ic play off 2/ic play off 2.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -3100,6 +3175,9 @@
   },
   "Alemanha": {
     "grupo": "E",
+    "Nome": "da Alemanha",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoE/alemanha/alemanha.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -3271,6 +3349,9 @@
   },
   "Japão": {
     "grupo": "E",
+    "Nome": "do Japão",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoE/japão/japão.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -3442,6 +3523,9 @@
   },
   "Bélgica": {
     "grupo": "F",
+    "Nome": "da Bélgica",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoF/bélgica/bélgica.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -3613,6 +3697,9 @@
   },
   "Canadá": {
     "grupo": "F",
+    "Nome": "da Canadá",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoF/canadá/canadá.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -3784,6 +3871,9 @@
   },
   "Marrocos": {
     "grupo": "F",
+    "Nome": "do Marrocos",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoF/marrocos/marrocos.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -3955,6 +4045,9 @@
   },
   "Croácia": {
     "grupo": "F",
+    "Nome": "da Croácia",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoF/croácia/croácia.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -4126,6 +4219,9 @@
   },
   "Brasil": {
     "grupo": "G",
+    "Nome": "do Brasil",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoG/brasil/brasil.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -4297,6 +4393,9 @@
   },
   "Sérvia": {
     "grupo": "G",
+    "Nome": "da Sérvia",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoG/sérvia/sérvia.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -4468,6 +4567,9 @@
   },
   "Suíça": {
     "grupo": "G",
+    "Nome": "da Suíça",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoG/suíça/suíça.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -4639,6 +4741,9 @@
   },
   "Camarões": {
     "grupo": "G",
+    "Nome": "de Camarões",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoG/camarões/camarões.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -4810,6 +4915,9 @@
   },
   "Portugal": {
     "grupo": "H",
+    "Nome": "de Portugal",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoH/portugal/portugal.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -4981,6 +5089,9 @@
   },
   "Gana": {
     "grupo": "H",
+    "Nome": "de Gana",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoH/gana/gana.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -5152,6 +5263,9 @@
   },
   "Uruguai": {
     "grupo": "H",
+    "Nome": "do Uruguai",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoH/uruguai/uruguai.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -5321,8 +5435,11 @@
         "Al-Sadd SC"
     ]
   },
-  "Coreia do Sul": {
+  "Coréia do Sul": {
     "grupo": "H",
+    "Nome": "da Coréia do Sul",
+    "Treinador": "Treinador",
+    "flag": "assets/images/GrupoH/coréia do sul/coréia do sul.png",
     "0": [
         "22",
         "Meshaal Barsham",

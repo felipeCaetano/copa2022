@@ -7,7 +7,6 @@ from kivy.lang import Builder
 from kivy.properties import ObjectProperty, StringProperty
 from kivy.uix.screenmanager import ScreenManagerException
 from kivymd.app import MDApp
-from kivymd.icon_definitions import md_icons
 from kivymd.theming import ThemableBehavior
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.expansionpanel import (
@@ -17,13 +16,9 @@ from kivymd.uix.expansionpanel import (
 from kivymd.uix.floatlayout import MDFloatLayout
 from kivymd.uix.list import (
     IRightBodyTouch,
-    OneLineAvatarIconListItem,
-    ILeftBodyTouch,
 )
 from kivymd.uix.screen import MDScreen
-from kivymd.uix.selectioncontrol import MDCheckbox
 from kivymd.uix.tab import MDTabsBase
-from kivymd.utils import asynckivy
 
 from catar import Content
 
@@ -84,6 +79,7 @@ class Tab(MDFloatLayout, MDTabsBase):
 class GameTab(MDFloatLayout, MDTabsBase):
     """Class implementing content for a gametab."""
 
+
 class TeamContainer(IRightBodyTouch, MDBoxLayout):
     adaptive_width = True
 
@@ -116,68 +112,10 @@ class Copa2022(MDApp):
         super().__init__(**kwargs)
         Builder.load_file('copa2022.kv')
         self.controller = RootScreenController()
-        self.teams = {
-            'Catar': {
-                'Nome': 'do Catar',
-                'Treinador': 'Treinador do Catar',
-                'flag': 'assets/images/GrupoA/catar/catar.png',
-            },
-            'Equador': {
-                'Nome': 'do Equador',
-                'Treinador': 'Treinador do Equador',
-                'flag': 'assets/images/GrupoA/equador/equador.png',
-            },
-            'Holanda': {
-                'Nome': 'da Holanda',
-                'Treinador': 'Treinador do Holanda',
-                'flag': 'assets/images/GrupoA/holanda/holanda.png',
-            },
-            'Senegal': {
-                'Nome': 'do Senegal',
-                'Treinador': 'Treinador do Senegal',
-                'flag': 'assets/images/GrupoA/senegal/senegal.png',
-            },
-            'EUA': {
-                'Nome': 'dos Estados Unidos',
-                'Treinador': 'Treinador do EUA',
-                'flag': 'assets/images/GrupoB/eua/eua.png',
-            },
-            'Euro Play-off': {
-                'Nome': 'do Euro Play-off',
-                'Treinador': 'Treinador do Euro Play-off',
-                'flag': 'assets/images/GrupoB/euro play-off/euro play-off.png',
-            },
-            'Inglaterra': {
-                'Nome': 'da Inglaterra',
-                'Treinador': 'Treinador do Inglaterra',
-                'flag': 'assets/images/GrupoB/inglaterra/inglaterra.png',
-            },
-            'Irã': {
-                'Nome': 'do Irã',
-                'Treinador': 'Treinador do Irã',
-                'flag': 'assets/images/GrupoB/irã/irã.png',
-            },
-            'Argentina': {
-                'Nome': 'da Argentina',
-                'Treinador': 'Treinador daArgentina',
-                'flag': 'assets/images/GrupoC/argentina/argentina.png',
-            },
-            'México': {
-                'Nome': 'do México',
-                'Treinador': 'Treinador do México',
-                'flag': 'assets/images/GrupoC/méxico/méxico.png',
-            },
-            'Arábia Saudita': {
-                'Nome': 'da Arábia Saudita',
-                'Treinador': 'Treinador da Arábia Saudita',
-                'flag': 'assets/images/GrupoC/arábia saudita/arábia saudita.png',
-            },
-            'Polonia': {
-                'Nome': 'da Polonia',
-                'Treinador': 'Treinador da Polonia',
-                'flag': 'assets/images/GrupoC/polonia/polonia.png',
-            },
-        }
+
+        with open('teams.json', 'r', encoding='utf-8') as selecoes:
+            data = json.load(selecoes)
+            self.teams = data
 
     def build(self):
         return self.controller.get_screen()
@@ -216,9 +154,8 @@ class Copa2022(MDApp):
             gamecard.grupo_text = data[match]["grupo_text"] + "h"
             gamecard.time1 = data[match]['time1']
             gamecard.time2 = data[match]['time2']
-            path = data[match]['grupo_text'][0:7].replace(" ", "")
-            gamecard.flag1 = f'assets/images/{path}/{data[match]["time1"].lower()}/{data[match]["time1"].lower()}.png'
-            gamecard.flag2 = f'assets/images/{path}/{data[match]["time2"].lower()}/{data[match]["time2"].lower()}.png'
+            gamecard.flag1 = self.teams[gamecard.time1]['flag']
+            gamecard.flag2 = self.teams[gamecard.time2]['flag']
             gamecard.stadium = data[match]["stadium"]
             # hora = datetime.datetime.now()
             # print(hora.)
@@ -262,116 +199,17 @@ class Copa2022(MDApp):
         :param team:
         :return:
         """
-        players = {
-            'Catar': {
-                'grupo': 'A',
-                0: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                1: ['1', 'Saad Al-Sheeb', 'Goleiro', '32', 'Al-Sadd SC'],
-                2: ['21', 'Yousef Hassan', 'Goleiro', '25', 'Al-Gharafa SC'],
-                3: ['2', 'Pedro Miguel', 'Zagueiro', '31', 'Al-Sadd SC'],
-                4: ['5', 'Tarek Salman', 'Zagueiro', '31', 'Al-Sadd SC'],
-                5: ['15', 'Bassam Al-Rawi', 'Zagueiro', '24', 'Al-Duhail SC'],
-                6: ['16', 'Boualem Khoukhi', 'Zagueiro', '31', 'Al-Sadd SC'],
-                7: [
-                    '3',
-                    'Abdelkarim Hassan',
-                    'Lateral Esq.',
-                    '28',
-                    'Al-Sadd SC',
-                ],
-                8: [
-                    '24',
-                    'Homam Ahmed',
-                    'Lateral Esq.',
-                    '22',
-                    'Al-Gharafa SC',
-                ],
-                9: ['13', 'Musab Khoder', 'Lateral Dir.', '29', 'Al-Sadd SC'],
-                10: ['12', 'Karim Boudiaf', 'Volante', '31', 'Al-Duhail SC'],
-                11: ['23', 'Assim Madibo', 'Volante', '25', 'Al-Duhail SC'],
-                12: ['-', 'Salem Al-Hajri', 'Volante', '26', 'Al-Sadd SC'],
-                13: [
-                    '-',
-                    'Jassem Gaber Abdulsallam',
-                    'Volante',
-                    '20',
-                    'Al-Arabi SC',
-                ],
-                14: [
-                    '-',
-                    'Abdulaziz Hatem',
-                    'Meia Central',
-                    '31',
-                    'Al-Rayyan SC',
-                ],
-                15: ['-', 'Ahmed Fathi', 'Meia Central', '28', 'Al-Arabi SC'],
-                16: ['-', 'Ahmad Doozandeh', 'Meia Central', '26', 'Qatar SC'],
-                17: [
-                    '-',
-                    'Abdullah Marafee',
-                    'Meia Central',
-                    '30',
-                    'Al-Arabi SC',
-                ],
-                18: ['4', 'Mohammed Waad', 'Meia Central', '22', 'Al-Sadd SC'],
-                19: [
-                    '20',
-                    'Abdullah Al-Ahrak',
-                    'Meia Ofensivo',
-                    '24',
-                    'Al-Sadd SC',
-                ],
-                20: ['8', "Ali Asad", 'Meia Ofensivo', '29', 'Al-Sadd SC'],
-                21: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                22: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                23: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-            },
-            'Equador': {
-                'grupo': 'A',
-                0: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                1: ['1', 'Saad Al-Sheeb', 'Goleiro', '32', 'Al-Sadd SC'],
-                2: ['21', 'Yousef Hassan', 'Goleiro', '25', 'Al-Gharafa SC'],
-                3: ['2', 'Pedro Miguel', 'Zagueiro', '31', 'Al-Sadd SC'],
-                4: ['5', 'Tarek Salman', 'Zagueiro', '31', 'Al-Sadd SC'],
-                5: ['15', 'Bassam Al-Rawi', 'Zagueiro', '24', 'Al-Duhail SC'],
-                6: ['16', 'Boualem Khoukhi', 'Zagueiro', '31', 'Al-Sadd SC'],
-                7: [
-                    '3',
-                    'Abdelkarim Hassan',
-                    'Lateral Esq.',
-                    '28',
-                    'Al-Sadd SC',
-                ],
-                8: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                9: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                10: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                11: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                12: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                13: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                14: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                15: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                16: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                17: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                18: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                19: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                20: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                21: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                22: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-                23: ['22', 'Meshaal Barsham', 'Goleiro', '24', 'Al-Sadd SC'],
-            },
-        }
-
-        grupo = players[team.name]['grupo']
-        selec = team.name.lower()
+        grupo = self.teams[team.name]['grupo']
+        selecao = team.name.lower()
         for i in range(24):
             team.ids.box.add_widget(
                 MDExpansionPanel(
-                    icon=f'assets/images/Grupo{grupo}/{selec}/players/{i}.png',
+                    icon=f'assets/images/Grupo{grupo}/{selecao}/players/{i}.png',
                     content=Content(),
                     panel_cls=MDExpansionPanelThreeLine(
-                        text=players[team.name][i][1],
-                        secondary_text=players[team.name][i][2],
-                        tertiary_text=players[team.name][i][4],
+                        text=self.teams[team.name][str(i)][1],
+                        secondary_text=self.teams[team.name][str(i)][2],
+                        tertiary_text=self.teams[team.name][str(i)][4],
                     ),
                 )
             )
