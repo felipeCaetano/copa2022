@@ -1,55 +1,67 @@
 <Content>
     adaptive_height: True
     orientation: 'vertical'
-
-    MDGridLayout:
-        padding: "5dp", 0 , "5dp", 0
+    MDBoxLayout:
+        padding: "50dp", "0dp" , "50dp", 0
+        pos_hint: {"center_x": .5, "center_y": .5}
         size_hint_x: None
         width: root.width
-        spacing: "2dp"
-        rows: 2
-        cols: 6
-        MDLabel:
-            text: 'J'
-        MDLabel:
-            text: 'G'
-        MDLabel:
-            text: 'A'
-        MDLabel:
-            text: 'I'
-        MDLabel:
-            text: 'F'
-        MDLabel:
-            text: '0'
-        MDLabel:
-            text: '0'
-        MDLabel:
-            text: '0'
-        MDLabel:
-            text: '0'
-        MDLabel:
-            text: '0/0'
-        MDLabel:
-            text: '0'
+        spacing: 20
+        MDIcon:
+            source: 'assets/images/cap.png'
+            badge_icon: "close"
+            size_hint: None, None
+            width: dp(32)
+            height: dp(32)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        MDGridLayout:
+            padding: "10dp", "0dp" , "10dp", 0
+            size_hint_x: None
+            width: root.width / 2
+            pos_hint: {"center_x": .5, "center_y": .1}
+            #spacing: "2dp"
+            rows: 2
+            cols: 5
+            ContentLabel:
+                text: 'J'
+            ContentLabel:
+                text: 'G'
+            ContentLabel:
+                text: 'A'
+            ContentLabel:
+                text: 'I'
+            ContentLabel:
+                text: 'F'
+            ContentLabel:
+                text: '0'
+            ContentLabel:
+                text: '0'
+            ContentLabel:
+                text: '0'
+            ContentLabel:
+                text: '0'
+            ContentLabel:
+                text: '0/0'
+                font_size: 10
 
         MDIcon:
             source: 'assets/images/yellowcard.png'
             size_hint: None, None
             width: dp(16)
-            height: dp(16)
-            pos_hint: {"center_x": .5, "center_y": 1}
+            height: dp(32)
+            pos_hint: {"center_x": .7, "center_y": .5}
+            badge_icon: "numeric-2"
+            padding: 20,0
         MDIcon:
             source: 'assets/images/redcard.png'
             size_hint: None, None
             width: dp(16)
-            height: dp(16)
-            pos_hint: {"center_x": .5, "center_y": 1}
-        MDIcon:
-            source: 'assets/images/cap.png'
-            size_hint: None, None
-            width: dp(16)
-            height: dp(16)
-            pos_hint: {"center_x": .5, "center_y": 1}
+            height: dp(32)
+            pos_hint: {"center_x": .9, "center_y": .5}
 
-#        MDLabel:
-#            text: '0'
+        MDSeparator
+
+<ContentLabel@MDLabel>:
+    halign: 'center'
+    valign:'center'
+    adaptive_height: True
