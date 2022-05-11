@@ -1,21 +1,55 @@
 <Content>
     adaptive_height: True
+    orientation: 'vertical'
 
-    TwoLineIconListItem:
-        id: icon_list
-        text: "(050)-123-45-67"
-        secondary_text: "Mobile"
+    MDGridLayout:
+        padding: "5dp", 0 , "5dp", 0
+        size_hint_x: None
+        width: root.width
+        spacing: "2dp"
+        rows: 2
+        cols: 6
+        MDLabel:
+            text: 'J'
+        MDLabel:
+            text: 'G'
+        MDLabel:
+            text: 'A'
+        MDLabel:
+            text: 'I'
+        MDLabel:
+            text: 'F'
+        MDLabel:
+            text: '0'
+        MDLabel:
+            text: '0'
+        MDLabel:
+            text: '0'
+        MDLabel:
+            text: '0'
+        MDLabel:
+            text: '0/0'
+        MDLabel:
+            text: '0'
 
-        IconLeftWidget:
-            icon: 'phone'
+        MDIcon:
+            source: 'assets/images/yellowcard.png'
+            size_hint: None, None
+            width: dp(16)
+            height: dp(16)
+            pos_hint: {"center_x": .5, "center_y": 1}
+        MDIcon:
+            source: 'assets/images/redcard.png'
+            size_hint: None, None
+            width: dp(16)
+            height: dp(16)
+            pos_hint: {"center_x": .5, "center_y": 1}
+        MDIcon:
+            source: 'assets/images/cap.png'
+            size_hint: None, None
+            width: dp(16)
+            height: dp(16)
+            pos_hint: {"center_x": .5, "center_y": 1}
 
-<Convocados>:
-    id: team
-    MDBoxLayout:
-        orientation: 'vertical'
-        padding: 0, 50, 0, 0
-        ScrollView:
-            MDGridLayout:
-                id: box
-                cols: 1
-                adaptive_height: True
+#        MDLabel:
+#            text: '0'
