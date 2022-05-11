@@ -566,175 +566,182 @@
   "Holanda": {
     "grupo": "A",
     "Nome": "da Holanda",
-    "Treinador": "Treinador da Holanda",
+    "Treinador": "Louis van Gaal",
     "flag": "assets/images/GrupoA/holanda/holanda.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "1",
+        "Mark Flekken",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "28",
+        "SC Freiburg"
     ],
     "1": [
-        "1",
-        "Saad Al-Sheeb",
+        "23",
+        "Joël Drommel",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "25",
+        "PSV Eindhoven"
     ],
     "2": [
-        "21",
-        "Yousef Hassan",
+        "13",
+        "Tim Krul",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "34",
+        "Norwich City"
     ],
     "3": [
-        "2",
-        "Pedro Miguel",
+        "3",
+        "Matthijs de Ligt",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "22",
+        "Juventus FC"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "4",
+        "Virgil van Dijk",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "30",
+        "FC Liverpool"
     ],
     "5": [
-        "15",
-        "Bassam Al-Rawi",
+        "5",
+        "Nathan Aké",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "27",
+        "Manchester City FC"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
-    ],
-    "8": [
-        "24",
-        "Homam Ahmed",
+        "12",
+        "Owen Wijndal",
         "Lateral Esq.",
         "22",
-        "Al-Gharafa SC"
+        "AZ Alkmaar"
+    ],
+    "7": [
+        "6",
+        "Tyrell Malacia",
+        "Lateral Esq.",
+        "22",
+        "Feyenoord"
+    ],
+    "8": [
+        "17",
+        "Daley Blind",
+        "Lateral Esq.",
+        "32",
+        "AFC Ajax"
     ],
     "9": [
-        "13",
-        "Musab Khoder",
+        "2",
+        "Hans Hateboer",
         "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "28",
+        "Atalanta BC"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
+        "20",
+        "Teun Koopmeiners",
         "Volante",
-        "31",
-        "Al-Duhail SC"
+        "24",
+        "Atalanta BC"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
+        "15",
+        "Marten de Roon",
         "Volante",
-        "25",
-        "Al-Duhail SC"
+        "31",
+        "Atalanta BC"
     ],
     "12": [
-        "-",
-        "Salem Al-Hajri",
+        "16",
+        "Jordy Clasie",
         "Volante",
-        "26",
-        "Al-Sadd SC"
+        "30",
+        "AZ Alkmaar"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
+        "21",
+        "Frenkie de Jong",
         "Volante",
-        "20",
-        "Al-Arabi SC"
+        "24",
+        "Barcelona FC"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
+        "8",
+        "Georginio Wijnaldum",
         "Meia Central",
         "31",
-        "Al-Rayyan SC"
+        "FC Paris Saint-Germain"
     ],
     "15": [
-        "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "22",
+        "Denzel Dumfries",
+        "Meia Dir.",
+        "26",
+        "Inter de Milão"
     ],
     "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
+        "14",
+        "Davy Klaassen",
+        "Meia Ofensivo",
+        "29",
+        "AFC Ajax"
     ],
     "17": [
         "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
-    ],
-    "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
-    ],
-    "19": [
-        "22",
-        "Abdullah Al-Ahrak",
+        "Guus Til",
         "Meia Ofensivo",
         "24",
-        "Al-Sadd SC"
+        "Feyenoord"
+    ],
+    "18": [
+        "9",
+        "Arnaut Danjuma",
+        "Ponta Esq.",
+        "25",
+        "FC Villarreal"
+    ],
+    "19": [
+        "--",
+        "Noa Lang",
+        "Ponta Esq.",
+        "22",
+        "Club Brugge"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
+        "7",
+        "Steven Bergwijn",
+        "Ponta Esq.",
         "24",
-        "Al-Sadd SC"
+        "Tottenham Hotspur"
     ],
     "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "11",
+        "Steven Berghuis",
+        "Ponta Dir.",
+        "30",
+        "AFC Ajax"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "10",
+        "Memphis Depay",
+        "Centroavante",
+        "28",
+        "FC Barcelona"
     ],
     "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "18",
+        "Donyell Malen",
+        "Centroavante",
+        "23",
+        "Borussia Dortmund"
+    ],
+    "24": [
+        "19",
+        "Wout Weghorst",
+        "Centroavante",
+        "29",
+        "FC Burnley"
     ]
   },
   "Inglaterra": {
@@ -2307,7 +2314,7 @@
     "grupo": "D",
     "Nome": "da IC Play-off 1",
     "Treinador": "Treinador",
-    "flag": "assets/images/GrupoD/ic play off 1/ic play off 1.png",
+    "flag": "assets/images/GrupoD/ic play-off 1/ic play-off 1.png",
     "0": [
         "22",
         "Meshaal Barsham",
@@ -3003,7 +3010,7 @@
     "grupo": "E",
     "Nome": "da IC Play-off 2",
     "Treinador": "Treinador",
-    "flag": "assets/images/GrupoE/ic play off 2/ic play off 2.png",
+    "flag": "assets/images/GrupoE/ic play-off 2/ic play-off 2.png",
     "0": [
         "22",
         "Meshaal Barsham",

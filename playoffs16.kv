@@ -1,0 +1,26 @@
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+#:set text_color get_color_from_hex("#1087c3")
+#:set focus_color get_color_from_hex("#e7e4c0")
+#:set ripple_color get_color_from_hex("#c5bdd2")
+#:set bg_color get_color_from_hex("#f0f0e7")
+#:set selected_color get_color_from_hex("#63bddf")
+#:set accent_color get_color_from_hex("#7b133d")
+
+<Playoffs>:
+    MDTabs:
+        id: tabs
+        padding: dp(0),dp(60),dp(0),dp(0)
+        on_tab_switch: app.on_tab_switch(*args)
+        GameTab:
+            title: '8ª de Final'
+        GameTab:
+            title: '4ª de Final'
+        GameTab:
+            title: 'Semi-Finais'
+
+<GameTab>
+    ScrollView:
+        MDList:
+            padding: 0, "30dp", 0, "0dp"
+            spacing: "20dp"
+            id: cards

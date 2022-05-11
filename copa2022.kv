@@ -67,6 +67,13 @@
 
                 DrawerClickableItem:
                     text_right_color: text_color
+                    text: "Play-offs"
+                    on_press:
+                        root.goto_screen("playoffs16")
+                        app.show_matchs(root)
+
+                DrawerClickableItem:
+                    text_right_color: text_color
                     text: "Estádios"
                     on_press:
                         root.goto_screen("results")

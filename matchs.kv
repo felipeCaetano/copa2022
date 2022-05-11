@@ -34,17 +34,18 @@
     orientation: "vertical"
     size_hint: .5, None
     height: box_top.height + box_bottom.height
+    padding: 0,10,0,10
     focus_behavior: True
     ripple_behavior: True
     pos_hint: {"center_x": .5, "center_y": .4}
-    md_bg_color:root.current_color if root.current_match else [0.9411764705882353, 0.9411764705882353, 0.9058823529411765, 1.0]
-    unfocus_color: root.current_color if root.current_match else [0.9411764705882353, 0.9411764705882353, 0.9058823529411765, 1.0]
+    md_bg_color:root.current_color if root.current_match else bg_color
+    unfocus_color: root.current_color if root.current_match else bg_color
     focus_color: selected_color
 
     MDBoxLayout:
         id: box_top
         adaptive_height: True
-        padding: "10dp", "50dp", 0, "0dp"
+        padding: "10dp", "60dp", 0, "0dp"
 
         MDLabel:
             text: root.grupo_text
@@ -115,136 +116,6 @@
 <GameTab>
     ScrollView:
         MDList:
-            padding: 0, "20dp", 0, "0dp"
+            padding: 0, "30dp", 0, "0dp"
             spacing: "20dp"
             id: cards
-#            GameCard:
-#                id: card1
-#                grupo_text: "Grupo A - 21/11 6h"
-#                time1: "Senegal"
-#                flag1: "assets/images/GrupoA/senegal/senegal.png"
-#                time2: "Holanda"
-#                flag2: "assets/images/GrupoA/holanda/holanda.png"
-#                stadium: "Al-Thumama Stadium"
-#                current_match: True
-#            GameCard:
-#                id: card2
-#                grupo_text: "Grupo B - 21/11 9h"
-#                time1: "Inglaterra"
-#                flag1: "assets/images/GrupoB/inglaterra/inglaterra.png"
-#                time2: "Irã"
-#                flag2: "assets/images/GrupoB/irã/irã.png"
-#                stadium: "Internacional Khalifa Stadium"
-#                current_match: False
-#            GameCard:
-#                id: card3
-#                grupo_text: "Grupo A - 21/11 12h"
-#                time1: "Catar"
-#                flag1: "assets/images/GrupoA/catar/catar.png"
-#                time2: "Equador"
-#                flag2: "assets/images/GrupoA/equador/equador.png"
-#                stadium: "al-Bayt Stadium"
-#                current_match: False
-#            GameCard:
-#                id: card4
-#                grupo_text: "Grupo B - 21/11 15h"
-#                time1: "EUA"
-#                flag1: "assets/images/GrupoB/eua/eua.png"
-#                time2: "Irã"
-#                flag2: "assets/images/GrupoB/euro play-off/euro play-off.png"
-#                stadium: "al-Rayyan Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo C - 22/11 6h"
-#                time1: "Argentina"
-#                flag1: "assets/images/GrupoC/argentina/argentina.png"
-#                time2: "Arábia Saudita"
-#                flag2: "assets/images/GrupoC/arábia saudita/arábia saudita.png"
-#                stadium: "Lusail Stadium"
-#            GameCard:
-#                grupo_text: "Grupo B - 21/11 9h"
-#                time1: "Inglaterra"
-#                flag1: "assets/images/GrupoB/inglaterra/inglaterra.png"
-#                time2: "Irã"
-#                flag2: "assets/images/GrupoB/irã/irã.png"
-#                stadium: "Internacional Khalifa Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo A - 21/11 12h"
-#                time1: "Catar"
-#                flag1: "assets/images/GrupoA/catar/catar.png"
-#                time2: "Equador"
-#                flag2: "assets/images/GrupoA/equador/equador.png"
-#                stadium: "al-Bayt Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo B - 21/11 15h"
-#                time1: "EUA"
-#                flag1: "assets/images/GrupoB/eua/eua.png"
-#                time2: "Irã"
-#                flag2: "assets/images/GrupoB/euro play-off/euro play-off.png"
-#                stadium: "al-Rayyan Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo A - 21/11 6h"
-#                time1: "Senegal"
-#                flag1: "assets/images/GrupoA/senegal/senegal.png"
-#                time2: "Holanda"
-#                flag2: "assets/images/GrupoA/holanda/holanda.png"
-#                stadium: "Al-Thumama Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo B - 21/11 9h"
-#                time1: "Inglaterra"
-#                flag1: "assets/images/GrupoB/inglaterra/inglaterra.png"
-#                time2: "Irã"
-#                flag2: "assets/images/GrupoB/irã/irã.png"
-#                stadium: "Internacional Khalifa Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo A - 21/11 12h"
-#                time1: "Catar"
-#                flag1: "assets/images/GrupoA/catar/catar.png"
-#                time2: "Equador"
-#                flag2: "assets/images/GrupoA/equador/equador.png"
-#                stadium: "al-Bayt Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo B - 21/11 15h"
-#                time1: "EUA"
-#                flag1: "assets/images/GrupoB/eua/eua.png"
-#                time2: "Irã"
-#                flag2: "assets/images/GrupoB/euro play-off/euro play-off.png"
-#                stadium: "al-Rayyan Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo C - 22/11 6h"
-#                time1: "Argentina"
-#                flag1: "assets/images/GrupoC/argentina/argentina.png"
-#                time2: "Arábia Saudita"
-#                flag2: "assets/images/GrupoC/arábia saudita/arábia saudita.png"
-#                stadium: "Lusail Stadium"
-#            GameCard:
-#                grupo_text: "Grupo B - 21/11 9h"
-#                time1: "Inglaterra"
-#                flag1: "assets/images/GrupoB/inglaterra/inglaterra.png"
-#                time2: "Irã"
-#                flag2: "assets/images/GrupoB/irã/irã.png"
-#                stadium: "Internacional Khalifa Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo A - 21/11 12h"
-#                time1: "Catar"
-#                flag1: "assets/images/GrupoA/catar/catar.png"
-#                time2: "Equador"
-#                flag2: "assets/images/GrupoA/equador/equador.png"
-#                stadium: "al-Bayt Stadium"
-#                current_match: False
-#            GameCard:
-#                grupo_text: "Grupo B - 21/11 15h"
-#                time1: "EUA"
-#                flag1: "assets/images/GrupoB/eua/eua.png"
-#                time2: "Irã"
-#                flag2: "assets/images/GrupoB/euro play-off/euro play-off.png"
-#                stadium: "al-Rayyan Stadium"
-#                current_match: False

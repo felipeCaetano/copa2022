@@ -25,6 +25,7 @@ from catar import Content
 Builder.load_file('tabela.kv')
 Builder.load_file('catar.kv')
 Builder.load_file('matchs.kv')
+Builder.load_file('playoffs16.kv')
 Builder.load_file('baseclass/grupoa/team1/convocados.kv')
 
 
@@ -161,24 +162,46 @@ class Copa2022(MDApp):
             # print(hora.)
         except KeyError:
             print(
-                f"Pelo menos um destes times não estao na lista {gamecard.time1, gamecard.time2}")
+                f"Pelo menos um destes times não estao na lista"
+                f" {gamecard.time1, gamecard.time2}")
+            gamecard.flag1 = "assets/images/unknown.png"
+            gamecard.flag2 = "assets/images/unknown.png"
+            gamecard.stadium = data[match]["stadium"]
 
     def load_matches(self, tab_text):
         res = None
+        data = {}
         if tab_text == '1ª Rodada':
-            res = open('rodada1.json', 'r', encoding='utf-8')
-            data = json.load(res)
-            data = data[tab_text]
+            data, res = self.get_data('rodada1.json', res, tab_text)
         elif tab_text == '2ª Rodada':
-            res = open('rodada1.json', 'r', encoding='utf-8')
-            data = json.load(res)
-            data = data[tab_text]
+            data, res = self.get_data('rodada1.json', res, tab_text)
         elif tab_text == '3ª Rodada':
-            res = open('rodada1.json', 'r', encoding='utf-8')
+            data, res = self.get_data('rodada1.json', res, tab_text)
+        elif tab_text == '8ª de Final':
+            res = open('oitavas.json', 'r', encoding='utf-8')
             data = json.load(res)
             data = data[tab_text]
-        res.close()
+        elif tab_text == '4ª de Final':
+            res = open('oitavas.json', 'r', encoding='utf-8')
+            data = json.load(res)
+            data = data[tab_text]
+        elif tab_text == 'Semi-Finais':
+            res = open('oitavas.json', 'r', encoding='utf-8')
+            data = json.load(res)
+            data = data[tab_text]
+        try:
+            res.close()
+        except AttributeError:
+            print(f"{tab_text=}, não está definido.")
+        except UnboundLocalError:
+            pass
         return data
+
+    def get_data(self, json_file, res, tab_text):
+        res = open(json_file, 'r', encoding='utf-8')
+        data = json.load(res)
+        data = data[tab_text]
+        return data, res
 
     def make_group(self, instance_tab, tab_text):
         cont_team = {
@@ -241,7 +264,6 @@ class Copa2022(MDApp):
         self.create_match(tab.tab, tab.text)
 
     def show_team(self, *args):
-
         team = Catar(name=args[0])
         team.team_name = f"Seleção {self.teams[args[0]]['Nome']}"
         team.treinador = f"{self.teams[args[0]]['Treinador']}"
@@ -272,6 +294,11 @@ class RootScreenController:
             'controller': GenericController,
             'view': Matchs,
         },
+        'playoffs16': {
+            'model': None,
+            'controller': GenericController,
+            'view': PlayOffs
+        }
     }
 
     def __init__(self) -> None:

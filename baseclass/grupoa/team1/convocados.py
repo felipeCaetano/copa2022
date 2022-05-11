@@ -19,7 +19,7 @@ class Convocados(MDBoxLayout):
         for i in range(10):
             self.ids.box.add_widget(
                 MDExpansionPanel(
-                    icon='assets/images/GrupoA/catar/1.png',
+                    icon='assets/images/GrupoA/catar/0.png',
                     content=Content(),
                     panel_cls=MDExpansionPanelThreeLine(
                         text='Text',
