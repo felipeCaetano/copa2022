@@ -747,91 +747,94 @@
   "Inglaterra": {
     "grupo": "B",
     "Nome": "da Inglaterra",
-    "Treinador": "Treinador",
+    "Treinador": "Gareth Southgate",
     "flag": "assets/images/GrupoB/inglaterra/inglaterra.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "1",
+        "Jordan Pickford",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "07/03/1994",
+        "FC Everton"
     ],
     "1": [
-        "1",
-        "Saad Al-Sheeb",
+        "13",
+        "Nick Pope",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "19/04/1992",
+        "FC Burnley"
     ],
     "2": [
-        "21",
-        "Yousef Hassan",
+        "22",
+        "Fraser Forster",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "17/03/1988",
+        "FC Southampton"
     ],
     "3": [
-        "2",
-        "Pedro Miguel",
+        "12",
+        "Harry Maguire",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "05/03/1993",
+        "Manchester United FC",
+        "True"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "14",
+        "Ben White",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "08/10/1997",
+        "FC Arsenal"
     ],
     "5": [
         "15",
-        "Bassam Al-Rawi",
+        "Tyrone Mings",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "13/03/1993",
+        "Aston Villa FC",
+        "True"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
+        "4",
+        "Marc Guéhi",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "13/07/2000",
+        "Crystal Palace FC"
     ],
     "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "5",
+        "John Stones",
+        "Zagueiro",
+        "28/05/1994",
+        "Manchester City FC"
     ],
     "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
+        "6",
+        "Conor Coady",
+        "Zagueiro",
         "22",
-        "Al-Gharafa SC"
+        "Wolverhampton Wanderers",
+        "True"
     ],
     "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "3",
+        "Luke Shaw",
+        "Lateral Esq.",
+        "12/07/1995",
+        "Manchester United FC"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "23",
+        "Tyrick Mitchell",
+        "Lateral Esq.",
+        "01/09/1999",
+        "Crystal Palace"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "2",
+        "Kyle Walker-Peters",
+        "Lateral Dir.",
+        "13/04/1997",
+        "FC Southampton"
     ],
     "12": [
         "-",
