@@ -27,6 +27,7 @@ Builder.load_file('catar.kv')
 Builder.load_file('matchs.kv')
 Builder.load_file('playoffs16.kv')
 Builder.load_file('baseclass/grupoa/team1/convocados.kv')
+Builder.load_file('stadiums.kv')
 
 
 class BaseScreenView(ThemableBehavior, MDScreen):
@@ -71,6 +72,10 @@ class Catar(BaseScreenView):
     team_name = StringProperty()
     treinador = StringProperty()
     flag = StringProperty()
+
+
+class Stadiums(BaseScreenView):
+    pass
 
 
 class Tab(MDFloatLayout, MDTabsBase):
@@ -277,6 +282,9 @@ class Copa2022(MDApp):
             self.root.ids.screen_manager.current = team.name
 
 
+
+
+
 class RootScreenController:
     screens = {
         'results': {
@@ -298,6 +306,11 @@ class RootScreenController:
             'model': None,
             'controller': GenericController,
             'view': PlayOffs
+        },
+        'stadiums': {
+            'model': None,
+            'controller': GenericController,
+            'view': Stadiums
         }
     }
 
