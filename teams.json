@@ -925,175 +925,203 @@
   "Irã": {
     "grupo": "B",
     "Nome": "do Irã",
-    "Treinador": "Treinador",
+    "Treinador": "Dragan Skocic",
     "flag": "assets/images/GrupoB/irã/irã.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "1",
+        "Alireza Beiranvand",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "21/09/1992",
+        "Boavista FC"
     ],
     "1": [
-        "1",
-        "Saad Al-Sheeb",
+        "22",
+        "Amir Abedzadeh",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "26/04/1993",
+        "SD Ponferradina"
     ],
     "2": [
-        "21",
-        "Yousef Hassan",
+        "12",
+        "Hossein Hosseini",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "30/06/1992",
+        "Esteghlal FC"
     ],
     "3": [
-        "2",
-        "Pedro Miguel",
+        "19",
+        "Majid Hosseini",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "20/06/1996",
+        "Kayserispor"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "13",
+        "Hossein Kanaani",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "23/03/1994 ",
+        "Al-Ahli SC"
     ],
     "5": [
         "15",
-        "Bassam Al-Rawi",
+        "Aref Gholami",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "19/04/1997",
+        "Esteghlal FC"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
+        "26",
+        "Farshad Faraji",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "07/04/1994",
+        "Persepolis FC"
     ],
     "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
-    ],
-    "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
-    ],
-    "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
-    ],
-    "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
-    ],
-    "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
-    ],
-    "12": [
-        "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
-    ],
-    "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
-    ],
-    "14": [
-        "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
+        "4",
+        "Shoja Khalilzadeh",
+        "Zagueiro",
+        "14/05/1989",
         "Al-Rayyan SC"
     ],
-    "15": [
-        "-",
-        "Ahmed Fathi",
-        "Meia Central",
+    "8": [
+        "5",
+        "Milad Mohammadi",
+        "Lateral Esq.",
+        "29/09/1993",
+        "AEK Atenas"
+    ],
+    "9": [
+        "3",
+        "Ehsan Hajsafi",
+        "Lateral Esq.",
+        "25/02/1990 ",
+        "AEK Atenas"
+    ],
+    "10": [
+        "21",
+        "Omid Noorafkan",
+        "Lateral Esq.",
+        "09/04/1997",
+        "Sepahan FC"
+    ],
+    "11": [
         "28",
-        "Al-Arabi SC"
+        "Sadegh Moharrami",
+        "Lateral Dir.",
+        "01/03/1996",
+        "GNK Dinamo Zagreb"
+    ],
+    "12": [
+        "28",
+        "Danial Esmaeilifar",
+        "Lateral Dir.",
+        "26/02/1993",
+        "Sepahan FC"
+    ],
+    "13": [
+        "18",
+        "Milad Sarlak",
+        "Volante",
+        "26/03/1995",
+        "Persepolis FC"
+    ],
+    "14": [
+        "6",
+        "Saeid Ezatolahi",
+        "Volante",
+        "01/10/1996",
+        "Al-Gharafa SC"
+    ],
+    "15": [
+        "23",
+        "Kamal Kamyabinia",
+        "Volante",
+        "18/01/1989",
+        "Persepolis FC"
     ],
     "16": [
-        "-",
-        "Ahmad Doozandeh",
+        "8",
+        "Ahmad Nourollahi",
         "Meia Central",
-        "26",
-        "Qatar SC"
+        "01/02/1993",
+        "FC Shabab Al-Ahli Dubai"
     ],
     "17": [
-        "-",
-        "Abdullah Marafee",
+        "24",
+        "Mehdi Mehdipour",
         "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "25/10/1994",
+        "Esteghlal FC"
     ],
     "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "14",
+        "Saman Ghoddos",
+        "Meia Ofensivo",
+        "06/09/1993",
+        "Brentford FC"
     ],
     "19": [
-        "22",
-        "Abdullah Al-Ahrak",
+        "27",
+        "Amirhossein Hosseinzadeh",
         "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "30/10/2000",
+        "Esteghlal FC"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "16",
+        "Mehdi Torabi",
+        "Ponta Esq.",
+        "10/09/1994",
+        "Persepolis FC"
     ],
     "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "11",
+        "Vahid Amiri",
+        " Ponta Esq.",
+        "02/04/1988",
+        "Persepolis FC"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "7",
+        "Alireza Jahanbakhsh",
+        "Ponta Dir.",
+        "11/08/1993",
+        "Feyenoord"
     ],
     "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "17",
+        "Ali Gholizadeh",
+        "Ponta Dir.",
+        "10/03/1996",
+        "RSC Charleroi"
+    ],
+    "24": [
+        "20",
+        "Sardar Azmoun",
+        "Centroavante",
+        "01/01/1995",
+        "Bayer Leverkusen"
+    ],
+    "25": [
+        "9",
+        "Mehdi Taremi",
+        "Centroavante",
+        "18/07/1992",
+        "FC do Porto"
+    ],
+    "26": [
+        "25",
+        "Allahyar Sayyadmanesh",
+        "Centroavante",
+        "29/06/2001",
+        "Hull City"
+    ],
+    "27": [
+        "10",
+        "Karim Ansarifard",
+        "Centroavante",
+        "03/04/1990",
+        "AEK Atenas"
     ]
   },
   "EUA": {

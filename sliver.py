@@ -81,33 +81,35 @@ class CardItem(MDCard,
 
 class Example(MDApp):
     stadiums = {
-        "albayt": "Al Bayt Stadium",
-        "education": "Education City Stadium",
-        "lusail": "Lusail Stadium",
-        "974": "Stadium 974",
-        "ahmad": "Ahmad Bin Ali Stadium",
-        "janoub": "Al Janoub Stadium",
-        "thumama": "Al Thumama Stadium",
-        "khalifa": "Khalifa International Stadium",
+        "albayt": ("Al Bayt Stadium", "Al-Khor", ""),
+        "education": ("Education City Stadium", "Al-Rayyan", ""),
+        "lusail": ("Lusail Stadium", "Lusail", ""),
+        "974": ("Stadium 974", "Doha", "Arena com capacidade para 40.000 pessoas\nConstruída com contêineres e aço modular\nEcoando o porto próximo e a história marítima de Doha"),
+        "ahmad": ("Ahmad Bin Ali Stadium", "Al-Rayyan", ""),
+        "janoub": ("Al Janoub Stadium", "Al-Wakrah", ""),
+        "thumama": ("Al Thumama Stadium", "Doha", ""),
+        "khalifa": ("Khalifa International Stadium", "Doha", "")
     }
     def build(self):
         return Builder.load_string(KV)
 
     def on_start(self):
-        for stadium in self.stadiums:
+        for stadium in self.stadiums.keys():
+            estadio, city, info = self.stadiums[stadium]
             self.root.ids.content.add_widget(CardItem(
-                stadium=self.stadiums[stadium],
-                city=self.stadiums[stadium],
+                stadium=estadio,
+                city=city,
+                info=info,
                 source=f"assets/images/stadiums/{stadium}.png"
             ))
 
     def set_card(self, carditem):
         self.root.ids.back.source = carditem.source
-        label = MDLabel(text="gostei", halign='center')
+        label = MDLabel(text=carditem.info, halign='center')
         modal = ModalView(
             size_hint=(0.8, 0.5),
             pos_hint={'center_x': .5, 'center_y': .8},
-            background_color=(.48, .07, .24, .3),
+            background_color=(.48, .47, .44, .3),
             overlay_color=(1, 0, 0, 0),
         )
         modal.add_widget(label)
