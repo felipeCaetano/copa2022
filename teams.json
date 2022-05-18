@@ -1127,178 +1127,179 @@
   "EUA": {
     "grupo": "B",
     "Nome": "dos EUA",
-    "Treinador": "Treinador",
+    "Treinador": "Gregg Berhalter",
     "flag": "assets/images/GrupoB/eua/eua.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "1",
+        "Zack Steffen",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "02/04/1995",
+        "Manchester City FC"
     ],
     "1": [
-        "1",
-        "Saad Al-Sheeb",
+        "18",
+        "Ethan Horvath",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "09/06/1995",
+        "Nottingham Forest"
     ],
     "2": [
         "21",
-        "Yousef Hassan",
+        "Terceiro Goleiro",
         "Goleiro",
         "25",
-        "Al-Gharafa SC"
+        ""
     ],
     "3": [
-        "2",
-        "Pedro Miguel",
+        "12",
+        "Miles Robinson",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "14/03/1997",
+        "Atlanta United FC"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "19",
+        "James Sands",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "06/07/2000",
+        "Rangers FC"
     ],
     "5": [
-        "15",
-        "Bassam Al-Rawi",
+        "3",
+        "Walker Zimmerman",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "19/05/1993",
+        "Nashville SC"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
+        "15",
+        "Aaron Long",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "12/10/1992",
+        "New York Red Bulls",
+        "True"
     ],
     "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "22",
+        "Erik Palmer-Brown",
+        "Zagueiro",
+        "24/04/1997",
+        "ESTAC Troyes"
     ],
     "8": [
-        "24",
-        "Homam Ahmed",
+        "5",
+        "Antonee Robinson",
         "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
+        "08/08/1997",
+        "FC Fulham"
     ],
     "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "16",
+        "George Bello",
+        "Lateral Esq.",
+        "22/01/2002",
+        "Arminia Bielefeld"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "2",
+        "Shaq Moore",
+        "Lateral Dir.",
+        "02/11/1996",
+        "CD Tenerife"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
+        "4",
+        "Tyler Adams",
         "Volante",
-        "25",
-        "Al-Duhail SC"
+        "14/02/1999",
+        "RB Leipzig"
     ],
     "12": [
-        "-",
-        "Salem Al-Hajri",
+        "23",
+        "Kellyn Acosta",
         "Volante",
-        "26",
-        "Al-Sadd SC"
+        "24/07/1995",
+        "Los Angeles FC"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
+        "21",
+        "Gianluca Busio",
+        "Meia Central",
+        "28/05/2002",
+        "Venezia FC"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
+        "8",
+        "Cristian Roldán",
         "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "03/06/1995 ",
+        "Seattle Sounders FC"
     ],
     "15": [
-        "-",
-        "Ahmed Fathi",
+        "14",
+        "Luca de la Torre",
         "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "23/05/1998",
+        "Heracles Almelo"
     ],
     "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
+        "11",
+        "Giovanni Reyna",
+        "Meia Ofensivo",
+        "13/11/2002",
+        "Borussia Dortmund"
     ],
     "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "6",
+        "Yunus Musah",
+        "Meia Ofensivo",
+        "29/11/2002",
+        "Valência CF"
     ],
     "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "13",
+        "Jordan Morris",
+        "Ponta Esq.",
+        "26/10/1994",
+        "Seattle Sounders FC"
     ],
     "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "10",
+        "Christian Pulisic",
+        "Ponta Dir.",
+        "18/09/1998",
+        "Chelsea FC"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "7",
+        "Paul Arriola",
+        "Ponta Dir.",
+        "05/02/1995",
+        "FC Dallas"
     ],
     "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "9",
+        "Ricardo Pepi",
+        "Centroavante",
+        "09/01/2003",
+        "FC Augsburgo"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "20",
+        "Jesús Ferreira",
+        "Centroavante",
+        "24/12/2000",
+        "FC Dallas"
     ],
     "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "17",
+        "Jordan Siebatcheu",
+        "Centroavante",
+        "26/04/1996",
+        "BSC Young Boys"
     ]
   },
-  "euro play-off": {
+  "Euro Play-off": {
     "grupo": "B",
     "Nome": "do Euro Play-off",
     "Treinador": "Treinador",
@@ -2342,7 +2343,7 @@
         "Al-Sadd SC"
     ]
   },
-  "ic play-off 1": {
+  "IC Play-off 1": {
     "grupo": "D",
     "Nome": "da IC Play-off 1",
     "Treinador": "Treinador",
@@ -3038,7 +3039,7 @@
         "Al-Sadd SC"
     ]
   },
-  "ic play-off 2": {
+  "IC Play-off 2": {
     "grupo": "E",
     "Nome": "da IC Play-off 2",
     "Treinador": "Treinador",
