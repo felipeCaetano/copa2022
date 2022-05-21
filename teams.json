@@ -1476,175 +1476,210 @@
   "Argentina": {
     "grupo": "C",
     "Nome": "da Argentina",
-    "Treinador": "Treinador",
+    "Treinador": "Lionel Scaloni",
     "flag": "assets/images/GrupoC/argentina/argentina.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "12",
+        "Juan Musso",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "06/05/1994",
+        "Atalanta BC"
     ],
     "1": [
-        "1",
-        "Saad Al-Sheeb",
+        "23",
+        "Gerónimo Rulli",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "20/05/1992",
+        "FC Villarreal"
     ],
     "2": [
-        "21",
-        "Yousef Hassan",
+        "1",
+        "Franco Armani",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "16/10/1986",
+        "CA River Plate"
     ],
     "3": [
-        "2",
-        "Pedro Miguel",
+        "25",
+        "Lisandro Martínez",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "18/01/1998",
+        "AFC Ajax"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "2",
+        "Lucas Martínez Quarta",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "10/05/1996",
+        "ACF Fiorentina"
     ],
     "5": [
-        "15",
-        "Bassam Al-Rawi",
+        "-",
+        "Marcos Senesi",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "10/05/1997",
+        "Feyenoord"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
+        "6",
+        "Germán Pezzella",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "27/06/1991",
+        "Real Bétis"
     ],
     "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "19",
+        "Nicolás Otamendi",
+        "Zagueiro",
+        "12/02/1988",
+        "Sport Lisboa e Benfica"
     ],
     "8": [
-        "24",
-        "Homam Ahmed",
+        "3",
+        "Nicolás Tagliafico",
         "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
+        "31/08/1992",
+        "AFC Ajax"
     ],
     "9": [
-        "13",
-        "Musab Khoder",
+        "6",
+        "Juan Foyth",
         "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "12/01/1998 ",
+        "FC Villarreal"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "4",
+        "Gonzalo Montiel",
+        "Lateral Dir.",
+        "12/01/1998",
+        "FC Villarreal"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "26",
+        "Nahuel Molina",
+        "Lateral Dir.",
+        "06/04/1998",
+        "Udinese Calcio"
     ],
     "12": [
-        "-",
-        "Salem Al-Hajri",
+        "18",
+        "Guido Rodríguez",
         "Volante",
-        "26",
-        "Al-Sadd SC"
+        "12/04/1994",
+        "Real Bétis"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
+        "5",
+        "Leandro Paredes",
         "Volante",
-        "20",
-        "Al-Arabi SC"
+        "29/06/1994 ",
+        "FC Paris Saint-Germain"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
+        "7",
+        "Rodrigo de Paul",
         "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "24/05/1994",
+        "Atlético de Madrid"
     ],
     "15": [
-        "-",
-        "Ahmed Fathi",
+        "14",
+        "Exequiel Palaciosi",
         "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "05/10/1998",
+        "Bayer 04 Leverkusen"
     ],
     "16": [
         "-",
-        "Ahmad Doozandeh",
+        "Cristian Medina",
         "Meia Central",
-        "26",
+        "01/06/2002",
         "Qatar SC"
     ],
     "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "8",
+        "Alexis Mac Allister",
+        "Meia Ofensivo",
+        "24/12/1998",
+        "Brighton Albion"
     ],
     "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "20",
+        "Manuel Lanzini",
+        "Meia Ofensivo",
+        "15/02/1993",
+        "West Ham United"
     ],
     "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "17",
+        "Lucas Ocampos",
+        "Ponta Esq.",
+        "11/07/1994",
+        "Sevilla FC"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "15",
+        "Nicolás González",
+        "Ponta Esquerda",
+        "06/04/1998",
+        "ACF Fiorentina"
     ],
     "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "-",
+        "Exequiel Zeballos",
+        "Ponta Esq.",
+        "24/04/2002",
+        "CA Boca Juniors"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "10",
+        "Lionel Messi",
+        "Ponta Dir.",
+        "24/06/1987",
+        "FC Paris Saint-Germain"
     ],
     "23": [
+        "11",
+        "Ángel Di María",
+        "Ponta Dir.",
+        "14/02/1988",
+        "FC Paris Saint-Germain"
+    ],
+    "24": [
+        "21",
+        "Ángel Correa",
+        "Atacante",
+        "09/03/1995",
+        "Atlético de Madrid"
+    ],
+    "25": [
+        "16",
+        "Joaquín Correa",
+        "Atacante",
+        "13/08/1994",
+        "FC Paris Saint-Germain"
+    ],
+    "26": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Lautaro Martínez",
+        "Centroavante",
+        "14/02/1988",
+        "Inter de Milão"
+    ],
+    "27": [
+        "9",
+        "Julián Álvarez",
+        "Centroavante",
+        "31/01/2000",
+        "CA River Plate"
+    ],
+    "28": [
+        "9",
+        "Lucas Boyé",
+        "Centroavante",
+        "28/02/1996",
+        "Elche CF"
     ]
   },
   "Arábia Saudita": {

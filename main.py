@@ -142,6 +142,8 @@ class Copa2022(MDApp):
         :param instance_tab: <__main__.Tab object>;
         :param instance_tab_label: <kivymd.uix.tab.MDTabsLabel object>;
         :param tab_text: text or name icon of tab;
+        chamada cada vez que se toca na aba do grupo,
+        ou na aba das partidas (rodadas).
         """
         if tab_text in self.grupos and tab_text != '':
             self.update_tab(instance_tab, tab_text)
@@ -149,6 +151,12 @@ class Copa2022(MDApp):
             self.create_match(instance_tab, tab_text)
 
     def create_match(self, instace_tab, tab_text):
+        """
+        Cria um confronto vazio e coloca na tela de partidas
+        :param instace_tab: aba onde será colocado o confronto
+        :param tab_text: nome da aba onde será colocado o confronto (rodada)
+        :return: None
+        """
         data = self.load_matches(tab_text)
         for match in data.keys():
             gamecard = Factory.GameCard()
@@ -156,6 +164,14 @@ class Copa2022(MDApp):
             self.set_game_card(data, gamecard, match)
 
     def set_game_card(self, data, gamecard, match):
+        """
+        Coloca os atributos em cada gamecard que será exibido.
+        A partida atual fica destacada.
+        :param data: dicinário de partidas
+        :param gamecard: objeto que contem os dados da partida
+        :param match: partida a ser colocada no gamecard
+        :return:
+        """
         try:
             gamecard.grupo_text = data[match]["grupo_text"] + "h"
             gamecard.time1 = data[match]['time1']
@@ -166,49 +182,66 @@ class Copa2022(MDApp):
             # hora = datetime.datetime.now()
             # print(hora.)
         except KeyError:
-            print(
-                f"Pelo menos um destes times não estao na lista"
-                f" {gamecard.time1, gamecard.time2}")
-            gamecard.flag1 = "assets/images/unknown.png"
-            gamecard.flag2 = "assets/images/unknown.png"
+            if gamecard.time1 == 'euro play-off' or gamecard.time1 == 'ic play-off 1'or gamecard.time1 == 'ic play-off 2':
+                gamecard.flag1 = "assets/images/unknown.png"
+                gamecard.flag2 = self.teams[gamecard.time2]['flag']
+            elif gamecard.time2 == 'euro play-off' or gamecard.time2 == 'ic play-off 1'or gamecard.time2 == 'ic play-off 2':
+                gamecard.flag2 = "assets/images/unknown.png"
+                gamecard.flag1 = self.teams[gamecard.time1]['flag']
             gamecard.stadium = data[match]["stadium"]
 
     def load_matches(self, tab_text):
-        res = None
+        """
+        Carrega os dados do .json correspondente as partidas da fases do torneio.
+        :param tab_text: Nome da rodada do torneio
+        :return: dicionário de partidas correspondente, data.
+        """
+        # res = None
         data = {}
         if tab_text == '1ª Rodada':
-            data, res = self.get_data('rodada1.json', res, tab_text)
+            data = self.get_data('rodada1.json', tab_text)
         elif tab_text == '2ª Rodada':
-            data, res = self.get_data('rodada1.json', res, tab_text)
+            data = self.get_data('rodada1.json', tab_text)
         elif tab_text == '3ª Rodada':
-            data, res = self.get_data('rodada1.json', res, tab_text)
+            data = self.get_data('rodada1.json', tab_text)
         elif tab_text == '8ª de Final':
-            res = open('oitavas.json', 'r', encoding='utf-8')
-            data = json.load(res)
-            data = data[tab_text]
+            data = self.get_data('oitavas.json', tab_text)
         elif tab_text == '4ª de Final':
-            res = open('oitavas.json', 'r', encoding='utf-8')
-            data = json.load(res)
-            data = data[tab_text]
+            data = self.get_data('oitavas.json', tab_text)
         elif tab_text == 'Semi-Finais':
-            res = open('oitavas.json', 'r', encoding='utf-8')
-            data = json.load(res)
-            data = data[tab_text]
-        try:
-            res.close()
-        except AttributeError:
-            print(f"{tab_text=}, não está definido.")
-        except UnboundLocalError:
-            pass
+            data = self.get_data('oitavas.json', tab_text)
+        # try:
+        #     res.close()
+        # except AttributeError:
+        #     print(f"{tab_text=}, não está definido.")
+        # except UnboundLocalError:
+        #     pass
         return data
 
-    def get_data(self, json_file, res, tab_text):
-        res = open(json_file, 'r', encoding='utf-8')
-        data = json.load(res)
-        data = data[tab_text]
-        return data, res
+    def get_data(self, json_file, key):
+        """
+        Carrega um .json específico para ser usado no app.
+        :param json_file: arquivo a ser lido
+        :param res: result do json
+        :param key: dicinário a ser selecionado
+        :return:
+        """
+        # res = open(json_file, 'r', encoding='utf-8')
+        # data = json.load(res)
+        # data = data[key]
+        with open(json_file, 'r', encoding='utf-8') as res:
+            data = json.load(res)
+            data = data[key]
+        return data
 
     def make_group(self, instance_tab, tab_text):
+        """
+        Cria os grupos da tabela colocando cada pais na sua posição dentro do
+        grupo.
+        :param instance_tab: Tab que conterá os times do grupo.
+        :param tab_text: Nome do grupo
+        :return: None
+        """
         cont_team = {
             0: instance_tab.ids.time1,
             1: instance_tab.ids.time2,
@@ -243,6 +276,12 @@ class Copa2022(MDApp):
             )
 
     def update_tab(self, instance_tab, tab_text):
+        """
+        Atualiza os resultados dos grupos de acordo com o resultado das partidas
+        :param instance_tab:
+        :param tab_text:
+        :return: None
+        """
         cont_team = {
             'time1': instance_tab.ids.time1.ids.container1,
             'time2': instance_tab.ids.time2.ids.container1,
@@ -280,9 +319,6 @@ class Copa2022(MDApp):
             self.create_team(team)
             self.root.ids.screen_manager.add_widget(team)
             self.root.ids.screen_manager.current = team.name
-
-
-
 
 
 class RootScreenController:
