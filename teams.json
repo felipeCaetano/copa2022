@@ -1685,175 +1685,183 @@
   "Arábia Saudita": {
     "grupo": "C",
     "Nome": "da Arábia Saudita ",
-    "Treinador": "Treinador",
+    "Treinador": "Hervé Renard",
     "flag": "assets/images/GrupoC/arábia saudita/arábia saudita.png",
     "0": [
         "22",
-        "Meshaal Barsham",
+        "Mohammed Al-Rubaie",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "14/08/1997",
+        "Al Ahli Jeddah"
     ],
     "1": [
         "1",
-        "Saad Al-Sheeb",
+        "Mohammed Al-Owais",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "10/10/1991",
+        "Al-Hilal Saudi FC"
     ],
     "2": [
         "21",
-        "Yousef Hassan",
+        "Fawaz Al-Qarni",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "02/04/1992 ",
+        "Al-Shabab FC"
     ],
     "3": [
         "2",
-        "Pedro Miguel",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "Amin Al-Bukhari",
+        "Goleiro",
+        "02/05/1997",
+        "Al-Nassr FC"
     ],
     "4": [
         "5",
-        "Tarek Salman",
+        "Ziyad Al-Sahafi",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "17/10/1994",
+        "Al Ittihad Jedda"
     ],
     "5": [
         "15",
-        "Bassam Al-Rawi",
+        "Abdullah Madu",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "15/07/1993 ",
+        "Al-Nassr Riad"
     ],
     "6": [
         "16",
-        "Boualem Khoukhi",
+        "Abdulelah Al-Amri",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "15/01/1997",
+        "Al-Nassr FC"
     ],
     "7": [
         "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "Ahmed Sharahili",
+        "Zagueiro",
+        "08/05/1994 ",
+        "Al-Shabab FC"
     ],
     "8": [
         "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
+        "Hassan Tambakti",
+        "Zagueiro",
+        "09/02/1999",
+        "Al-Shabab FC"
     ],
     "9": [
         "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "Yasser Al-Shahrani",
+        "Lateral Esq.",
+        "25/05/1992",
+        "Al-Hilal Saudi FC"
     ],
     "10": [
         "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "Moteb Al-Harbi",
+        "Lateral Esq.",
+        "19/02/2000",
+        "Al-Shabab FC"
     ],
     "11": [
         "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "Mohammed Al-Burayk",
+        "Lateral Dir.",
+        "15/09/1992",
+        "Al-Hilal Saudi FC"
     ],
     "12": [
         "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
+        "Saud Abdulhamid",
+        "Lateral Dir.",
+        "18/07/1999",
+        "Al-Hilal Saudi FC"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
+        "19",
+        "Ali Al-Hassan",
         "Volante",
-        "20",
-        "Al-Arabi SC"
+        "04/03/1997",
+        "Al-Nassr FC"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
+        "28",
+        "Mohamed Kanno",
         "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "22/09/1994",
+        "Al-Hilal Saudi FC"
     ],
     "15": [
-        "-",
-        "Ahmed Fathi",
+        "7",
+        "Salman Al-Faraj",
         "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "01/08/1989",
+        "Al-Hilal Saudi FC",
+        "True"
     ],
     "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
+        "14",
+        "Sami Al-Najei",
+        "Meia Ofensivo",
+        "07/02/1997",
+        "Al-Nassr FC"
     ],
     "17": [
         "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "Abdulrahman Ghareeb",
+        "Ponta Esq.",
+        "31/03/1997",
+        "Al Ahli Jeddah"
     ],
     "18": [
         "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "Salem Al-Dawsari",
+        "Ponta Esq.",
+        "19/08/1991",
+        "Al-Hilal Saudi FC"
     ],
     "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "11",
+        "Khalid Al-Ghannam",
+        "Ponta Esq.",
+        "08/11/2000",
+        "Al-Nassr Riad"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "11",
+        "Abdulaziz Al-Bishi",
+        "Ponta Dir.",
+        "11/03/1994",
+        "Al Ittihad Jedda"
     ],
     "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "8",
+        "Fahad Al-Muwallad",
+        "Ponta Dir.",
+        "14/09/1994",
+        "Al Ittihad Jedda"
     ],
     "22": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Abdulrahman Al-Obood",
+        "Ponta Dir.",
+        "10/06/1995",
+        "Al Ittihad Jedda"
     ],
     "23": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Saleh Al-Shehri",
+        "Centroavante",
+        "01/11/1993",
+        "Al-Hilal Saudi FC"
+    ],
+    "24": [
+        "22",
+        "Firas Al-Buraikan",
+        "Centroavante",
+        "14/05/2000",
+        "Al-Fateh"
     ]
   },
   "México": {
