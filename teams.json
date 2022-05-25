@@ -2041,175 +2041,231 @@
   "Polônia": {
     "grupo": "C",
     "Nome": "da Polônia",
-    "Treinador": "Treinador",
+    "Treinador": "Czeslaw Michniewicz",
     "flag": "assets/images/GrupoC/polônia/polônia.png",
     "0": [
         "22",
-        "Meshaal Barsham",
+        "Wojciech Szczesny",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "18/04/1990",
+        "Juventus FC"
     ],
     "1": [
         "1",
-        "Saad Al-Sheeb",
+        "Bartlomiej Dragowski",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "19/08/1997 ",
+        "ACF Fiorentina"
     ],
     "2": [
         "21",
-        "Yousef Hassan",
+        "Lukasz Skorupski",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "05/05/1991",
+        "Bologna"
     ],
     "3": [
         "2",
-        "Pedro Miguel",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "Kamil Grabara",
+        "Goleiro",
+        "08/01/1999",
+        "FC Copenhagen"
     ],
     "4": [
         "5",
-        "Tarek Salman",
+        "Jan Bednarek",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "12/04/1996",
+        "FC Southampton"
     ],
     "5": [
         "15",
-        "Bassam Al-Rawi",
+        "Sebastian Walukiewicz",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "05/04/2000",
+        "Cagliari Calcio"
     ],
     "6": [
         "16",
-        "Boualem Khoukhi",
+        "Kamil Glik",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "03/02/198",
+        "Benevento"
     ],
     "7": [
         "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "Mateusz Wieteska",
+        "Zagueiro",
+        "11/02/199",
+        "Legia Varsóvia"
     ],
     "8": [
         "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
+        "Marcin Kaminski",
+        "Zagueiro",
+        "15/01/1992",
+        "Schalke 04"
     ],
     "9": [
         "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "Tymoteusz Puchacz",
+        "Lateral Esq..",
+        "23/01/1999",
+        "Trabzonspor"
     ],
     "10": [
         "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "Kamil Pestka",
+        "Lateral Esq.",
+        "22/08/1998",
+        "Cracovia"
     ],
     "11": [
         "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "Matty Cash",
+        "Lateral Dir.",
+        "07/08/1997",
+        "Aston Villa"
     ],
     "12": [
         "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
+        "Bartosz Bereszynski",
+        "Lateral Dir.",
+        "12/07/1992",
+        "UC Sampdoria"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
+        "4",
+        "Tomasz Kedziora",
+        "Lateral Dir.",
+        "11/06/1994",
+        "KKS Lech Poznan"
     ],
     "14": [
         "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "Robert Gumny",
+        "Lateral Dir.",
+        "04/06/1998",
+        "FC Augsburgo"
     ],
     "15": [
         "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "Grzegorz Krychowiak",
+        "Volante",
+        "29/01/1990 ",
+        "AEK Atenas"
     ],
     "16": [
         "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
+        "Krystian Bielik",
+        "Volante",
+        "04/01/1998 ",
+        "Derby County"
     ],
     "17": [
         "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "Jacek Goralski",
+        "Volante",
+        "21/09/1992",
+        "Kairat Almaty"
     ],
     "18": [
         "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "Jakub Kiwior",
+        "Volante",
+        "15/02/2000",
+        "Spezia Calcio"
     ],
     "19": [
         "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "Szymon Zurkowski",
+        " Meia Central",
+        "25/09/1997 ",
+        "FC Empoli"
     ],
     "20": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Mateusz Klich",
+        "Meia Central",
+        "13/06/1990 ",
+        "Leeds United FC"
     ],
     "21": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Karol Linetty",
+        "Meia Central",
+        "02/02/1995",
+        "Torino FC"
     ],
     "22": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Damian Szymanski",
+        "Meia Central",
+        "16/06/1995",
+        "AEK Atenas"
     ],
     "23": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Przemyslaw Frankowski",
+        "Meia Esquerda",
+        "12/04/1995",
+        "RC Lens"
+    ],
+    "24": [
+        "22",
+        "Nicola Zalewski",
+        "Meia Esq.",
+        "23/01/2002",
+        "AS Roma"
+    ],
+    "25": [
+        "22",
+        "Patryk Kun",
+        "Meia Esquerda",
+        "20/04/1995",
+        "Rakow Czestochowa"
+    ],
+    "26": [
+        "22",
+        "Piotr Zielinski",
+        "Meia Ofen.",
+        "20/05/1994",
+        "Nápoles"
+    ],
+    "27": [
+        "22",
+        "Sebastian Szymanski",
+        "Meia Ofen.",
+        "10/05/1999",
+        "Dínamo Moscovo"
+    ],
+    "28": [
+        "22",
+        "Jakub Kaminski",
+        "Ponta Esq.",
+        "05/06/2002 ",
+        "KKS Lech Poznan"
+    ],
+    "29": [
+        "10",
+        "Robert Lewandowski",
+        "Centroavante",
+        "21/08/1988",
+        "FC Bayern de Munique"
+    ],
+    "30": [
+        "22",
+        "Arkadiusz Milik",
+        "Centroavante",
+        "28/02/1994",
+        "Olympique Marselha"
+    ],
+    "31": [
+        "22",
+        "Krzysztof Piatek",
+        "Centroavante",
+        "01/07/1995",
+        "ACF Fiorentina"
     ]
   },
   "França": {
