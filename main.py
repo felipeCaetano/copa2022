@@ -119,8 +119,8 @@ class Copa2022(MDApp):
         Builder.load_file('copa2022.kv')
         self.controller = RootScreenController()
 
-        with open('teams.json', 'r', encoding='utf-8') as selecoes:
-            data = json.load(selecoes)
+        with open('teams.json', 'r', encoding='utf-8') as grupos:
+            data = json.load(grupos)
             self.teams = data
 
     def build(self):
@@ -250,32 +250,35 @@ class Copa2022(MDApp):
         }
         for pos in range(4):
             path = tab_text.replace(' ', '')
-            flag = self.grupos[tab_text][pos].lower()
-            team = self.grupos[tab_text][pos].lower()
-            cont_team[pos].text = self.grupos[tab_text][pos]
-            cont_team[pos].flag = f'assets/images/{path}/{team}/{flag}.png'
+            selection = list(self.teams[tab_text].keys())[pos]
+            team = selection.lower()
+            cont_team[pos].text = selection
+            cont_team[pos].flag = f'assets/images/{path}/{team}/{team}.png'
 
-    def create_team(self, team):
+    def create_team(self, team, group):
         """
         Cria time para ser exibido na respectiva tela.
         :param team:
         :return:
         """
-        grupo = self.teams[team.name]['grupo']
+        grupo = group.replace(" ", "")
         selecao = team.name.lower()
-        list_team = list(self.teams[team.name].keys())[4:]
-        for i in list_team:
-            team.ids.box.add_widget(
-                MDExpansionPanel(
-                    icon=f'assets/images/Grupo{grupo}/{selecao}/players/{i}.png',
-                    content=Content(),
-                    panel_cls=MDExpansionPanelThreeLine(
-                        text=self.teams[team.name][i][1],
-                        secondary_text=self.teams[team.name][i][2],
-                        tertiary_text=self.teams[team.name][i][4],
-                    ),
-                )
-            )
+        for group, teams in self.teams.items():
+            if team.name in teams:
+                list_team = list(teams[team.name].keys())[4:]
+                for i in list_team:
+                    team.ids.box.add_widget(
+                        MDExpansionPanel(
+                            icon=f'assets/images/{grupo}/{selecao}/players/{i}.png',
+                            content=Content(),
+                            panel_cls=MDExpansionPanelThreeLine(
+                                text=teams[team.name][i][1],
+                                secondary_text=teams[team.name][i][2],
+                                tertiary_text=teams[team.name][i][4],
+                            ),
+                        )
+                    )
+                break
 
     def update_tab(self, instance_tab, tab_text):
         """
@@ -311,14 +314,17 @@ class Copa2022(MDApp):
 
     def show_team(self, *args):
         team = Catar(name=args[0])
-        team.team_name = f"Seleção {self.teams[args[0]]['Nome']}"
-        team.treinador = f"{self.teams[args[0]]['Treinador']}"
-        team.flag = self.teams[args[0]]['flag']
+        for group, teams in self.teams.items():
+            if args[0] in teams:
+                team.team_name = f"Seleção {teams[args[0]]['Nome']}"
+                team.treinador = f"{teams[args[0]]['Treinador']}"
+                team.flag = teams[args[0]]['flag']
+                break
         try:
             team = self.root.ids.screen_manager.get_screen(args[0])
             self.root.ids.screen_manager.current = team.name
         except ScreenManagerException:
-            self.create_team(team)
+            self.create_team(team, group)
             self.root.ids.screen_manager.add_widget(team)
             self.root.ids.screen_manager.current = team.name
 

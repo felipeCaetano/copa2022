@@ -1,928 +1,931 @@
 {
-  "Catar": {
-    "grupo": "A",
-    "Nome": "do Catar",
-    "Treinador": "Félix Sánchez",
-    "flag": "assets/images/GrupoA/catar/catar.png",
-    "0": [
-      "22",
-      "Meshaal Barsham",
-      "Goleiro",
-      "24",
-      "Al-Sadd SC"
-    ],
-    "1": [
-      "1",
-      "Saad Al-Sheeb",
-      "Goleiro",
-      "32",
-      "Al-Sadd SC"
-    ],
-    "2": [
-      "21",
-      "Yousef Hassan",
-      "Goleiro",
-      "25",
-      "Al-Gharafa SC"
-    ],
-    "3": [
-      "2",
-      "Pedro Miguel",
-      "Zagueiro",
-      "31",
-      "Al-Sadd SC"
-    ],
-    "4": [
-      "5",
-      "Tarek Salman",
-      "Zagueiro",
-      "31",
-      "Al-Sadd SC"
-    ],
-    "5": [
-      "15",
-      "Bassam Al-Rawi",
-      "Zagueiro",
-      "24",
-      "Al-Duhail SC"
-    ],
-    "6": [
-      "16",
-      "Boualem Khoukhi",
-      "Zagueiro",
-      "31",
-      "Al-Sadd SC"
-    ],
-    "7": [
-      "3",
-      "Abdelkarim Hassan",
-      "Lateral Esq.",
-      "28",
-      "Al-Sadd SC"
-    ],
-    "8": [
-      "14",
-      "Homam Ahmed",
-      "Lateral Esq.",
-      "22",
-      "Al-Gharafa SC"
-    ],
-    "9": [
-      "13",
-      "Musab Khoder",
-      "Lateral Dir.",
-      "29",
-      "Al-Sadd SC"
-    ],
-    "10": [
-      "12",
-      "Karim Boudiaf",
-      "Volante",
-      "31",
-      "Al-Duhail SC"
-    ],
-    "11": [
-      "23",
-      "Assim Madibo",
-      "Volante",
-      "25",
-      "Al-Duhail SC"
-    ],
-    "12": [
-      "4",
-      "Mohammed Waad",
-      "Meia Central",
-      "22",
-      "Al-Sadd SC"
-    ],
-    "13":  [
-      "20",
-      "Abdullah Al-Ahrak",
-      "Meia Ofensivo",
-      "24",
-      "Al-Arabi SC"
-    ],
-    "14": [
-      "8",
-      "Ali Asad",
-      "Meia Ofensivo",
-      "29",
-      "Al-Sadd SC"
-    ],
-    "15": [
-      "11",
-      "Akram Afif",
-      "Ponta Esq.",
-      "25",
-      "Al-Sadd SC"
-    ],
-    "16": [
-      "-",
-      "Abdelrahman Moustafa",
-      "Ponta Esquerda",
-      "25",
-      "Al-Arabi SC"
-    ],
-    "17": [
-      "18",
-      "Khalid Muneer Mazeed",
-      "Ponta Esquerda",
-      "24",
-      "Al-Wakrah SC"
-    ],
-    "18": [
-      "-",
-      "Hazem Ahmed",
-      "Ponta Direita",
-      "24",
-      "Al-Wakrah SC"
-    ],
-    "19": [
-      "17",
-      "Ismaeel Mohammed",
-      "Ponta Direita",
-      "32",
-      "Al-Arabi SC"
-    ],
-    "20": [
-      "-",
-      "Naif Al-Hadhrami",
-      "Ponta Direita",
-      "20",
-      "Al-Rayyan SC"
-    ],
-    "21": [
-      "19",
-      "Almoez Ali",
-      "Centroavante",
-      "25",
-      "Al-Duhail SC"
-    ],
-    "22": [
-      "7",
-      "Meshaal Barsham",
-      "Goleiro",
-      "24",
-      "Al-Sadd SC"
-    ],
-    "23": [
-      "22",
-      "Ahmed Alaaeldin",
-      "Centroavante",
-      "29",
-      "Al-Gharafa SC"
-    ]
-  },
-  "Equador": {
+  "Grupo A": {
+    "Catar": {
+      "grupo": "A",
+      "Nome": "do Catar",
+      "Treinador": "Félix Sánchez",
+      "flag": "assets/images/GrupoA/catar/catar.png",
+      "0": [
+        "22",
+        "Meshaal Barsham",
+        "Goleiro",
+        "24",
+        "Al-Sadd SC"
+      ],
+      "1": [
+        "1",
+        "Saad Al-Sheeb",
+        "Goleiro",
+        "32",
+        "Al-Sadd SC"
+      ],
+      "2": [
+        "21",
+        "Yousef Hassan",
+        "Goleiro",
+        "25",
+        "Al-Gharafa SC"
+      ],
+      "3": [
+        "2",
+        "Pedro Miguel",
+        "Zagueiro",
+        "31",
+        "Al-Sadd SC"
+      ],
+      "4": [
+        "5",
+        "Tarek Salman",
+        "Zagueiro",
+        "31",
+        "Al-Sadd SC"
+      ],
+      "5": [
+        "15",
+        "Bassam Al-Rawi",
+        "Zagueiro",
+        "24",
+        "Al-Duhail SC"
+      ],
+      "6": [
+        "16",
+        "Boualem Khoukhi",
+        "Zagueiro",
+        "31",
+        "Al-Sadd SC"
+      ],
+      "7": [
+        "3",
+        "Abdelkarim Hassan",
+        "Lateral Esq.",
+        "28",
+        "Al-Sadd SC"
+      ],
+      "8": [
+        "14",
+        "Homam Ahmed",
+        "Lateral Esq.",
+        "22",
+        "Al-Gharafa SC"
+      ],
+      "9": [
+        "13",
+        "Musab Khoder",
+        "Lateral Dir.",
+        "29",
+        "Al-Sadd SC"
+      ],
+      "10": [
+        "12",
+        "Karim Boudiaf",
+        "Volante",
+        "31",
+        "Al-Duhail SC"
+      ],
+      "11": [
+        "23",
+        "Assim Madibo",
+        "Volante",
+        "25",
+        "Al-Duhail SC"
+      ],
+      "12": [
+        "4",
+        "Mohammed Waad",
+        "Meia Central",
+        "22",
+        "Al-Sadd SC"
+      ],
+      "13": [
+        "20",
+        "Abdullah Al-Ahrak",
+        "Meia Ofensivo",
+        "24",
+        "Al-Arabi SC"
+      ],
+      "14": [
+        "8",
+        "Ali Asad",
+        "Meia Ofensivo",
+        "29",
+        "Al-Sadd SC"
+      ],
+      "15": [
+        "11",
+        "Akram Afif",
+        "Ponta Esq.",
+        "25",
+        "Al-Sadd SC"
+      ],
+      "16": [
+        "-",
+        "Abdelrahman Moustafa",
+        "Ponta Esquerda",
+        "25",
+        "Al-Arabi SC"
+      ],
+      "17": [
+        "18",
+        "Khalid Muneer Mazeed",
+        "Ponta Esquerda",
+        "24",
+        "Al-Wakrah SC"
+      ],
+      "18": [
+        "-",
+        "Hazem Ahmed",
+        "Ponta Direita",
+        "24",
+        "Al-Wakrah SC"
+      ],
+      "19": [
+        "17",
+        "Ismaeel Mohammed",
+        "Ponta Direita",
+        "32",
+        "Al-Arabi SC"
+      ],
+      "20": [
+        "-",
+        "Naif Al-Hadhrami",
+        "Ponta Direita",
+        "20",
+        "Al-Rayyan SC"
+      ],
+      "21": [
+        "19",
+        "Almoez Ali",
+        "Centroavante",
+        "25",
+        "Al-Duhail SC"
+      ],
+      "22": [
+        "7",
+        "Meshaal Barsham",
+        "Goleiro",
+        "24",
+        "Al-Sadd SC"
+      ],
+      "23": [
+        "22",
+        "Ahmed Alaaeldin",
+        "Centroavante",
+        "29",
+        "Al-Gharafa SC"
+      ]
+    },
+    "Equador": {
       "grupo": "A",
       "Nome": "do Equador",
       "Treinador": "Gustavo Alfaro",
       "flag": "assets/images/GrupoA/equador/equador.png",
       "0": [
-          "22",
-          "Moisés Ramírez",
-          "Goleiro",
-          "21",
-          "Independiente del Valle"
+        "22",
+        "Moisés Ramírez",
+        "Goleiro",
+        "21",
+        "Independiente del Valle"
       ],
       "1": [
-          "1",
-          "Hernán Galíndez",
-          "Goleiro",
-          "35",
-          "CF Universidad de Chile"
+        "1",
+        "Hernán Galíndez",
+        "Goleiro",
+        "35",
+        "CF Universidad de Chile"
       ],
       "2": [
-          "12",
-          "Jorge Pinos",
-          "Goleiro",
-          "32",
-          "AD Nueve de Octubre"
+        "12",
+        "Jorge Pinos",
+        "Goleiro",
+        "32",
+        "AD Nueve de Octubre"
       ],
       "3": [
-          "33",
-          "Piero Hincapié",
-          "Zagueiro",
-          "20",
-          "AD Nueve de Octubre"
+        "33",
+        "Piero Hincapié",
+        "Zagueiro",
+        "20",
+        "AD Nueve de Octubre"
       ],
       "4": [
-          "2",
-          "Félix Torres",
-          "Zagueiro",
-          "25",
-          "San Lorenzo"
+        "2",
+        "Félix Torres",
+        "Zagueiro",
+        "25",
+        "San Lorenzo"
       ],
       "5": [
-          "4",
-          "Robert Arboleda",
-          "Zagueiro",
-          "30",
-          "São Paulo FC"
+        "4",
+        "Robert Arboleda",
+        "Zagueiro",
+        "30",
+        "São Paulo FC"
       ],
       "6": [
-          "30",
-          "Fernando León",
-          "Zagueiro",
-          "29",
-          "Valencia"
+        "30",
+        "Fernando León",
+        "Zagueiro",
+        "29",
+        "Valencia"
       ],
       "7": [
-          "14",
-          "Xavier Arreaga",
-          "Zagueiro",
-          "27",
-          "Seattle Sounders FC"
+        "14",
+        "Xavier Arreaga",
+        "Zagueiro",
+        "27",
+        "Seattle Sounders FC"
       ],
       "8": [
-          "7",
-          "Pervis Estupiñán",
-          "Lateral Esq.",
-          "24",
-          "FC Villarreal"
+        "7",
+        "Pervis Estupiñán",
+        "Lateral Esq.",
+        "24",
+        "FC Villarreal"
       ],
       "9": [
-          "18",
-          "Diego Palacios",
-          "Lateral Esq.",
-          "22",
-          "Los Angeles FC"
+        "18",
+        "Diego Palacios",
+        "Lateral Esq.",
+        "22",
+        "Los Angeles FC"
       ],
       "10": [
-          "6",
-          "Byron Castillo",
-          "Lateral Dir.",
-          "23",
-          "Barcelona SC"
+        "6",
+        "Byron Castillo",
+        "Lateral Dir.",
+        "23",
+        "Barcelona SC"
       ],
       "11": [
-          "17",
-          "Angelo Preciado",
-          "Lateral Dir.",
-          "24",
-          "KRC Genk"
+        "17",
+        "Angelo Preciado",
+        "Lateral Dir.",
+        "24",
+        "KRC Genk"
       ],
       "12": [
-          "8",
-          "Carlos Gruezo",
-          "Volante",
-          "27",
-          "Augsburgo FC"
+        "8",
+        "Carlos Gruezo",
+        "Volante",
+        "27",
+        "Augsburgo FC"
       ],
       "13": [
-          "20",
-          "Jhegson Méndez",
-          "Volante",
-          "25",
-          "Orlando City SC"
+        "20",
+        "Jhegson Méndez",
+        "Volante",
+        "25",
+        "Orlando City SC"
       ],
       "14": [
-          "5",
-          "Michael Carcelén",
-          "Volante",
-          "25",
-          "Barcelona SC"
+        "5",
+        "Michael Carcelén",
+        "Volante",
+        "25",
+        "Barcelona SC"
       ],
       "15": [
-          "21",
-          "José Cifuentes",
-          "Meia Central",
-          "23",
-          "Los Angeles FC"
+        "21",
+        "José Cifuentes",
+        "Meia Central",
+        "23",
+        "Los Angeles FC"
       ],
       "16": [
-          "23",
-          "Moisés Caicedo",
-          "Meia Central",
-          "20",
-          "Brighton Albion"
+        "23",
+        "Moisés Caicedo",
+        "Meia Central",
+        "20",
+        "Brighton Albion"
       ],
       "17": [
-          "21",
-          "Alan Franco",
-          "Meia Central",
-          "23",
-          "Charlotte FC"
+        "21",
+        "Alan Franco",
+        "Meia Central",
+        "23",
+        "Charlotte FC"
       ],
       "18": [
-          "-",
-          "Danny Cabezas",
-          "Meia Ofensivo",
-          "29",
-          "Independiente del Valle"
+        "-",
+        "Danny Cabezas",
+        "Meia Ofensivo",
+        "29",
+        "Independiente del Valle"
       ],
       "19": [
-          "16",
-          "Jeremy Sarmiento",
-          "Meia Ofensivo",
-          "19",
-          "Brighton Albion"
+        "16",
+        "Jeremy Sarmiento",
+        "Meia Ofensivo",
+        "19",
+        "Brighton Albion"
       ],
       "20": [
-          "10",
-          "Joao Rojas",
-          "Ponta Esquerda",
-          "24",
-          "CS Emelec"
+        "10",
+        "Joao Rojas",
+        "Ponta Esquerda",
+        "24",
+        "CS Emelec"
       ],
       "21": [
-          "10",
-          "Romario Ibarra",
-          "Ponta Esquerda",
-          "27",
-          "CF Pachuca"
+        "10",
+        "Romario Ibarra",
+        "Ponta Esquerda",
+        "27",
+        "CF Pachuca"
       ],
       "22": [
-          "19",
-          "Gonzalo Plata",
-          "Ponta Direita",
-          "21",
-          "Real Valladolid CF"
+        "19",
+        "Gonzalo Plata",
+        "Ponta Direita",
+        "21",
+        "Real Valladolid CF"
       ],
       "23": [
-          "15",
-          "Ángel Mena",
-          "Ponta Direita",
-          "34",
-          "Club León"
+        "15",
+        "Ángel Mena",
+        "Ponta Direita",
+        "34",
+        "Club León"
       ],
       "24": [
-          "11",
-          "Michael Estrada",
-          "Centroavante",
-          "26",
-          "D.C. United"
+        "11",
+        "Michael Estrada",
+        "Centroavante",
+        "26",
+        "D.C. United"
       ],
       "25": [
-          "13",
-          "Enner Valencia",
-          "Centroavante",
-          "32",
-          "Fenerbahce SK"
+        "13",
+        "Enner Valencia",
+        "Centroavante",
+        "32",
+        "Fenerbahce SK"
       ],
       "26": [
-          "9",
-          "Jordy Caicedo",
-          "Centroavante",
-          "24",
-          "CSKA-Sofia"
+        "9",
+        "Jordy Caicedo",
+        "Centroavante",
+        "24",
+        "CSKA-Sofia"
       ],
       "27": [
-          "16",
-          "Djorkaeff Reasco",
-          "Centroavante",
-          "23",
-          "CA Newell's Old Boys"
+        "16",
+        "Djorkaeff Reasco",
+        "Centroavante",
+        "23",
+        "CA Newell's Old Boys"
       ]
-  },
-  "Senegal": {
-    "grupo": "A",
-    "Nome": "do Senal",
-    "Treinador": "Treinador do Senegal",
-    "flag": "assets/images/GrupoA/senegal/senegal.png",
-    "0": [
-      "16",
-      "Edouard Mendy",
-      "Goleiro",
-      "30",
-      "Chelsea FC"
-    ],
-    "1": [
+    },
+    "Senegal": {
+      "grupo": "A",
+      "Nome": "do Senal",
+      "Treinador": "Treinador do Senegal",
+      "flag": "assets/images/GrupoA/senegal/senegal.png",
+      "0": [
+        "16",
+        "Edouard Mendy",
+        "Goleiro",
+        "30",
+        "Chelsea FC"
+      ],
+      "1": [
         "1",
         "Bingourou Kamara",
         "Goleiro",
         "25",
         "RSC Charleroi"
-    ],
-    "2": [
+      ],
+      "2": [
         "28",
         "Aliou Badara Faty",
         "Goleiro",
         "23",
         "Casa Sports"
-    ],
-    "3": [
+      ],
+      "3": [
         "26",
         "Kalidou Koulibaly",
         "Zagueiro",
         "30",
         "Nápoles"
-    ],
-    "4": [
+      ],
+      "4": [
         "4",
         "Pape Abou Cissé",
         "Zagueiro",
         "26",
         "Olympiacos Pireu"
-    ],
-    "5": [
+      ],
+      "5": [
         "14",
         "Abdoulaye Seck",
         "Zagueiro",
         "29",
         "Royal Antuérpia FC"
-    ],
-    "6": [
+      ],
+      "6": [
         "22",
         "Abdou Diallo",
         "Lateral Esq.",
         "26",
         "Paris Saint-German FC"
-    ],
-    "7": [
+      ],
+      "7": [
         "12",
         "Fodé Ballo-Touré",
         "Lateral Esq.",
         "25",
         "AC Milan"
-    ],
-    "8": [
+      ],
+      "8": [
         "2",
         "Saliou Ciss",
         "Lateral Esq.",
         "32",
         "AS Nancy-Lorraine"
-    ],
-    "9": [
+      ],
+      "9": [
         "-",
         "Youssouf Sabaly",
         "Lateral Dir.",
         "29",
         "Real Bétis"
-    ],
-    "10": [
+      ],
+      "10": [
         "20",
         "Bouna Sarr",
         "Lateral Dir.",
         "30",
         "FC Bayern de Munique"
-    ],
-    "11": [
+      ],
+      "11": [
         "17",
         "Pape Sarr",
         "Volante",
         "19",
         "FC Metz"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Idrissa Gueye",
         "Volante",
         "29",
         "FC Paris Saint-Germain"
-    ],
-    "13": [
+      ],
+      "13": [
         "6",
         "Nampalys Mendy",
         "Volante",
         "29",
         "Leicester City FC"
-    ],
-    "14": [
+      ],
+      "14": [
         "22",
         "Pape Gueye",
         "Volante",
         "23",
         "Olympique Marselha"
-    ],
-    "15": [
+      ],
+      "15": [
         "8",
         "Cheikhou Kouyaté",
         "Volante",
         "32",
         "Crystal Palace FC"
-    ],
-    "16": [
+      ],
+      "16": [
         "25",
         "Mamadou Loum",
         "Volante",
         "25",
         "Deportivo Alavés"
-    ],
-    "17": [
+      ],
+      "17": [
         "24",
         "Moustapha Name",
         "Meia Central",
         "27",
         "Paris FC"
-    ],
-    "18": [
+      ],
+      "18": [
         "10",
         "Sadio Mané",
         "Ponta Esq.",
         "30",
         "FC Liverpool"
-    ],
-    "19": [
+      ],
+      "19": [
         "27",
         "Mame Thiam",
         "Ponta Esq.",
         "29",
         "Kayserispor"
-    ],
-    "20": [
+      ],
+      "20": [
         "18",
         "Ismaïla Sarr",
         "Ponta Dir.",
         "24",
         "FC Watford"
-    ],
-    "21": [
+      ],
+      "21": [
         "9",
         "Boulaye Dia",
         "Centroavante",
         "25",
         "FC Watford"
-    ],
-    "22": [
+      ],
+      "22": [
         "11",
         "Habib Diallo",
         "Centroavante",
         "26",
         "RC Strasbourg Alsace"
-    ],
-    "23": [
+      ],
+      "23": [
         "15",
         "Bamba Dieng",
         "Centroavante",
         "22",
         "Olympique Marselha"
-    ],
-    "24": [
+      ],
+      "24": [
         "7",
         "Keita Baldé",
         "Centroavante",
         "27",
         "Cagliari Calcio"
-    ],
-    "25": [
+      ],
+      "25": [
         "19",
         "Famara Diédhiou",
         "Centroavante",
         "29",
         "Alanyaspor"
-    ]
-  },
-  "Holanda": {
-    "grupo": "A",
-    "Nome": "da Holanda",
-    "Treinador": "Louis van Gaal",
-    "flag": "assets/images/GrupoA/holanda/holanda.png",
-    "0": [
+      ]
+    },
+    "Holanda": {
+      "grupo": "A",
+      "Nome": "da Holanda",
+      "Treinador": "Louis van Gaal",
+      "flag": "assets/images/GrupoA/holanda/holanda.png",
+      "0": [
         "1",
         "Mark Flekken",
         "Goleiro",
         "28",
         "SC Freiburg"
-    ],
-    "1": [
+      ],
+      "1": [
         "23",
         "Joël Drommel",
         "Goleiro",
         "25",
         "PSV Eindhoven"
-    ],
-    "2": [
+      ],
+      "2": [
         "13",
         "Tim Krul",
         "Goleiro",
         "34",
         "Norwich City"
-    ],
-    "3": [
+      ],
+      "3": [
         "3",
         "Matthijs de Ligt",
         "Zagueiro",
         "22",
         "Juventus FC"
-    ],
-    "4": [
+      ],
+      "4": [
         "4",
         "Virgil van Dijk",
         "Zagueiro",
         "30",
         "FC Liverpool"
-    ],
-    "5": [
+      ],
+      "5": [
         "5",
         "Nathan Aké",
         "Zagueiro",
         "27",
         "Manchester City FC"
-    ],
-    "6": [
+      ],
+      "6": [
         "12",
         "Owen Wijndal",
         "Lateral Esq.",
         "22",
         "AZ Alkmaar"
-    ],
-    "7": [
+      ],
+      "7": [
         "6",
         "Tyrell Malacia",
         "Lateral Esq.",
         "22",
         "Feyenoord"
-    ],
-    "8": [
+      ],
+      "8": [
         "17",
         "Daley Blind",
         "Lateral Esq.",
         "32",
         "AFC Ajax"
-    ],
-    "9": [
+      ],
+      "9": [
         "2",
         "Hans Hateboer",
         "Lateral Dir.",
         "28",
         "Atalanta BC"
-    ],
-    "10": [
+      ],
+      "10": [
         "20",
         "Teun Koopmeiners",
         "Volante",
         "24",
         "Atalanta BC"
-    ],
-    "11": [
+      ],
+      "11": [
         "15",
         "Marten de Roon",
         "Volante",
         "31",
         "Atalanta BC"
-    ],
-    "12": [
+      ],
+      "12": [
         "16",
         "Jordy Clasie",
         "Volante",
         "30",
         "AZ Alkmaar"
-    ],
-    "13": [
+      ],
+      "13": [
         "21",
         "Frenkie de Jong",
         "Volante",
         "24",
         "Barcelona FC"
-    ],
-    "14": [
+      ],
+      "14": [
         "8",
         "Georginio Wijnaldum",
         "Meia Central",
         "31",
         "FC Paris Saint-Germain"
-    ],
-    "15": [
+      ],
+      "15": [
         "22",
         "Denzel Dumfries",
         "Meia Dir.",
         "26",
         "Inter de Milão"
-    ],
-    "16": [
+      ],
+      "16": [
         "14",
         "Davy Klaassen",
         "Meia Ofensivo",
         "29",
         "AFC Ajax"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Guus Til",
         "Meia Ofensivo",
         "24",
         "Feyenoord"
-    ],
-    "18": [
+      ],
+      "18": [
         "9",
         "Arnaut Danjuma",
         "Ponta Esq.",
         "25",
         "FC Villarreal"
-    ],
-    "19": [
+      ],
+      "19": [
         "--",
         "Noa Lang",
         "Ponta Esq.",
         "22",
         "Club Brugge"
-    ],
-    "20": [
+      ],
+      "20": [
         "7",
         "Steven Bergwijn",
         "Ponta Esq.",
         "24",
         "Tottenham Hotspur"
-    ],
-    "21": [
+      ],
+      "21": [
         "11",
         "Steven Berghuis",
         "Ponta Dir.",
         "30",
         "AFC Ajax"
-    ],
-    "22": [
+      ],
+      "22": [
         "10",
         "Memphis Depay",
         "Centroavante",
         "28",
         "FC Barcelona"
-    ],
-    "23": [
+      ],
+      "23": [
         "18",
         "Donyell Malen",
         "Centroavante",
         "23",
         "Borussia Dortmund"
-    ],
-    "24": [
+      ],
+      "24": [
         "19",
         "Wout Weghorst",
         "Centroavante",
         "29",
         "FC Burnley"
-    ]
+      ]
+    }
   },
-  "Inglaterra": {
-    "grupo": "B",
-    "Nome": "da Inglaterra",
-    "Treinador": "Gareth Southgate",
-    "flag": "assets/images/GrupoB/inglaterra/inglaterra.png",
-    "0": [
+  "Grupo B": {
+    "Inglaterra": {
+      "grupo": "B",
+      "Nome": "da Inglaterra",
+      "Treinador": "Gareth Southgate",
+      "flag": "assets/images/GrupoB/inglaterra/inglaterra.png",
+      "0": [
         "1",
         "Jordan Pickford",
         "Goleiro",
         "07/03/1994",
         "FC Everton"
-    ],
-    "1": [
+      ],
+      "1": [
         "13",
         "Nick Pope",
         "Goleiro",
         "19/04/1992",
         "FC Burnley"
-    ],
-    "2": [
+      ],
+      "2": [
         "22",
         "Fraser Forster",
         "Goleiro",
         "17/03/1988",
         "FC Southampton"
-    ],
-    "3": [
+      ],
+      "3": [
         "12",
         "Harry Maguire",
         "Zagueiro",
         "05/03/1993",
         "Manchester United FC",
         "True"
-    ],
-    "4": [
+      ],
+      "4": [
         "14",
         "Ben White",
         "Zagueiro",
         "08/10/1997",
         "FC Arsenal"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Tyrone Mings",
         "Zagueiro",
         "13/03/1993",
         "Aston Villa FC",
         "True"
-    ],
-    "6": [
+      ],
+      "6": [
         "4",
         "Marc Guéhi",
         "Zagueiro",
         "13/07/2000",
         "Crystal Palace FC"
-    ],
-    "7": [
+      ],
+      "7": [
         "5",
         "John Stones",
         "Zagueiro",
         "28/05/1994",
         "Manchester City FC"
-    ],
-    "8": [
+      ],
+      "8": [
         "6",
         "Conor Coady",
         "Zagueiro",
         "22",
         "Wolverhampton Wanderers",
         "True"
-    ],
-    "9": [
+      ],
+      "9": [
         "3",
         "Luke Shaw",
         "Lateral Esq.",
         "12/07/1995",
         "Manchester United FC"
-    ],
-    "10": [
+      ],
+      "10": [
         "23",
         "Tyrick Mitchell",
         "Lateral Esq.",
         "01/09/1999",
         "Crystal Palace"
-    ],
-    "11": [
+      ],
+      "11": [
         "2",
         "Kyle Walker-Peters",
         "Lateral Dir.",
         "13/04/1997",
         "FC Southampton"
-    ],
-    "12": [
+      ],
+      "12": [
         "17",
         "Declan Rice",
         "Volante",
         "14/01/1999",
         "West Ham United"
-    ],
-    "13": [
+      ],
+      "13": [
         "10",
         "Phil Foden",
         "Meia Central",
         "28/05/2000",
         "Manchester City FC"
-    ],
-    "14": [
+      ],
+      "14": [
         "18",
         "Jude Bellingham",
         "Meia Central",
         "29/06/2003",
         "Borussia Dortmund"
-    ],
-    "15": [
+      ],
+      "15": [
         "21",
         "James Ward-Prowse",
         "Meia Central",
         "01/11/1994",
         "FC Southampton",
         "True"
-    ],
-    "16": [
+      ],
+      "16": [
         "7",
         "Conor Gallagher",
         "Meia Central",
         "06/02/2000",
         "Crystal Palace FC"
-    ],
-    "17": [
+      ],
+      "17": [
         "8",
         "Jordan Henderson",
         "Meia Central",
         "17/06/1990",
         "FC Liverpool"
-    ],
-    "18": [
+      ],
+      "18": [
         "11",
         "Mason Mount",
         "Meia Ofensivo",
         "10/01/1999",
         "Chelsea FC"
-    ],
-    "19": [
+      ],
+      "19": [
         "23",
         "Emile Smith Rowe",
         "Meia Ofensivo",
         "28/07/2000",
         "FC Arsenal"
-    ],
-    "20": [
+      ],
+      "20": [
         "20",
         "Raheem Sterling",
         "Ponta Esq.",
         "08/12/1994",
         "Manchester City FC"
-    ],
-    "21": [
+      ],
+      "21": [
         "16",
         "Jack Grealish",
         "Ponta Esq.",
         "10/09/1995",
         "Manchester City FC"
-    ],
-    "22": [
+      ],
+      "22": [
         "9",
         "Harry Kane",
         "Centroavante",
         "28/07/1993",
         "Tottenham Hotspur"
-    ],
-    "23": [
+      ],
+      "23": [
         "19",
         "Ollie Watkins",
         "Centroavante",
         "30/12/1995",
         "Aston Villa FC"
-    ]
-  },
-  "Irã": {
+      ]
+    },
+    "Irã": {
     "grupo": "B",
     "Nome": "do Irã",
     "Treinador": "Dragan Skocic",
@@ -1124,7 +1127,7 @@
         "AEK Atenas"
     ]
   },
-  "EUA": {
+    "EUA": {
     "grupo": "B",
     "Nome": "dos EUA",
     "Treinador": "Gregg Berhalter",
@@ -1299,7 +1302,7 @@
         "BSC Young Boys"
     ]
   },
-  "Euro Play-off": {
+    "Euro Play-off": {
     "grupo": "B",
     "Nome": "do Euro Play-off",
     "Treinador": "Treinador",
@@ -1472,8 +1475,10 @@
         "24",
         "Al-Sadd SC"
     ]
+  }
   },
-  "Argentina": {
+  "Grupo C": {
+    "Argentina": {
     "grupo": "C",
     "Nome": "da Argentina",
     "Treinador": "Lionel Scaloni",
@@ -1682,7 +1687,7 @@
         "Elche CF"
     ]
   },
-  "Arábia Saudita": {
+    "Arábia Saudita": {
     "grupo": "C",
     "Nome": "da Arábia Saudita ",
     "Treinador": "Hervé Renard",
@@ -1864,181 +1869,202 @@
         "Al-Fateh"
     ]
   },
-  "México": {
+    "México": {
     "grupo": "C",
     "Nome": "do México",
-    "Treinador": "Treinador",
+    "Treinador": "Gerardo Martino",
     "flag": "assets/images/GrupoC/méxico/méxico.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "1",
+        "Carlos Acevedo",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "19/04/1996",
+        "Santos Laguna"
     ],
     "1": [
-        "1",
-        "Saad Al-Sheeb",
+        "13",
+        "Guillermo Ochoa",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "13/07/1985",
+        "CF América"
     ],
     "2": [
-        "21",
-        "Yousef Hassan",
+        "30",
+        "Rodolfo Cota",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "03/07/1987",
+        "Club León"
     ],
     "3": [
         "2",
-        "Pedro Miguel",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "Alfredo Talavera",
+        "Goleiro",
+        "18/09/1982",
+        "UNAM Pumas"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "3",
+        "César Montes",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "24/02/1997 ",
+        "CF Monterrey"
     ],
     "5": [
-        "15",
-        "Bassam Al-Rawi",
+        "27",
+        "Jesús Angulo",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "30/01/1998",
+        "Tigres UANL"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
+        "4",
+        "Néstor Araújo",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "29/08/1991",
+        "Celta de Vigo"
     ],
     "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "15",
+        "Johan Vásquez",
+        "Zagueiro",
+        "22/10/1998",
+        "Génova"
     ],
     "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
+        "12",
+        "Israel Reyes",
+        "Zagueiro",
+        "23/05/2000",
+        "Puebla FC"
     ],
     "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "15",
+        "Héctor Moreno",
+        "Zagueiro.",
+        "17/01/1988",
+        "CF Monterrey"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "4",
+        "Julio Domínguez",
+        "ZagueiroZagueiro",
+        "08/11/1987",
+        "CD Cruz Azul"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "14",
+        "Érick Aguirre",
+        "Lateral Esq.",
+        "23/02/1997",
+        "CF Monterrey"
     ],
     "12": [
-        "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
+        "5",
+        "Gerardo Arteaga",
+        "Lateral Esq.",
+        "07/09/1998",
+        "KRC Genk"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
+        "17",
+        "Jesús Gallardo",
+        "Lateral Esq.",
+        "15/08/1994",
+        "CF Monterrey"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "3",
+        "Jorge Sánchez",
+        "Lateral Dir.",
+        "10/12/1997",
+        "CF América"
     ],
     "15": [
         "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "Kevin Álvarez",
+        "Lateral Dir.",
+        "15/01/1999",
+        "CF Pachuca"
     ],
     "16": [
         "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
+        "Julián Araujo",
+        "Lateral Dir.",
+        "13/08/2001",
+        "Los Angeles Galaxy"
     ],
     "17": [
         "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "Edson Álvarez",
+        "Volante",
+        "24/10/1997",
+        "AFC Ajax"
     ],
     "18": [
         "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "Luis Chávez",
+        "Volante",
+        "15/01/1996",
+        "CF Pachuca"
     ],
     "19": [
         "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "Erik Lira",
+        "Volante",
+        "08/05/2000",
+        "CD Cruz Azul"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "28",
+        "Érick Sánchez",
+        "Meia Central",
+        "27/09/1999",
+        "CF Pachuca"
     ],
     "21": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Luis Romo",
+        "Meia Central",
+        "05/06/1995",
+        "CF Monterrey"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "10",
+        "Alexis Vega",
+        "Ponta Esq.",
+        "25/11/1997",
+        "Deportivo Guadalajara"
     ],
     "23": [
+        "21",
+        "Henry Martín",
+        "Centroavante",
+        "18/11/1992",
+        "CF América"
+    ],
+    "24": [
+        "9",
+        "Tecatito",
+        "Ponta Dir.",
+        "06/01/1993",
+        "Sevilla FC"
+    ],
+    "25": [
+        "29",
+        "Santiago Giménez",
+        "Centroavante",
+        "18/04/2001",
+        "CD Cruz Azul"
+    ],
+    "26": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Raúl Jiménez",
+        "Centroavante",
+        "05/05/1991",
+        "Wolverhampton Wanderers"
     ]
   },
-  "Polônia": {
+    "Polônia": {
     "grupo": "C",
     "Nome": "da Polônia",
     "Treinador": "Czeslaw Michniewicz",
@@ -2267,8 +2293,10 @@
         "01/07/1995",
         "ACF Fiorentina"
     ]
+  }
   },
-  "França": {
+  "Grupo D": {
+    "França": {
     "grupo": "D",
     "Nome": "da França",
     "Treinador": "Treinador",
@@ -2442,7 +2470,7 @@
         "Al-Sadd SC"
     ]
   },
-  "IC Play-off 1": {
+    "IC Play-off 1": {
     "grupo": "D",
     "Nome": "da IC Play-off 1",
     "Treinador": "Treinador",
@@ -2616,7 +2644,7 @@
         "Al-Sadd SC"
     ]
   },
-  "Dinamarca": {
+    "Dinamarca": {
     "grupo": "D",
     "Nome": "da Dinamarca",
     "Treinador": "Treinador",
@@ -2790,7 +2818,7 @@
         "Al-Sadd SC"
     ]
   },
-  "Tunísia": {
+    "Tunísia": {
     "grupo": "D",
     "Nome": "da Tunísia",
     "Treinador": "Treinador",
@@ -2963,8 +2991,10 @@
         "24",
         "Al-Sadd SC"
     ]
+  }
   },
-  "Espanha": {
+  "Grupo E": {
+    "Espanha": {
     "grupo": "E",
     "Nome": "da Espanha",
     "Treinador": "Treinador",
@@ -3138,7 +3168,7 @@
         "Al-Sadd SC"
     ]
   },
-  "IC Play-off 2": {
+    "IC Play-off 2": {
     "grupo": "E",
     "Nome": "da IC Play-off 2",
     "Treinador": "Treinador",
@@ -3312,7 +3342,7 @@
         "Al-Sadd SC"
     ]
   },
-  "Alemanha": {
+    "Alemanha": {
     "grupo": "E",
     "Nome": "da Alemanha",
     "Treinador": "Treinador",
@@ -3486,7 +3516,7 @@
         "Al-Sadd SC"
     ]
   },
-  "Japão": {
+    "Japão": {
     "grupo": "E",
     "Nome": "do Japão",
     "Treinador": "Treinador",
@@ -3659,2093 +3689,2100 @@
         "24",
         "Al-Sadd SC"
     ]
+  }
   },
-  "Bélgica": {
-    "grupo": "F",
-    "Nome": "da Bélgica",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoF/bélgica/bélgica.png",
-    "0": [
+  "Grupo F": {
+     "Bélgica": {
+       "grupo": "F",
+       "Nome": "da Bélgica",
+       "Treinador": "Treinador",
+       "flag": "assets/images/GrupoF/bélgica/bélgica.png",
+       "0": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "1": [
+         "1",
+         "Saad Al-Sheeb",
+         "Goleiro",
+         "32",
+         "Al-Sadd SC"
+       ],
+       "2": [
+         "21",
+         "Yousef Hassan",
+         "Goleiro",
+         "25",
+         "Al-Gharafa SC"
+       ],
+       "3": [
+         "2",
+         "Pedro Miguel",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "4": [
+         "5",
+         "Tarek Salman",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "5": [
+         "15",
+         "Bassam Al-Rawi",
+         "Zagueiro",
+         "24",
+         "Al-Duhail SC"
+       ],
+       "6": [
+         "16",
+         "Boualem Khoukhi",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "7": [
+         "3",
+         "Abdelkarim Hassan",
+         "Lateral Esq.",
+         "28",
+         "Al-Sadd SC"
+       ],
+       "8": [
+         "24",
+         "Homam Ahmed",
+         "Lateral Esq.",
+         "22",
+         "Al-Gharafa SC"
+       ],
+       "9": [
+         "13",
+         "Musab Khoder",
+         "Lateral Dir.",
+         "29",
+         "Al-Sadd SC"
+       ],
+       "10": [
+         "12",
+         "Karim Boudiaf",
+         "Volante",
+         "31",
+         "Al-Duhail SC"
+       ],
+       "11": [
+         "23",
+         "Assim Madibo",
+         "Volante",
+         "25",
+         "Al-Duhail SC"
+       ],
+       "12": [
+         "-",
+         "Salem Al-Hajri",
+         "Volante",
+         "26",
+         "Al-Sadd SC"
+       ],
+       "13": [
+         "-",
+         "Jassem Gaber Abdulsallam",
+         "Volante",
+         "20",
+         "Al-Arabi SC"
+       ],
+       "14": [
+         "-",
+         "Abdulaziz Hatem",
+         "Meia Central",
+         "31",
+         "Al-Rayyan SC"
+       ],
+       "15": [
+         "-",
+         "Ahmed Fathi",
+         "Meia Central",
+         "28",
+         "Al-Arabi SC"
+       ],
+       "16": [
+         "-",
+         "Ahmad Doozandeh",
+         "Meia Central",
+         "26",
+         "Qatar SC"
+       ],
+       "17": [
+         "-",
+         "Abdullah Marafee",
+         "Meia Central",
+         "30",
+         "Al-Arabi SC"
+       ],
+       "18": [
+         "4",
+         "Mohammed Waad",
+         "Meia Central",
+         "22",
+         "Al-Sadd SC"
+       ],
+       "19": [
+         "22",
+         "Abdullah Al-Ahrak",
+         "Meia Ofensivo",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "20": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "21": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "22": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "23": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ]
+     },
+     "Canadá": {
+       "grupo": "F",
+       "Nome": "da Canadá",
+       "Treinador": "Treinador",
+       "flag": "assets/images/GrupoF/canadá/canadá.png",
+       "0": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "1": [
+         "1",
+         "Saad Al-Sheeb",
+         "Goleiro",
+         "32",
+         "Al-Sadd SC"
+       ],
+       "2": [
+         "21",
+         "Yousef Hassan",
+         "Goleiro",
+         "25",
+         "Al-Gharafa SC"
+       ],
+       "3": [
+         "2",
+         "Pedro Miguel",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "4": [
+         "5",
+         "Tarek Salman",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "5": [
+         "15",
+         "Bassam Al-Rawi",
+         "Zagueiro",
+         "24",
+         "Al-Duhail SC"
+       ],
+       "6": [
+         "16",
+         "Boualem Khoukhi",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "7": [
+         "3",
+         "Abdelkarim Hassan",
+         "Lateral Esq.",
+         "28",
+         "Al-Sadd SC"
+       ],
+       "8": [
+         "24",
+         "Homam Ahmed",
+         "Lateral Esq.",
+         "22",
+         "Al-Gharafa SC"
+       ],
+       "9": [
+         "13",
+         "Musab Khoder",
+         "Lateral Dir.",
+         "29",
+         "Al-Sadd SC"
+       ],
+       "10": [
+         "12",
+         "Karim Boudiaf",
+         "Volante",
+         "31",
+         "Al-Duhail SC"
+       ],
+       "11": [
+         "23",
+         "Assim Madibo",
+         "Volante",
+         "25",
+         "Al-Duhail SC"
+       ],
+       "12": [
+         "-",
+         "Salem Al-Hajri",
+         "Volante",
+         "26",
+         "Al-Sadd SC"
+       ],
+       "13": [
+         "-",
+         "Jassem Gaber Abdulsallam",
+         "Volante",
+         "20",
+         "Al-Arabi SC"
+       ],
+       "14": [
+         "-",
+         "Abdulaziz Hatem",
+         "Meia Central",
+         "31",
+         "Al-Rayyan SC"
+       ],
+       "15": [
+         "-",
+         "Ahmed Fathi",
+         "Meia Central",
+         "28",
+         "Al-Arabi SC"
+       ],
+       "16": [
+         "-",
+         "Ahmad Doozandeh",
+         "Meia Central",
+         "26",
+         "Qatar SC"
+       ],
+       "17": [
+         "-",
+         "Abdullah Marafee",
+         "Meia Central",
+         "30",
+         "Al-Arabi SC"
+       ],
+       "18": [
+         "4",
+         "Mohammed Waad",
+         "Meia Central",
+         "22",
+         "Al-Sadd SC"
+       ],
+       "19": [
+         "22",
+         "Abdullah Al-Ahrak",
+         "Meia Ofensivo",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "20": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "21": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "22": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "23": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ]
+     },
+     "Marrocos": {
+       "grupo": "F",
+       "Nome": "do Marrocos",
+       "Treinador": "Treinador",
+       "flag": "assets/images/GrupoF/marrocos/marrocos.png",
+       "0": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "1": [
+         "1",
+         "Saad Al-Sheeb",
+         "Goleiro",
+         "32",
+         "Al-Sadd SC"
+       ],
+       "2": [
+         "21",
+         "Yousef Hassan",
+         "Goleiro",
+         "25",
+         "Al-Gharafa SC"
+       ],
+       "3": [
+         "2",
+         "Pedro Miguel",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "4": [
+         "5",
+         "Tarek Salman",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "5": [
+         "15",
+         "Bassam Al-Rawi",
+         "Zagueiro",
+         "24",
+         "Al-Duhail SC"
+       ],
+       "6": [
+         "16",
+         "Boualem Khoukhi",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "7": [
+         "3",
+         "Abdelkarim Hassan",
+         "Lateral Esq.",
+         "28",
+         "Al-Sadd SC"
+       ],
+       "8": [
+         "24",
+         "Homam Ahmed",
+         "Lateral Esq.",
+         "22",
+         "Al-Gharafa SC"
+       ],
+       "9": [
+         "13",
+         "Musab Khoder",
+         "Lateral Dir.",
+         "29",
+         "Al-Sadd SC"
+       ],
+       "10": [
+         "12",
+         "Karim Boudiaf",
+         "Volante",
+         "31",
+         "Al-Duhail SC"
+       ],
+       "11": [
+         "23",
+         "Assim Madibo",
+         "Volante",
+         "25",
+         "Al-Duhail SC"
+       ],
+       "12": [
+         "-",
+         "Salem Al-Hajri",
+         "Volante",
+         "26",
+         "Al-Sadd SC"
+       ],
+       "13": [
+         "-",
+         "Jassem Gaber Abdulsallam",
+         "Volante",
+         "20",
+         "Al-Arabi SC"
+       ],
+       "14": [
+         "-",
+         "Abdulaziz Hatem",
+         "Meia Central",
+         "31",
+         "Al-Rayyan SC"
+       ],
+       "15": [
+         "-",
+         "Ahmed Fathi",
+         "Meia Central",
+         "28",
+         "Al-Arabi SC"
+       ],
+       "16": [
+         "-",
+         "Ahmad Doozandeh",
+         "Meia Central",
+         "26",
+         "Qatar SC"
+       ],
+       "17": [
+         "-",
+         "Abdullah Marafee",
+         "Meia Central",
+         "30",
+         "Al-Arabi SC"
+       ],
+       "18": [
+         "4",
+         "Mohammed Waad",
+         "Meia Central",
+         "22",
+         "Al-Sadd SC"
+       ],
+       "19": [
+         "22",
+         "Abdullah Al-Ahrak",
+         "Meia Ofensivo",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "20": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "21": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "22": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "23": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ]
+     },
+     "Croácia": {
+       "grupo": "F",
+       "Nome": "da Croácia",
+       "Treinador": "Treinador",
+       "flag": "assets/images/GrupoF/croácia/croácia.png",
+       "0": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "1": [
+         "1",
+         "Saad Al-Sheeb",
+         "Goleiro",
+         "32",
+         "Al-Sadd SC"
+       ],
+       "2": [
+         "21",
+         "Yousef Hassan",
+         "Goleiro",
+         "25",
+         "Al-Gharafa SC"
+       ],
+       "3": [
+         "2",
+         "Pedro Miguel",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "4": [
+         "5",
+         "Tarek Salman",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "5": [
+         "15",
+         "Bassam Al-Rawi",
+         "Zagueiro",
+         "24",
+         "Al-Duhail SC"
+       ],
+       "6": [
+         "16",
+         "Boualem Khoukhi",
+         "Zagueiro",
+         "31",
+         "Al-Sadd SC"
+       ],
+       "7": [
+         "3",
+         "Abdelkarim Hassan",
+         "Lateral Esq.",
+         "28",
+         "Al-Sadd SC"
+       ],
+       "8": [
+         "24",
+         "Homam Ahmed",
+         "Lateral Esq.",
+         "22",
+         "Al-Gharafa SC"
+       ],
+       "9": [
+         "13",
+         "Musab Khoder",
+         "Lateral Dir.",
+         "29",
+         "Al-Sadd SC"
+       ],
+       "10": [
+         "12",
+         "Karim Boudiaf",
+         "Volante",
+         "31",
+         "Al-Duhail SC"
+       ],
+       "11": [
+         "23",
+         "Assim Madibo",
+         "Volante",
+         "25",
+         "Al-Duhail SC"
+       ],
+       "12": [
+         "-",
+         "Salem Al-Hajri",
+         "Volante",
+         "26",
+         "Al-Sadd SC"
+       ],
+       "13": [
+         "-",
+         "Jassem Gaber Abdulsallam",
+         "Volante",
+         "20",
+         "Al-Arabi SC"
+       ],
+       "14": [
+         "-",
+         "Abdulaziz Hatem",
+         "Meia Central",
+         "31",
+         "Al-Rayyan SC"
+       ],
+       "15": [
+         "-",
+         "Ahmed Fathi",
+         "Meia Central",
+         "28",
+         "Al-Arabi SC"
+       ],
+       "16": [
+         "-",
+         "Ahmad Doozandeh",
+         "Meia Central",
+         "26",
+         "Qatar SC"
+       ],
+       "17": [
+         "-",
+         "Abdullah Marafee",
+         "Meia Central",
+         "30",
+         "Al-Arabi SC"
+       ],
+       "18": [
+         "4",
+         "Mohammed Waad",
+         "Meia Central",
+         "22",
+         "Al-Sadd SC"
+       ],
+       "19": [
+         "22",
+         "Abdullah Al-Ahrak",
+         "Meia Ofensivo",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "20": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "21": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "22": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ],
+       "23": [
+         "22",
+         "Meshaal Barsham",
+         "Goleiro",
+         "24",
+         "Al-Sadd SC"
+       ]
+     }
+  },
+  "Grupo G": {
+    "Brasil": {
+      "grupo": "G",
+      "Nome": "do Brasil",
+      "Treinador": "Treinador",
+      "flag": "assets/images/GrupoG/brasil/brasil.png",
+      "0": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "1": [
+      ],
+      "1": [
         "1",
         "Saad Al-Sheeb",
         "Goleiro",
         "32",
         "Al-Sadd SC"
-    ],
-    "2": [
+      ],
+      "2": [
         "21",
         "Yousef Hassan",
         "Goleiro",
         "25",
         "Al-Gharafa SC"
-    ],
-    "3": [
+      ],
+      "3": [
         "2",
         "Pedro Miguel",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "4": [
+      ],
+      "4": [
         "5",
         "Tarek Salman",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Bassam Al-Rawi",
         "Zagueiro",
         "24",
         "Al-Duhail SC"
-    ],
-    "6": [
+      ],
+      "6": [
         "16",
         "Boualem Khoukhi",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "7": [
+      ],
+      "7": [
         "3",
         "Abdelkarim Hassan",
         "Lateral Esq.",
         "28",
         "Al-Sadd SC"
-    ],
-    "8": [
+      ],
+      "8": [
         "24",
         "Homam Ahmed",
         "Lateral Esq.",
         "22",
         "Al-Gharafa SC"
-    ],
-    "9": [
+      ],
+      "9": [
         "13",
         "Musab Khoder",
         "Lateral Dir.",
         "29",
         "Al-Sadd SC"
-    ],
-    "10": [
+      ],
+      "10": [
         "12",
         "Karim Boudiaf",
         "Volante",
         "31",
         "Al-Duhail SC"
-    ],
-    "11": [
+      ],
+      "11": [
         "23",
         "Assim Madibo",
         "Volante",
         "25",
         "Al-Duhail SC"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Salem Al-Hajri",
         "Volante",
         "26",
         "Al-Sadd SC"
-    ],
-    "13": [
+      ],
+      "13": [
         "-",
         "Jassem Gaber Abdulsallam",
         "Volante",
         "20",
         "Al-Arabi SC"
-    ],
-    "14": [
+      ],
+      "14": [
         "-",
         "Abdulaziz Hatem",
         "Meia Central",
         "31",
         "Al-Rayyan SC"
-    ],
-    "15": [
+      ],
+      "15": [
         "-",
         "Ahmed Fathi",
         "Meia Central",
         "28",
         "Al-Arabi SC"
-    ],
-    "16": [
+      ],
+      "16": [
         "-",
         "Ahmad Doozandeh",
         "Meia Central",
         "26",
         "Qatar SC"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Abdullah Marafee",
         "Meia Central",
         "30",
         "Al-Arabi SC"
-    ],
-    "18": [
+      ],
+      "18": [
         "4",
         "Mohammed Waad",
         "Meia Central",
         "22",
         "Al-Sadd SC"
-    ],
-    "19": [
+      ],
+      "19": [
         "22",
         "Abdullah Al-Ahrak",
         "Meia Ofensivo",
         "24",
         "Al-Sadd SC"
-    ],
-    "20": [
+      ],
+      "20": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "21": [
+      ],
+      "21": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "22": [
+      ],
+      "22": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "23": [
+      ],
+      "23": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ]
-  },
-  "Canadá": {
-    "grupo": "F",
-    "Nome": "da Canadá",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoF/canadá/canadá.png",
-    "0": [
+      ]
+    },
+    "Sérvia": {
+      "grupo": "G",
+      "Nome": "da Sérvia",
+      "Treinador": "Treinador",
+      "flag": "assets/images/GrupoG/sérvia/sérvia.png",
+      "0": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "1": [
+      ],
+      "1": [
         "1",
         "Saad Al-Sheeb",
         "Goleiro",
         "32",
         "Al-Sadd SC"
-    ],
-    "2": [
+      ],
+      "2": [
         "21",
         "Yousef Hassan",
         "Goleiro",
         "25",
         "Al-Gharafa SC"
-    ],
-    "3": [
+      ],
+      "3": [
         "2",
         "Pedro Miguel",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "4": [
+      ],
+      "4": [
         "5",
         "Tarek Salman",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Bassam Al-Rawi",
         "Zagueiro",
         "24",
         "Al-Duhail SC"
-    ],
-    "6": [
+      ],
+      "6": [
         "16",
         "Boualem Khoukhi",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "7": [
+      ],
+      "7": [
         "3",
         "Abdelkarim Hassan",
         "Lateral Esq.",
         "28",
         "Al-Sadd SC"
-    ],
-    "8": [
+      ],
+      "8": [
         "24",
         "Homam Ahmed",
         "Lateral Esq.",
         "22",
         "Al-Gharafa SC"
-    ],
-    "9": [
+      ],
+      "9": [
         "13",
         "Musab Khoder",
         "Lateral Dir.",
         "29",
         "Al-Sadd SC"
-    ],
-    "10": [
+      ],
+      "10": [
         "12",
         "Karim Boudiaf",
         "Volante",
         "31",
         "Al-Duhail SC"
-    ],
-    "11": [
+      ],
+      "11": [
         "23",
         "Assim Madibo",
         "Volante",
         "25",
         "Al-Duhail SC"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Salem Al-Hajri",
         "Volante",
         "26",
         "Al-Sadd SC"
-    ],
-    "13": [
+      ],
+      "13": [
         "-",
         "Jassem Gaber Abdulsallam",
         "Volante",
         "20",
         "Al-Arabi SC"
-    ],
-    "14": [
+      ],
+      "14": [
         "-",
         "Abdulaziz Hatem",
         "Meia Central",
         "31",
         "Al-Rayyan SC"
-    ],
-    "15": [
+      ],
+      "15": [
         "-",
         "Ahmed Fathi",
         "Meia Central",
         "28",
         "Al-Arabi SC"
-    ],
-    "16": [
+      ],
+      "16": [
         "-",
         "Ahmad Doozandeh",
         "Meia Central",
         "26",
         "Qatar SC"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Abdullah Marafee",
         "Meia Central",
         "30",
         "Al-Arabi SC"
-    ],
-    "18": [
+      ],
+      "18": [
         "4",
         "Mohammed Waad",
         "Meia Central",
         "22",
         "Al-Sadd SC"
-    ],
-    "19": [
+      ],
+      "19": [
         "22",
         "Abdullah Al-Ahrak",
         "Meia Ofensivo",
         "24",
         "Al-Sadd SC"
-    ],
-    "20": [
+      ],
+      "20": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "21": [
+      ],
+      "21": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "22": [
+      ],
+      "22": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "23": [
+      ],
+      "23": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ]
-  },
-  "Marrocos": {
-    "grupo": "F",
-    "Nome": "do Marrocos",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoF/marrocos/marrocos.png",
-    "0": [
+      ]
+    },
+    "Suíça": {
+      "grupo": "G",
+      "Nome": "da Suíça",
+      "Treinador": "Treinador",
+      "flag": "assets/images/GrupoG/suíça/suíça.png",
+      "0": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "1": [
+      ],
+      "1": [
         "1",
         "Saad Al-Sheeb",
         "Goleiro",
         "32",
         "Al-Sadd SC"
-    ],
-    "2": [
+      ],
+      "2": [
         "21",
         "Yousef Hassan",
         "Goleiro",
         "25",
         "Al-Gharafa SC"
-    ],
-    "3": [
+      ],
+      "3": [
         "2",
         "Pedro Miguel",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "4": [
+      ],
+      "4": [
         "5",
         "Tarek Salman",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Bassam Al-Rawi",
         "Zagueiro",
         "24",
         "Al-Duhail SC"
-    ],
-    "6": [
+      ],
+      "6": [
         "16",
         "Boualem Khoukhi",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "7": [
+      ],
+      "7": [
         "3",
         "Abdelkarim Hassan",
         "Lateral Esq.",
         "28",
         "Al-Sadd SC"
-    ],
-    "8": [
+      ],
+      "8": [
         "24",
         "Homam Ahmed",
         "Lateral Esq.",
         "22",
         "Al-Gharafa SC"
-    ],
-    "9": [
+      ],
+      "9": [
         "13",
         "Musab Khoder",
         "Lateral Dir.",
         "29",
         "Al-Sadd SC"
-    ],
-    "10": [
+      ],
+      "10": [
         "12",
         "Karim Boudiaf",
         "Volante",
         "31",
         "Al-Duhail SC"
-    ],
-    "11": [
+      ],
+      "11": [
         "23",
         "Assim Madibo",
         "Volante",
         "25",
         "Al-Duhail SC"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Salem Al-Hajri",
         "Volante",
         "26",
         "Al-Sadd SC"
-    ],
-    "13": [
+      ],
+      "13": [
         "-",
         "Jassem Gaber Abdulsallam",
         "Volante",
         "20",
         "Al-Arabi SC"
-    ],
-    "14": [
+      ],
+      "14": [
         "-",
         "Abdulaziz Hatem",
         "Meia Central",
         "31",
         "Al-Rayyan SC"
-    ],
-    "15": [
+      ],
+      "15": [
         "-",
         "Ahmed Fathi",
         "Meia Central",
         "28",
         "Al-Arabi SC"
-    ],
-    "16": [
+      ],
+      "16": [
         "-",
         "Ahmad Doozandeh",
         "Meia Central",
         "26",
         "Qatar SC"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Abdullah Marafee",
         "Meia Central",
         "30",
         "Al-Arabi SC"
-    ],
-    "18": [
+      ],
+      "18": [
         "4",
         "Mohammed Waad",
         "Meia Central",
         "22",
         "Al-Sadd SC"
-    ],
-    "19": [
+      ],
+      "19": [
         "22",
         "Abdullah Al-Ahrak",
         "Meia Ofensivo",
         "24",
         "Al-Sadd SC"
-    ],
-    "20": [
+      ],
+      "20": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "21": [
+      ],
+      "21": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "22": [
+      ],
+      "22": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "23": [
+      ],
+      "23": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ]
-  },
-  "Croácia": {
-    "grupo": "F",
-    "Nome": "da Croácia",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoF/croácia/croácia.png",
-    "0": [
+      ]
+    },
+    "Camarões": {
+      "grupo": "G",
+      "Nome": "de Camarões",
+      "Treinador": "Treinador",
+      "flag": "assets/images/GrupoG/camarões/camarões.png",
+      "0": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "1": [
+      ],
+      "1": [
         "1",
         "Saad Al-Sheeb",
         "Goleiro",
         "32",
         "Al-Sadd SC"
-    ],
-    "2": [
+      ],
+      "2": [
         "21",
         "Yousef Hassan",
         "Goleiro",
         "25",
         "Al-Gharafa SC"
-    ],
-    "3": [
+      ],
+      "3": [
         "2",
         "Pedro Miguel",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "4": [
+      ],
+      "4": [
         "5",
         "Tarek Salman",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Bassam Al-Rawi",
         "Zagueiro",
         "24",
         "Al-Duhail SC"
-    ],
-    "6": [
+      ],
+      "6": [
         "16",
         "Boualem Khoukhi",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "7": [
+      ],
+      "7": [
         "3",
         "Abdelkarim Hassan",
         "Lateral Esq.",
         "28",
         "Al-Sadd SC"
-    ],
-    "8": [
+      ],
+      "8": [
         "24",
         "Homam Ahmed",
         "Lateral Esq.",
         "22",
         "Al-Gharafa SC"
-    ],
-    "9": [
+      ],
+      "9": [
         "13",
         "Musab Khoder",
         "Lateral Dir.",
         "29",
         "Al-Sadd SC"
-    ],
-    "10": [
+      ],
+      "10": [
         "12",
         "Karim Boudiaf",
         "Volante",
         "31",
         "Al-Duhail SC"
-    ],
-    "11": [
+      ],
+      "11": [
         "23",
         "Assim Madibo",
         "Volante",
         "25",
         "Al-Duhail SC"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Salem Al-Hajri",
         "Volante",
         "26",
         "Al-Sadd SC"
-    ],
-    "13": [
+      ],
+      "13": [
         "-",
         "Jassem Gaber Abdulsallam",
         "Volante",
         "20",
         "Al-Arabi SC"
-    ],
-    "14": [
+      ],
+      "14": [
         "-",
         "Abdulaziz Hatem",
         "Meia Central",
         "31",
         "Al-Rayyan SC"
-    ],
-    "15": [
+      ],
+      "15": [
         "-",
         "Ahmed Fathi",
         "Meia Central",
         "28",
         "Al-Arabi SC"
-    ],
-    "16": [
+      ],
+      "16": [
         "-",
         "Ahmad Doozandeh",
         "Meia Central",
         "26",
         "Qatar SC"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Abdullah Marafee",
         "Meia Central",
         "30",
         "Al-Arabi SC"
-    ],
-    "18": [
+      ],
+      "18": [
         "4",
         "Mohammed Waad",
         "Meia Central",
         "22",
         "Al-Sadd SC"
-    ],
-    "19": [
+      ],
+      "19": [
         "22",
         "Abdullah Al-Ahrak",
         "Meia Ofensivo",
         "24",
         "Al-Sadd SC"
-    ],
-    "20": [
+      ],
+      "20": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "21": [
+      ],
+      "21": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "22": [
+      ],
+      "22": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "23": [
+      ],
+      "23": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ]
+      ]
+    }
   },
-  "Brasil": {
-    "grupo": "G",
-    "Nome": "do Brasil",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoG/brasil/brasil.png",
-    "0": [
+  "Grupo H": {
+    "Portugal": {
+      "grupo": "H",
+      "Nome": "de Portugal",
+      "Treinador": "Treinador",
+      "flag": "assets/images/GrupoH/portugal/portugal.png",
+      "0": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "1": [
+      ],
+      "1": [
         "1",
         "Saad Al-Sheeb",
         "Goleiro",
         "32",
         "Al-Sadd SC"
-    ],
-    "2": [
+      ],
+      "2": [
         "21",
         "Yousef Hassan",
         "Goleiro",
         "25",
         "Al-Gharafa SC"
-    ],
-    "3": [
+      ],
+      "3": [
         "2",
         "Pedro Miguel",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "4": [
+      ],
+      "4": [
         "5",
         "Tarek Salman",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Bassam Al-Rawi",
         "Zagueiro",
         "24",
         "Al-Duhail SC"
-    ],
-    "6": [
+      ],
+      "6": [
         "16",
         "Boualem Khoukhi",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "7": [
+      ],
+      "7": [
         "3",
         "Abdelkarim Hassan",
         "Lateral Esq.",
         "28",
         "Al-Sadd SC"
-    ],
-    "8": [
+      ],
+      "8": [
         "24",
         "Homam Ahmed",
         "Lateral Esq.",
         "22",
         "Al-Gharafa SC"
-    ],
-    "9": [
+      ],
+      "9": [
         "13",
         "Musab Khoder",
         "Lateral Dir.",
         "29",
         "Al-Sadd SC"
-    ],
-    "10": [
+      ],
+      "10": [
         "12",
         "Karim Boudiaf",
         "Volante",
         "31",
         "Al-Duhail SC"
-    ],
-    "11": [
+      ],
+      "11": [
         "23",
         "Assim Madibo",
         "Volante",
         "25",
         "Al-Duhail SC"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Salem Al-Hajri",
         "Volante",
         "26",
         "Al-Sadd SC"
-    ],
-    "13": [
+      ],
+      "13": [
         "-",
         "Jassem Gaber Abdulsallam",
         "Volante",
         "20",
         "Al-Arabi SC"
-    ],
-    "14": [
+      ],
+      "14": [
         "-",
         "Abdulaziz Hatem",
         "Meia Central",
         "31",
         "Al-Rayyan SC"
-    ],
-    "15": [
+      ],
+      "15": [
         "-",
         "Ahmed Fathi",
         "Meia Central",
         "28",
         "Al-Arabi SC"
-    ],
-    "16": [
+      ],
+      "16": [
         "-",
         "Ahmad Doozandeh",
         "Meia Central",
         "26",
         "Qatar SC"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Abdullah Marafee",
         "Meia Central",
         "30",
         "Al-Arabi SC"
-    ],
-    "18": [
+      ],
+      "18": [
         "4",
         "Mohammed Waad",
         "Meia Central",
         "22",
         "Al-Sadd SC"
-    ],
-    "19": [
+      ],
+      "19": [
         "22",
         "Abdullah Al-Ahrak",
         "Meia Ofensivo",
         "24",
         "Al-Sadd SC"
-    ],
-    "20": [
+      ],
+      "20": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "21": [
+      ],
+      "21": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "22": [
+      ],
+      "22": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "23": [
+      ],
+      "23": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ]
-  },
-  "Sérvia": {
-    "grupo": "G",
-    "Nome": "da Sérvia",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoG/sérvia/sérvia.png",
-    "0": [
+      ]
+    },
+    "Gana": {
+      "grupo": "H",
+      "Nome": "de Gana",
+      "Treinador": "Treinador",
+      "flag": "assets/images/GrupoH/gana/gana.png",
+      "0": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "1": [
+      ],
+      "1": [
         "1",
         "Saad Al-Sheeb",
         "Goleiro",
         "32",
         "Al-Sadd SC"
-    ],
-    "2": [
+      ],
+      "2": [
         "21",
         "Yousef Hassan",
         "Goleiro",
         "25",
         "Al-Gharafa SC"
-    ],
-    "3": [
+      ],
+      "3": [
         "2",
         "Pedro Miguel",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "4": [
+      ],
+      "4": [
         "5",
         "Tarek Salman",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Bassam Al-Rawi",
         "Zagueiro",
         "24",
         "Al-Duhail SC"
-    ],
-    "6": [
+      ],
+      "6": [
         "16",
         "Boualem Khoukhi",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "7": [
+      ],
+      "7": [
         "3",
         "Abdelkarim Hassan",
         "Lateral Esq.",
         "28",
         "Al-Sadd SC"
-    ],
-    "8": [
+      ],
+      "8": [
         "24",
         "Homam Ahmed",
         "Lateral Esq.",
         "22",
         "Al-Gharafa SC"
-    ],
-    "9": [
+      ],
+      "9": [
         "13",
         "Musab Khoder",
         "Lateral Dir.",
         "29",
         "Al-Sadd SC"
-    ],
-    "10": [
+      ],
+      "10": [
         "12",
         "Karim Boudiaf",
         "Volante",
         "31",
         "Al-Duhail SC"
-    ],
-    "11": [
+      ],
+      "11": [
         "23",
         "Assim Madibo",
         "Volante",
         "25",
         "Al-Duhail SC"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Salem Al-Hajri",
         "Volante",
         "26",
         "Al-Sadd SC"
-    ],
-    "13": [
+      ],
+      "13": [
         "-",
         "Jassem Gaber Abdulsallam",
         "Volante",
         "20",
         "Al-Arabi SC"
-    ],
-    "14": [
+      ],
+      "14": [
         "-",
         "Abdulaziz Hatem",
         "Meia Central",
         "31",
         "Al-Rayyan SC"
-    ],
-    "15": [
+      ],
+      "15": [
         "-",
         "Ahmed Fathi",
         "Meia Central",
         "28",
         "Al-Arabi SC"
-    ],
-    "16": [
+      ],
+      "16": [
         "-",
         "Ahmad Doozandeh",
         "Meia Central",
         "26",
         "Qatar SC"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Abdullah Marafee",
         "Meia Central",
         "30",
         "Al-Arabi SC"
-    ],
-    "18": [
+      ],
+      "18": [
         "4",
         "Mohammed Waad",
         "Meia Central",
         "22",
         "Al-Sadd SC"
-    ],
-    "19": [
+      ],
+      "19": [
         "22",
         "Abdullah Al-Ahrak",
         "Meia Ofensivo",
         "24",
         "Al-Sadd SC"
-    ],
-    "20": [
+      ],
+      "20": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "21": [
+      ],
+      "21": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "22": [
+      ],
+      "22": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "23": [
+      ],
+      "23": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ]
-  },
-  "Suíça": {
-    "grupo": "G",
-    "Nome": "da Suíça",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoG/suíça/suíça.png",
-    "0": [
+      ]
+    },
+    "Uruguai": {
+      "grupo": "H",
+      "Nome": "do Uruguai",
+      "Treinador": "Treinador",
+      "flag": "assets/images/GrupoH/uruguai/uruguai.png",
+      "0": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "1": [
+      ],
+      "1": [
         "1",
         "Saad Al-Sheeb",
         "Goleiro",
         "32",
         "Al-Sadd SC"
-    ],
-    "2": [
+      ],
+      "2": [
         "21",
         "Yousef Hassan",
         "Goleiro",
         "25",
         "Al-Gharafa SC"
-    ],
-    "3": [
+      ],
+      "3": [
         "2",
         "Pedro Miguel",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "4": [
+      ],
+      "4": [
         "5",
         "Tarek Salman",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Bassam Al-Rawi",
         "Zagueiro",
         "24",
         "Al-Duhail SC"
-    ],
-    "6": [
+      ],
+      "6": [
         "16",
         "Boualem Khoukhi",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "7": [
+      ],
+      "7": [
         "3",
         "Abdelkarim Hassan",
         "Lateral Esq.",
         "28",
         "Al-Sadd SC"
-    ],
-    "8": [
+      ],
+      "8": [
         "24",
         "Homam Ahmed",
         "Lateral Esq.",
         "22",
         "Al-Gharafa SC"
-    ],
-    "9": [
+      ],
+      "9": [
         "13",
         "Musab Khoder",
         "Lateral Dir.",
         "29",
         "Al-Sadd SC"
-    ],
-    "10": [
+      ],
+      "10": [
         "12",
         "Karim Boudiaf",
         "Volante",
         "31",
         "Al-Duhail SC"
-    ],
-    "11": [
+      ],
+      "11": [
         "23",
         "Assim Madibo",
         "Volante",
         "25",
         "Al-Duhail SC"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Salem Al-Hajri",
         "Volante",
         "26",
         "Al-Sadd SC"
-    ],
-    "13": [
+      ],
+      "13": [
         "-",
         "Jassem Gaber Abdulsallam",
         "Volante",
         "20",
         "Al-Arabi SC"
-    ],
-    "14": [
+      ],
+      "14": [
         "-",
         "Abdulaziz Hatem",
         "Meia Central",
         "31",
         "Al-Rayyan SC"
-    ],
-    "15": [
+      ],
+      "15": [
         "-",
         "Ahmed Fathi",
         "Meia Central",
         "28",
         "Al-Arabi SC"
-    ],
-    "16": [
+      ],
+      "16": [
         "-",
         "Ahmad Doozandeh",
         "Meia Central",
         "26",
         "Qatar SC"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Abdullah Marafee",
         "Meia Central",
         "30",
         "Al-Arabi SC"
-    ],
-    "18": [
+      ],
+      "18": [
         "4",
         "Mohammed Waad",
         "Meia Central",
         "22",
         "Al-Sadd SC"
-    ],
-    "19": [
+      ],
+      "19": [
         "22",
         "Abdullah Al-Ahrak",
         "Meia Ofensivo",
         "24",
         "Al-Sadd SC"
-    ],
-    "20": [
+      ],
+      "20": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "21": [
+      ],
+      "21": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "22": [
+      ],
+      "22": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "23": [
+      ],
+      "23": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ]
-  },
-  "Camarões": {
-    "grupo": "G",
-    "Nome": "de Camarões",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoG/camarões/camarões.png",
-    "0": [
+      ]
+    },
+    "Coréia do Sul": {
+      "grupo": "H",
+      "Nome": "da Coréia do Sul",
+      "Treinador": "Treinador",
+      "flag": "assets/images/GrupoH/coréia do sul/coréia do sul.png",
+      "0": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "1": [
+      ],
+      "1": [
         "1",
         "Saad Al-Sheeb",
         "Goleiro",
         "32",
         "Al-Sadd SC"
-    ],
-    "2": [
+      ],
+      "2": [
         "21",
         "Yousef Hassan",
         "Goleiro",
         "25",
         "Al-Gharafa SC"
-    ],
-    "3": [
+      ],
+      "3": [
         "2",
         "Pedro Miguel",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "4": [
+      ],
+      "4": [
         "5",
         "Tarek Salman",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "5": [
+      ],
+      "5": [
         "15",
         "Bassam Al-Rawi",
         "Zagueiro",
         "24",
         "Al-Duhail SC"
-    ],
-    "6": [
+      ],
+      "6": [
         "16",
         "Boualem Khoukhi",
         "Zagueiro",
         "31",
         "Al-Sadd SC"
-    ],
-    "7": [
+      ],
+      "7": [
         "3",
         "Abdelkarim Hassan",
         "Lateral Esq.",
         "28",
         "Al-Sadd SC"
-    ],
-    "8": [
+      ],
+      "8": [
         "24",
         "Homam Ahmed",
         "Lateral Esq.",
         "22",
         "Al-Gharafa SC"
-    ],
-    "9": [
+      ],
+      "9": [
         "13",
         "Musab Khoder",
         "Lateral Dir.",
         "29",
         "Al-Sadd SC"
-    ],
-    "10": [
+      ],
+      "10": [
         "12",
         "Karim Boudiaf",
         "Volante",
         "31",
         "Al-Duhail SC"
-    ],
-    "11": [
+      ],
+      "11": [
         "23",
         "Assim Madibo",
         "Volante",
         "25",
         "Al-Duhail SC"
-    ],
-    "12": [
+      ],
+      "12": [
         "-",
         "Salem Al-Hajri",
         "Volante",
         "26",
         "Al-Sadd SC"
-    ],
-    "13": [
+      ],
+      "13": [
         "-",
         "Jassem Gaber Abdulsallam",
         "Volante",
         "20",
         "Al-Arabi SC"
-    ],
-    "14": [
+      ],
+      "14": [
         "-",
         "Abdulaziz Hatem",
         "Meia Central",
         "31",
         "Al-Rayyan SC"
-    ],
-    "15": [
+      ],
+      "15": [
         "-",
         "Ahmed Fathi",
         "Meia Central",
         "28",
         "Al-Arabi SC"
-    ],
-    "16": [
+      ],
+      "16": [
         "-",
         "Ahmad Doozandeh",
         "Meia Central",
         "26",
         "Qatar SC"
-    ],
-    "17": [
+      ],
+      "17": [
         "-",
         "Abdullah Marafee",
         "Meia Central",
         "30",
         "Al-Arabi SC"
-    ],
-    "18": [
+      ],
+      "18": [
         "4",
         "Mohammed Waad",
         "Meia Central",
         "22",
         "Al-Sadd SC"
-    ],
-    "19": [
+      ],
+      "19": [
         "22",
         "Abdullah Al-Ahrak",
         "Meia Ofensivo",
         "24",
         "Al-Sadd SC"
-    ],
-    "20": [
+      ],
+      "20": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "21": [
+      ],
+      "21": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "22": [
+      ],
+      "22": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ],
-    "23": [
+      ],
+      "23": [
         "22",
         "Meshaal Barsham",
         "Goleiro",
         "24",
         "Al-Sadd SC"
-    ]
-  },
-  "Portugal": {
-    "grupo": "H",
-    "Nome": "de Portugal",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoH/portugal/portugal.png",
-    "0": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "1": [
-        "1",
-        "Saad Al-Sheeb",
-        "Goleiro",
-        "32",
-        "Al-Sadd SC"
-    ],
-    "2": [
-        "21",
-        "Yousef Hassan",
-        "Goleiro",
-        "25",
-        "Al-Gharafa SC"
-    ],
-    "3": [
-        "2",
-        "Pedro Miguel",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "4": [
-        "5",
-        "Tarek Salman",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "5": [
-        "15",
-        "Bassam Al-Rawi",
-        "Zagueiro",
-        "24",
-        "Al-Duhail SC"
-    ],
-    "6": [
-        "16",
-        "Boualem Khoukhi",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
-    ],
-    "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
-    ],
-    "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
-    ],
-    "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
-    ],
-    "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
-    ],
-    "12": [
-        "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
-    ],
-    "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
-    ],
-    "14": [
-        "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
-        "Al-Rayyan SC"
-    ],
-    "15": [
-        "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
-    ],
-    "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
-    ],
-    "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
-    ],
-    "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
-    ],
-    "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ]
-  },
-  "Gana": {
-    "grupo": "H",
-    "Nome": "de Gana",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoH/gana/gana.png",
-    "0": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "1": [
-        "1",
-        "Saad Al-Sheeb",
-        "Goleiro",
-        "32",
-        "Al-Sadd SC"
-    ],
-    "2": [
-        "21",
-        "Yousef Hassan",
-        "Goleiro",
-        "25",
-        "Al-Gharafa SC"
-    ],
-    "3": [
-        "2",
-        "Pedro Miguel",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "4": [
-        "5",
-        "Tarek Salman",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "5": [
-        "15",
-        "Bassam Al-Rawi",
-        "Zagueiro",
-        "24",
-        "Al-Duhail SC"
-    ],
-    "6": [
-        "16",
-        "Boualem Khoukhi",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
-    ],
-    "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
-    ],
-    "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
-    ],
-    "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
-    ],
-    "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
-    ],
-    "12": [
-        "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
-    ],
-    "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
-    ],
-    "14": [
-        "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
-        "Al-Rayyan SC"
-    ],
-    "15": [
-        "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
-    ],
-    "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
-    ],
-    "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
-    ],
-    "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
-    ],
-    "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ]
-  },
-  "Uruguai": {
-    "grupo": "H",
-    "Nome": "do Uruguai",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoH/uruguai/uruguai.png",
-    "0": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "1": [
-        "1",
-        "Saad Al-Sheeb",
-        "Goleiro",
-        "32",
-        "Al-Sadd SC"
-    ],
-    "2": [
-        "21",
-        "Yousef Hassan",
-        "Goleiro",
-        "25",
-        "Al-Gharafa SC"
-    ],
-    "3": [
-        "2",
-        "Pedro Miguel",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "4": [
-        "5",
-        "Tarek Salman",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "5": [
-        "15",
-        "Bassam Al-Rawi",
-        "Zagueiro",
-        "24",
-        "Al-Duhail SC"
-    ],
-    "6": [
-        "16",
-        "Boualem Khoukhi",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
-    ],
-    "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
-    ],
-    "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
-    ],
-    "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
-    ],
-    "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
-    ],
-    "12": [
-        "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
-    ],
-    "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
-    ],
-    "14": [
-        "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
-        "Al-Rayyan SC"
-    ],
-    "15": [
-        "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
-    ],
-    "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
-    ],
-    "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
-    ],
-    "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
-    ],
-    "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ]
-  },
-  "Coréia do Sul": {
-    "grupo": "H",
-    "Nome": "da Coréia do Sul",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoH/coréia do sul/coréia do sul.png",
-    "0": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "1": [
-        "1",
-        "Saad Al-Sheeb",
-        "Goleiro",
-        "32",
-        "Al-Sadd SC"
-    ],
-    "2": [
-        "21",
-        "Yousef Hassan",
-        "Goleiro",
-        "25",
-        "Al-Gharafa SC"
-    ],
-    "3": [
-        "2",
-        "Pedro Miguel",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "4": [
-        "5",
-        "Tarek Salman",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "5": [
-        "15",
-        "Bassam Al-Rawi",
-        "Zagueiro",
-        "24",
-        "Al-Duhail SC"
-    ],
-    "6": [
-        "16",
-        "Boualem Khoukhi",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
-    ],
-    "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
-    ],
-    "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
-    ],
-    "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
-    ],
-    "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
-    ],
-    "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
-    ],
-    "12": [
-        "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
-    ],
-    "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
-    ],
-    "14": [
-        "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
-        "Al-Rayyan SC"
-    ],
-    "15": [
-        "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
-    ],
-    "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
-    ],
-    "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
-    ],
-    "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
-    ],
-    "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ],
-    "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
-    ]
+      ]
+    }
   }
 }
