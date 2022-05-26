@@ -257,20 +257,22 @@ class Copa2022(MDApp):
 
     def create_team(self, team):
         """
+        Cria time para ser exibido na respectiva tela.
         :param team:
         :return:
         """
         grupo = self.teams[team.name]['grupo']
         selecao = team.name.lower()
-        for i in range(24):
+        list_team = list(self.teams[team.name].keys())[4:]
+        for i in list_team:
             team.ids.box.add_widget(
                 MDExpansionPanel(
                     icon=f'assets/images/Grupo{grupo}/{selecao}/players/{i}.png',
                     content=Content(),
                     panel_cls=MDExpansionPanelThreeLine(
-                        text=self.teams[team.name][str(i)][1],
-                        secondary_text=self.teams[team.name][str(i)][2],
-                        tertiary_text=self.teams[team.name][str(i)][4],
+                        text=self.teams[team.name][i][1],
+                        secondary_text=self.teams[team.name][i][2],
+                        tertiary_text=self.teams[team.name][i][4],
                     ),
                 )
             )
