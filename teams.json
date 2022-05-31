@@ -2299,188 +2299,189 @@
     "França": {
     "grupo": "D",
     "Nome": "da França",
-    "Treinador": "Treinador",
+    "Treinador": "Didier Deschamps",
     "flag": "assets/images/GrupoD/frança/frança.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "16",
+        "Mike Maignan",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "03/07/1995",
+        "AC Milan"
     ],
     "1": [
-        "1",
-        "Saad Al-Sheeb",
+        "26",
+        "Alphonse Areola",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "27/02/1993",
+        "West Ham United"
     ],
     "2": [
-        "21",
-        "Yousef Hassan",
+        "1",
+        "Hugo Lloris",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "26/12/1986",
+        "Tottenham Hotspur",
+        "True"
     ],
     "3": [
-        "2",
-        "Pedro Miguel",
+        "4",
+        "Raphaël Varane",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "25/04/1993",
+        "Manchester United FC"
     ],
     "4": [
         "5",
-        "Tarek Salman",
+        "Jules Koundé",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "12/11/1998",
+        "Sevilla FC"
     ],
     "5": [
-        "15",
-        "Bassam Al-Rawi",
+        "21",
+        "Lucas Hernández",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "14/02/1996",
+        "FC Bayern de Munique"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
+        "3",
+        "Presnel Kimpembe",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "13/08/1995",
+        "FC Paris Saint-Germain"
     ],
     "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "2",
+        "William Saliba",
+        "Zagueiro",
+        "24/03/2001 ",
+        "Olympique Marselha"
     ],
     "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
         "22",
+        "Theo Hernández",
+        "Lateral Esq.",
+        "06/10/1997",
         "Al-Gharafa SC"
     ],
     "9": [
-        "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "18",
+        "Lucas Digne",
+        "Lateral Esq.",
+        "20/07/1993",
+        "AC Milan"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "2",
+        "Benjamin Pavard",
+        "Lateral Dir.",
+        "28/03/1996",
+        "FC Bayern de Munique"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "15",
+        "Jonathan Clauss",
+        "Lateral Dir.",
+        "25/09/1992",
+        "RC Lens"
     ],
     "12": [
-        "-",
-        "Salem Al-Hajri",
+        "8",
+        "Aurélien Tchouameni",
         "Volante",
-        "26",
-        "Al-Sadd SC"
+        "27/01/2000 ",
+        "AS Mônaco"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
+      "7",
+      "N'Golo Kanté",
+      "Volante",
+      "29/03/1991",
+      "Chelsea FC"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
-        "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+      "-",
+      "Boubacar Kamara",
+      "Volante",
+      "23/11/1999",
+      "Olympique Marselha"
     ],
     "15": [
-        "-",
-        "Ahmed Fathi",
+        "17",
+        "Mattéo Guendouzi",
         "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "14/04/1999",
+        "Olympique Marselha"
     ],
     "16": [
-        "-",
-        "Ahmad Doozandeh",
+        "14",
+        "Adrien Rabiot",
         "Meia Central",
-        "26",
-        "Qatar SC"
+        "03/04/1995",
+        "Juventus FC"
     ],
     "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "20",
+        "Moussa Diaby",
+        "Ponta Esq.",
+        "07/07/1999",
+        "Bayer 04 Leverkusen"
     ],
     "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "11",
+        "Kingsley Coman",
+        "Ponta Dir.",
+        "13/06/1996",
+        "FC Bayern de Munique"
     ],
     "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "12",
+        "Christopher Nkunku",
+        "Atacante",
+        "14/11/1997",
+        "RB Leipzig"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "7",
+        "Antoine Griezmann",
+        "Atacante",
+        "21/03/1991",
+        "Atlético de Madrid"
     ],
     "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "10",
+        "Kylian Mbappé",
+        "Centroavante",
+        "20/12/1998",
+        "FC Paris Saint-Germain"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "9",
+        "Karim Benzema",
+        "Centroavante",
+        "19/12/1987",
+        "Real Madrid FC"
     ],
     "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "19",
+        "Wissam Ben Yedder",
+        "Centroavante",
+        "12/08/1990",
+        "AS Mônaco"
     ]
   },
     "IC Play-off 1": {
     "grupo": "D",
     "Nome": "da IC Play-off 1",
-    "Treinador": "Treinador",
+    "Treinador": "Didier Deschamps",
     "flag": "assets/images/GrupoD/ic play-off 1/ic play-off 1.png",
-    "0": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+     "0": [
+      "22",
+      "Meshaal Barsham",
+      "Goleiro",
+      "24",
+      "Al-Sadd SC"
     ],
     "1": [
         "1",
