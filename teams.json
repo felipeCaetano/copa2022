@@ -2648,175 +2648,189 @@
     "Dinamarca": {
     "grupo": "D",
     "Nome": "da Dinamarca",
-    "Treinador": "Treinador",
+    "Treinador": "Kasper Hjulmand",
     "flag": "assets/images/GrupoD/dinamarca/dinamarca.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "1",
+        "Kasper Schmeiche",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "05/11/1986",
+        "Leicester City FC"
     ],
     "1": [
         "1",
-        "Saad Al-Sheeb",
+        "Daniel Iversen",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "19/07/1997",
+        "Leicester City U23"
     ],
     "2": [
         "21",
-        "Yousef Hassan",
+        "Peter Vindahl",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "16/02/1998",
+        "AZ Alkmaar"
     ],
     "3": [
-        "2",
-        "Pedro Miguel",
+        "4",
+        "Andreas Christensen",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "10/04/1996",
+        "Chelsea FC"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "16",
+        "Joachim Andersen",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "31/05/1996",
+        "Crystal Palace FC"
     ],
     "5": [
-        "15",
-        "Bassam Al-Rawi",
+        "26",
+        "Jannik Vestergaard",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "03/08/1992",
+        "Leicester City FC"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
+        "25",
+        "Victor Nelsson",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "14/10/1998",
+        "Galatasaray A.S."
     ],
     "7": [
-        "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "20",
+        "Nicolai Boilesen",
+        "Zagueiro",
+        "16/02/1992",
+        "FC Copenhagen"
     ],
     "8": [
-        "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
+        "3",
+        "Joakim Maehle",
+        "Lateral Dir.",
+        "20/05/1997",
+        "Atalanta BC"
     ],
     "9": [
         "13",
-        "Musab Khoder",
+        "Rasmus Kristensen",
         "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "11/07/1997",
+        "Red Bull Salzburgo"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "19",
+        "Jens Stryger Larsen",
+        "Lateral Dir.",
+        "21/02/1991",
+        "Udinese Calcio"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
+        "18",
+        "Christian Nörgaard",
         "Volante",
-        "25",
-        "Al-Duhail SC"
+        "10/03/1994",
+        "Brentford FC"
     ],
     "12": [
-        "-",
-        "Salem Al-Hajri",
+        "18",
+        "Thomas Delaney",
         "Volante",
-        "26",
-        "Al-Sadd SC"
+        "03/09/1991",
+        "Sevilla FC"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
+        "5",
+        "Pierre-Emile Höjbjerg",
+        "Meia Central",
+        "05/08/1995",
+        "Tottenham Hotspur"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
+        "29",
+        "Philip Billing",
         "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "11/06/1996",
+        "AFC Bournemouth"
     ],
     "15": [
-        "-",
-        "Ahmed Fathi",
+        "8",
+        "Mathias Jensen",
         "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "01/01/1996",
+        "Brentford FC"
     ],
     "16": [
-        "-",
-        "Ahmad Doozandeh",
+        "17",
+        "Daniel Wass",
         "Meia Central",
-        "26",
-        "Qatar SC"
+        "31/05/1989",
+        "Atlético de Madrid"
     ],
     "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "7",
+        "Andreas Skov Olsen",
+        "Meia Direita",
+        "29/12/1999",
+        "Club Brugge"
     ],
     "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "21",
+        "Christian Eriksen",
+        "Meia Ofensivo",
+        "14/02/1992",
+        "Brentford FC"
     ],
     "19": [
         "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "Mikkel Damsgaard",
+        "Ponta Esq.",
+        "03/07/2000",
+        "UC Sampdoria"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "29",
+        "Robert Skov",
+        "Ponta Dir.",
+        "20/05/1996",
+        "TSG 1899 Hoffenheim"
     ],
     "21": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "9",
+        "Yussuf Poulsen",
+        "Centroavante",
+        "15/06/1994",
+        "RB Leipzig"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "9",
+        "Kasper Dolberg",
+        "Centroavante",
+        "06/10/1997",
+        "OGC Nice"
     ],
     "23": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Jonas Wind",
+        "Centroavante",
+        "07/02/1999",
+        "VfL Wolfsburgo"
+    ],
+    "24": [
+      "14",
+      "Andreas Cornelius",
+      "Centroavante",
+      "16/03/1993",
+      "Trabzonspor"
+  ],
+    "25": [
+      "12",
+      "Martin Braithwaite",
+      "Centroavante",
+      "05/06/1991",
+      "FC Barcelona"
     ]
   },
     "Tunísia": {
