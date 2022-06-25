@@ -102,17 +102,17 @@ class GenericController:
 class Copa2022(MDApp):
     screen_manager = ObjectProperty()
     nav_drawer = ObjectProperty()
-    grupos = {
-        'Grupo A': ['Catar', 'Equador', 'Senegal', 'Holanda'],
-        'Grupo B': ['Inglaterra', 'Irã', 'EUA', 'Euro Play-off'],
-        'Grupo C': ['Argentina', 'Arábia Saudita', 'México', 'Polônia'],
-        'Grupo D': ['França', 'IC Play-off 1', 'Dinamarca', 'Tunísia'],
-        'Grupo E': ['Espanha', 'IC Play-off 2', 'Alemanha', 'Japão'],
-        'Grupo F': ['Bélgica', 'Canadá', 'Marrocos', 'Croácia'],
-        'Grupo G': ['Brasil', 'Sérvia', 'Suíça', 'Camarões'],
-        'Grupo H': ['Portugal', 'Gana', 'Uruguai', 'Coréia do Sul'],
-        '': ['Catar', 'Equador', 'Senegal', 'Holanda'],
-    }
+    # grupos = {
+    #     'Grupo A': ['Catar', 'Equador', 'Senegal', 'Holanda'],
+    #     'Grupo B': ['Inglaterra', 'Irã', 'EUA', 'País de Gales'],
+    #     'Grupo C': ['Argentina', 'Arábia Saudita', 'México', 'Polônia'],
+    #     'Grupo D': ['França', 'IC Play-off 1', 'Dinamarca', 'Tunísia'],
+    #     'Grupo E': ['Espanha', 'IC Play-off 2', 'Alemanha', 'Japão'],
+    #     'Grupo F': ['Bélgica', 'Canadá', 'Marrocos', 'Croácia'],
+    #     'Grupo G': ['Brasil', 'Sérvia', 'Suíça', 'Camarões'],
+    #     'Grupo H': ['Portugal', 'Gana', 'Uruguai', 'Coréia do Sul'],
+    #     '': ['Catar', 'Equador', 'Senegal', 'Holanda'],
+    # }
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -145,7 +145,7 @@ class Copa2022(MDApp):
         chamada cada vez que se toca na aba do grupo,
         ou na aba das partidas (rodadas).
         """
-        if tab_text in self.grupos and tab_text != '':
+        if tab_text in self.teams and tab_text != '':
             self.update_tab(instance_tab, tab_text)
         else:
             self.create_match(instance_tab, tab_text)
@@ -177,15 +177,16 @@ class Copa2022(MDApp):
             gamecard.time1 = data[match]['time1']
             gamecard.time2 = data[match]['time2']
             gamecard.flag1 = self.teams[gamecard.time1]['flag']
+            print(data[match]['time2'])
             gamecard.flag2 = self.teams[gamecard.time2]['flag']
             gamecard.stadium = data[match]["stadium"]
             # hora = datetime.datetime.now()
             # print(hora.)
         except KeyError:
-            if gamecard.time1 == 'euro play-off' or gamecard.time1 == 'ic play-off 1'or gamecard.time1 == 'ic play-off 2':
+            if gamecard.time1 == 'País de Gales' or gamecard.time1 == 'austrália' or gamecard.time1 == 'IC Play-off 2':
                 gamecard.flag1 = "assets/images/unknown.png"
                 gamecard.flag2 = self.teams[gamecard.time2]['flag']
-            elif gamecard.time2 == 'euro play-off' or gamecard.time2 == 'ic play-off 1'or gamecard.time2 == 'ic play-off 2':
+            elif gamecard.time2 == 'País de Gales' or gamecard.time2 == 'austrália' or gamecard.time2 == 'IC Play-off 2':
                 gamecard.flag2 = "assets/images/unknown.png"
                 gamecard.flag1 = self.teams[gamecard.time1]['flag']
             gamecard.stadium = data[match]["stadium"]
@@ -310,6 +311,7 @@ class Copa2022(MDApp):
         tab = args[0].ids.screen_manager.get_screen(
             'matchs'
         ).ids.tabs.get_tab_list()[0]
+        print(tab.tab, tab.text)
         self.create_match(tab.tab, tab.text)
 
     def show_team(self, *args):

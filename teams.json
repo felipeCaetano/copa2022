@@ -1302,177 +1302,178 @@
         "BSC Young Boys"
     ]
   },
-    "Euro Play-off": {
+    "País de Gales": {
     "grupo": "B",
-    "Nome": "do Euro Play-off",
-    "Treinador": "Treinador",
-    "flag": "assets/images/GrupoB/euro play-off/euro play-off.png",
+    "Nome": "do País de Gales",
+    "Treinador": "Robert Page",
+    "flag": "assets/images/GrupoB/País de Gales/País de Gales.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "12",
+        "Danny Ward",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "22/06/1993",
+        "Leicester"
     ],
     "1": [
         "1",
-        "Saad Al-Sheeb",
+        "Adam Davies",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "17/07/1992",
+        "Sheffield United"
     ],
     "2": [
-        "21",
-        "Yousef Hassan",
+        "13",
+        "Wayne Hennessey",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "24/01/1987",
+        "FC Burnley"
     ],
     "3": [
-        "2",
-        "Pedro Miguel",
+        "15",
+        "Ethan Ampadu",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "14/09/2000",
+        "Venezia FC"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "6",
+        "Joe Rodon",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "22/10/1997",
+        "Tottenham Hotspur"
     ],
     "5": [
-        "15",
-        "Bassam Al-Rawi",
+        "5",
+        "Chris Mepham",
         "Zagueiro",
-        "24",
+        "05/11/1997 ",
         "Al-Duhail SC"
     ],
     "6": [
         "16",
-        "Boualem Khoukhi",
+        "Oliver Denham",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "04/05/2002",
+        "Cardiff City"
     ],
     "7": [
-        "3",
-        "Abdelkarim Hassan",
+        "4",
+        "Ben Davies",
         "Lateral Esq.",
-        "28",
+        "24/04/1993",
         "Al-Sadd SC"
     ],
     "8": [
         "24",
-        "Homam Ahmed",
+        "Rhys Norrington-Davies",
         "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
+        "22/04/1999",
+        "Sheffield United"
     ],
     "9": [
-        "13",
-        "Musab Khoder",
+        "3",
+        "Neco Williams",
         "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "13/04/2001",
+        "FC Liverpool"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "14",
+        "Connor Roberts",
+        "Lateral Dir.",
+        "23/09/1995",
+        "FC Burnley"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "2",
+        "Chris Gunter",
+        "Lateral Dir.",
+        "21/07/1989",
+        "Charlton Athletic"
     ],
     "12": [
-        "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
+        "10",
+        "Aaron Ramsey",
+        "Meia Central",
+        "26/12/1990",
+        "Juventus FC"
     ],
     "13": [
-        "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
+        "7",
+        "Joe Allen",
+        "Meia Central",
+        "14/03/1990",
+        "Stoke City",
+        "True"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
+        "16",
+        "Joe Morrell",
         "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "03/01/1997",
+        "FC Portsmouth"
     ],
     "15": [
-        "-",
-        "Ahmed Fathi",
-        "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "9",
+        "Brennan Johnson",
+        "Meia Ofensivo",
+        "23/05/2001",
+        "Nottingham Forest"
     ],
     "16": [
-        "-",
-        "Ahmad Doozandeh",
-        "Meia Central",
-        "26",
-        "Qatar SC"
+        "18",
+        "Jonathan Williams",
+        "Meia Ofensivo",
+        "09/10/1993",
+        "Swindon Town FC"
     ],
     "17": [
-        "-",
-        "Abdullah Marafee",
-        "Meia Central",
-        "30",
+        "20",
+        "Daniel James",
+        "Ponta Esq.",
+        "10/11/1997",
         "Al-Arabi SC"
     ],
     "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "8",
+        "Harry Wilson",
+        "Ponta Dir.",
+        "22/03/1997",
+        "FC Fulham"
     ],
     "19": [
-        "22",
-        "Abdullah Al-Ahrak",
-        "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "23",
+        "Rabbi Matondo",
+        "Ponta Dir.",
+        "09/09/2000",
+        "Cercle Brügge"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "11",
+        "Gareth Bale",
+        "Ponta Dir.",
+        "16/07/1989",
+        "Real Madrid CF"
     ],
     "21": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Sorba Thomas",
+        "Ponta Dir.",
+        "25/01/1999 ",
+        "Huddersfield Town"
     ],
     "22": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "13",
+        "Kieffer Moore",
+        "Centroavante",
+        "08/08/1992 ",
+        "AFC Bournemouth"
     ],
     "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
+        "19",
+        "Mark Harris",
+        "Centroavante",
+        "29/12/1998 ",
         "Al-Sadd SC"
     ]
   }
@@ -2471,11 +2472,11 @@
         "AS Mônaco"
     ]
   },
-    "IC Play-off 1": {
+    "Austrália": {
     "grupo": "D",
-    "Nome": "da IC Play-off 1",
+    "Nome": "da Austrália",
     "Treinador": "Didier Deschamps",
-    "flag": "assets/images/GrupoD/ic play-off 1/ic play-off 1.png",
+    "flag": "assets/images/GrupoD/Austrália/Austrália.png",
      "0": [
       "22",
       "Meshaal Barsham",
@@ -2836,177 +2837,191 @@
     "Tunísia": {
     "grupo": "D",
     "Nome": "da Tunísia",
-    "Treinador": "Treinador",
+    "Treinador": "Jalel Kadri",
     "flag": "assets/images/GrupoD/tunísia/tunísia.png",
     "0": [
-        "22",
-        "Meshaal Barsham",
+        "16",
+        "Aymen Dahmen",
         "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "28/01/1997",
+        "Club Sportif Sfaxien"
     ],
     "1": [
         "1",
-        "Saad Al-Sheeb",
+        "Bechir Ben Said",
         "Goleiro",
-        "32",
-        "Al-Sadd SC"
+        "29/11/1994",
+        "US Monastir"
     ],
     "2": [
         "21",
-        "Yousef Hassan",
+        "Elias Damergy",
         "Goleiro",
-        "25",
-        "Al-Gharafa SC"
+        "17/10/2002",
+        "Stade Rennais FC B"
     ],
     "3": [
         "2",
-        "Pedro Miguel",
-        "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "Mohamed Sedki Debchi",
+        "Goleiro",
+        "28/10/1999",
+        "Esperance Tunis"
     ],
     "4": [
-        "5",
-        "Tarek Salman",
+        "3",
+        "Montassar Talbi",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "26/05/1998",
+        "Rubin Kazan"
     ],
     "5": [
-        "15",
-        "Bassam Al-Rawi",
+        "2",
+        "Bilel Ifa",
         "Zagueiro",
-        "24",
-        "Al-Duhail SC"
+        "09/03/1990",
+        "Abha Club"
     ],
     "6": [
-        "16",
-        "Boualem Khoukhi",
+        "6",
+        "Nader Ghandri",
         "Zagueiro",
-        "31",
-        "Al-Sadd SC"
+        "18/02/1995",
+        "Club Africain Tunis"
     ],
     "7": [
         "3",
-        "Abdelkarim Hassan",
-        "Lateral Esq.",
-        "28",
-        "Al-Sadd SC"
+        "Alaa Ghram",
+        "Zagueiro",
+        "24/07/2001",
+        "Club Sportif Sfaxien"
     ],
     "8": [
         "24",
-        "Homam Ahmed",
-        "Lateral Esq.",
-        "22",
-        "Al-Gharafa SC"
+        "Adam Ben Lamin",
+        "Zagueiro",
+        "02/06/2001",
+        "J-Södra IF"
     ],
     "9": [
         "13",
-        "Musab Khoder",
-        "Lateral Dir.",
-        "29",
-        "Al-Sadd SC"
+        "Ali Maâloul",
+        "Lateral Esq.",
+        "01/01/1990",
+        "Al Ahly Cairo"
     ],
     "10": [
-        "12",
-        "Karim Boudiaf",
-        "Volante",
-        "31",
-        "Al-Duhail SC"
+        "13",
+        "Ali Abdi",
+        "Lateral Esq.",
+        "20/12/1993",
+        "SM Caen"
     ],
     "11": [
-        "23",
-        "Assim Madibo",
-        "Volante",
-        "25",
-        "Al-Duhail SC"
+        "12",
+        "Rami Kaib",
+        "Lateral Esq.",
+        "08/05/1997",
+        "SC Heerenveen"
     ],
     "12": [
-        "-",
-        "Salem Al-Hajri",
-        "Volante",
-        "26",
-        "Al-Sadd SC"
+        "23",
+        "Mohamed Dräger",
+        "Lateral Dir.",
+        "25/06/1996",
+        "FC Luzern"
     ],
     "13": [
         "-",
-        "Jassem Gaber Abdulsallam",
-        "Volante",
-        "20",
-        "Al-Arabi SC"
+        "Aïssa Laïdouni",
+        "Meia Central",
+        "13/12/1996",
+        "Ferencvárosi TC"
     ],
     "14": [
-        "-",
-        "Abdulaziz Hatem",
+        "5",
+        "Mohamed Ali Ben Romdhane",
         "Meia Central",
-        "31",
-        "Al-Rayyan SC"
+        "06/09/1999",
+        "Esperance Tunis"
     ],
     "15": [
         "-",
-        "Ahmed Fathi",
+        "Anis Slimane",
         "Meia Central",
-        "28",
-        "Al-Arabi SC"
+        "16/03/2001",
+        "Bröndby IF"
     ],
     "16": [
         "-",
-        "Ahmad Doozandeh",
+        "Ferjani Sassi",
         "Meia Central",
-        "26",
-        "Qatar SC"
+        "18/03/1992",
+        "Al-Duhail SC"
     ],
     "17": [
         "-",
-        "Abdullah Marafee",
+        "Ghaylen Chaaleli",
         "Meia Central",
-        "30",
-        "Al-Arabi SC"
+        "28/02/1994",
+        "Esperance Tunis"
     ],
     "18": [
-        "4",
-        "Mohammed Waad",
-        "Meia Central",
-        "22",
-        "Al-Sadd SC"
+        "-",
+        "Hannibal Mejbri",
+        "Meia Ofensivo",
+        "21/01/2003",
+        "Manchester United"
     ],
     "19": [
-        "22",
-        "Abdullah Al-Ahrak",
+        "4",
+        "Firas Ben Larbi",
         "Meia Ofensivo",
-        "24",
-        "Al-Sadd SC"
+        "27/05/1996",
+        "Ajman Club"
     ],
     "20": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "10",
+        "Naïm Sliti",
+        "Ponta Esq.",
+        "27/07/1992",
+        "Al Ittifaq Dammam"
     ],
     "21": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "Youssef Msakni",
+        "Ponta Esq.",
+        "28/10/1990",
+        "Al-Arabi SC"
     ],
     "22": [
         "22",
-        "Meshaal Barsham",
-        "Goleiro",
+        "Elias Achouri",
+        "Ponta Dir.",
         "24",
-        "Al-Sadd SC"
+        "Clube Desportivo Trofense"
     ],
     "23": [
-        "22",
-        "Meshaal Barsham",
-        "Goleiro",
-        "24",
-        "Al-Sadd SC"
+        "7",
+        "Issam Jebali",
+        "Atacante",
+        "25/12/1991",
+        "Odense Boldklub"
+    ],
+    "24": [
+        "9",
+        "Seifeddine Jaziri",
+        "Centroavante",
+        "12/02/1993",
+        "Zamalek SC"
+    ],
+    "25": [
+      "22",
+      "Taha Yassine Khenissi",
+      "Centroavante",
+      "06/01/1992",
+      "Kuwait SC"
     ]
-  }
+    }
   },
   "Grupo E": {
     "Espanha": {
